@@ -1,48 +1,35 @@
 {
   "main": {
-    "id": "4f1a52595fac79ab",
+    "id": "0b1bfe667f7ac73c",
     "type": "split",
     "children": [
       {
-        "id": "2fbd97afcdb223fb",
+        "id": "745394b85f324500",
         "type": "tabs",
         "children": [
           {
-            "id": "f05becfb74472ace",
+            "id": "dc15147ffb5c4c89",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "28cd1a79b31bd30d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Git-Line-Ending-Style 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "dce7f9e0d7d7c075",
+    "id": "2eb8f135badbb87f",
     "type": "split",
     "children": [
       {
-        "id": "6957ba31112bcdb3",
+        "id": "4abae7ba4fc3fc37",
         "type": "tabs",
         "children": [
           {
-            "id": "296aa505e1f352f0",
+            "id": "a7306dcae3f22302",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -52,12 +39,12 @@
             }
           },
           {
-            "id": "f36a8c006e4c7408",
+            "id": "c4f855eae1e4aef3",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#_rrggbb_",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +54,7 @@
             }
           },
           {
-            "id": "fc9a4ed999b4cd84",
+            "id": "78203e287db59712",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "20ad4d1218201b4a",
+    "id": "a8c102acf588c8b1",
     "type": "split",
     "children": [
       {
-        "id": "b2d625724a952c1f",
+        "id": "6e5d010e569c0189",
         "type": "tabs",
         "children": [
           {
-            "id": "c7af3683e8aef1b0",
+            "id": "a1bb8e9337ede4da",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Git-Line-Ending-Style 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,19 +92,18 @@
             }
           },
           {
-            "id": "08357ea6ace2b7ef",
+            "id": "aa0230613ae4567d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Git-Line-Ending-Style 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "971e82ffcb8587f6",
+            "id": "5514651043f37b34",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -129,13 +114,11 @@
             }
           },
           {
-            "id": "69d2045ea6c08fe0",
+            "id": "11cd92a68eead5ed",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Git/Git-Line-Ending-Style 1.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -155,47 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "28cd1a79b31bd30d",
-  "lastOpenFiles": [
-    "Win Taskbar.md",
-    "Linux/Screenshot 2023-09-30 195048.png",
-    "Linux/Add obs Command to bashrc.md",
-    "Git/Git-Line-Ending-Style 1.md",
-    "Untitled",
-    "Front_end/HTML&CSS/Git Push online.md",
-    "Linux Desktop.md",
-    "Linux/YUM Setup.md",
-    "Front_end/HTML&CSS/31 HTML Charset.md",
-    "Front_end/HTML&CSS/30 HMTL Emojis.md",
-    "Front_end/HTML&CSS/33 HTML Style Guide.md",
-    "Front_end/HTML&CSS/29 HTML Semantic.md",
-    "Front_end/HTML&CSS/28 HTML Computer Code.md",
-    "Front_end/HTML&CSS/24 HTML File Paths.md",
-    "Front_end/HTML&CSS/23 HTML JavaScript.md",
-    "Front_end/HTML&CSS/22 HTML id.md",
-    "Front_end/HTML&CSS/21 HTML Class Attribute.md",
-    "Front_end/HTML&CSS/20 Block Level elements.md",
-    "Screenshot 2023-09-30 180447.png",
-    "Pasted image 20230930180608.png",
-    "Linux/App Setup",
-    "Front_end/HTML&CSS/09 HTML Quatations.md",
-    "Front_end/HTML&CSS/04 HTML Attributes.md",
-    "GIt/07 Git Push changes to github.md",
-    "Front_end/HTML&CSS/33 HTML URLs.md",
-    "GIt/06 Git pull Branch from Github.md",
-    "GIt/05 Git pull.md",
-    "GIt/Git Proxy Problems.md",
-    "GIt/03 Create Branch.md",
-    "GIt/02 Git Delete local Branch.md",
-    "GIt/01 Git Basic.md",
-    "Pasted image 20230929104440.png",
-    "Pasted image 20230929103104.png",
-    "Pasted image 20230929101132.png",
-    "Pasted image 20230929100334.png",
-    "Pasted image 20230929100313.png",
-    "Pasted image 20230929093238.png",
-    "Pasted image 20230928210753.png",
-    "GIt",
-    "Front_end/HTML&CSS"
-  ]
+  "active": "a7306dcae3f22302",
+  "lastOpenFiles": []
 }

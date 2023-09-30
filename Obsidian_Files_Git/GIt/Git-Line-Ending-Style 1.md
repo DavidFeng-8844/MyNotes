@@ -1,4 +1,5 @@
-
+Editid on 19;46 30/09/23 by David Feng Ubuntu
+Windows 
 The warning message you're seeing is related to line endings in Git. It's telling you that Git is about to change the line endings in the file 'Linux Desktop.md' from LF (Line Feed) to CRLF (Carriage Return + Line Feed) format. This is a common warning when working with Git in a cross-platform environment.
 
 If you're working in a team or sharing code with others who use different operating systems (e.g., Windows and Linux/macOS), it's generally a good practice to configure Git to handle line endings consistently to avoid potential issues. Here's how you can configure Git to avoid this warning and handle line endings properly:
