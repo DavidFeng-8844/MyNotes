@@ -26,9 +26,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b18c9e4250b41857",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Change-Git-Start-in.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Win Taskbar.md",
+                "file": "Change-Git-Start-in.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Win Taskbar.md",
+                "file": "Change-Git-Start-in.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Win Taskbar.md"
+                "file": "Change-Git-Start-in.md"
               }
             }
           }
@@ -155,10 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "28cd1a79b31bd30d",
+  "active": "b18c9e4250b41857",
   "lastOpenFiles": [
-    "Git/Git-Line-Ending-Style 1.md",
     "Windows/Win Taskbar.md",
+    "Change-Git-Start-in.md",
+    "Git/Git-Line-Ending-Style 1.md",
     "Windows",
     "Linux/Screenshot 2023-09-30 195048.png",
     "Linux/Add obs Command to bashrc.md",
