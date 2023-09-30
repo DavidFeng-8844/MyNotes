@@ -8,7 +8,10 @@ If you're working in a team or sharing code with others who use different operat
     First, configure Git to use a specific line ending style based on your project's requirements. You can do this by setting the `core.autocrlf` configuration option in Git. Open Git Bash and run the following command:
     
     For Windows (to convert CRLF to LF when checking out files and LF to CRLF when committing):
-    
+
+
+
+ssssssssTest
     bashCopy code
     
     `git config --global core.autocrlf true`
