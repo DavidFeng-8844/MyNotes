@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git-Line-Ending-Style 1.md",
+                "file": "Windows/Win Taskbar.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Git-Line-Ending-Style 1.md",
+                "file": "Windows/Win Taskbar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Git-Line-Ending-Style 1.md",
+                "file": "Windows/Win Taskbar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Git-Line-Ending-Style 1.md"
+                "file": "Windows/Win Taskbar.md"
               }
             }
           }
@@ -157,11 +157,11 @@
   },
   "active": "28cd1a79b31bd30d",
   "lastOpenFiles": [
-    "Win Taskbar.md",
+    "Git/Git-Line-Ending-Style 1.md",
+    "Windows/Win Taskbar.md",
+    "Windows",
     "Linux/Screenshot 2023-09-30 195048.png",
     "Linux/Add obs Command to bashrc.md",
-    "Git/Git-Line-Ending-Style 1.md",
-    "Untitled",
     "Front_end/HTML&CSS/Git Push online.md",
     "Linux Desktop.md",
     "Linux/YUM Setup.md",
@@ -187,7 +187,6 @@
     "GIt/Git Proxy Problems.md",
     "GIt/03 Create Branch.md",
     "GIt/02 Git Delete local Branch.md",
-    "GIt/01 Git Basic.md",
     "Pasted image 20230929104440.png",
     "Pasted image 20230929103104.png",
     "Pasted image 20230929101132.png",
