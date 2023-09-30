@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git-Line-Ending-Style.md",
+                "file": "Git/Git-Line-Ending-Style 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Git-Line-Ending-Style.md",
+                "file": "Git/Git-Line-Ending-Style 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Git-Line-Ending-Style.md",
+                "file": "Git/Git-Line-Ending-Style 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Git-Line-Ending-Style.md"
+                "file": "Git/Git-Line-Ending-Style 1.md"
               }
             }
           }
@@ -157,7 +157,7 @@
   },
   "active": "28cd1a79b31bd30d",
   "lastOpenFiles": [
-    "Git/Git-Line-Ending-Style.md",
+    "Git/Git-Line-Ending-Style 1.md",
     "Untitled",
     "Front_end/HTML&CSS/Git Push online.md",
     "Linux Desktop.md",
