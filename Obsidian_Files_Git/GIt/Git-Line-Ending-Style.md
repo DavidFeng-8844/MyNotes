@@ -11,7 +11,7 @@ If you're working in a team or sharing code with others who use different operat
 
 
 
-ssssssssTest
+
     bashCopy code
     
     `git config --global core.autocrlf true`
