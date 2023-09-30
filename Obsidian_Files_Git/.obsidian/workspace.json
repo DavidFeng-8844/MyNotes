@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git-Line-Ending-Style 1.md",
+                "file": "C_Notes/Pointer Compatibility.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Git-Line-Ending-Style 1.md",
+                "file": "C_Notes/Pointer Compatibility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Git-Line-Ending-Style 1.md",
+                "file": "C_Notes/Pointer Compatibility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Git-Line-Ending-Style 1.md"
+                "file": "C_Notes/Pointer Compatibility.md"
               }
             }
           }
@@ -157,6 +157,10 @@
   },
   "active": "28cd1a79b31bd30d",
   "lastOpenFiles": [
+    "C_Notes/Screenshot 2023-08-31 143938.png",
+    "C_Notes/Pointer Compatibility.md",
+    "C_Notes/Pointer and Array Review Questions.md",
+    "GIt/Git-Line-Ending-Style 1.md",
     "Win Taskbar.md",
     "Linux/Screenshot 2023-09-30 195048.png",
     "Linux/Add obs Command to bashrc.md",
@@ -184,10 +188,6 @@
     "Front_end/HTML&CSS/33 HTML URLs.md",
     "GIt/06 Git pull Branch from Github.md",
     "GIt/05 Git pull.md",
-    "GIt/Git Proxy Problems.md",
-    "GIt/03 Create Branch.md",
-    "GIt/02 Git Delete local Branch.md",
-    "GIt/01 Git Basic.md",
     "Pasted image 20230929104440.png",
     "Pasted image 20230929103104.png",
     "Pasted image 20230929101132.png",
