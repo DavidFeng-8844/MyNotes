@@ -1,5 +1,0 @@
-/* Change the highlight color to pink for == == */
-.cm-formatting.cm-highlight {
-    background-color: blueviolet !important; /* Change the background color to pink */
-    color: white !important; /* Change the text color to black or any color that provides good contrast */
-}
