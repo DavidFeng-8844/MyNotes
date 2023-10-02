@@ -106,3 +106,19 @@ The following properties apply to the `::first-line` pseudo-element:
 - clear
 
 
+### ::Before and after Element 
+The `::before` pseudo-element can be used to insert some content before the content of an element.
+
+```css
+h1::before {  content: url(smiley.gif);}
+```
+
+The `::after` pseudo-element can be used to insert some content after the content of an element.
+
+### The ::marker selects the marker of the list item
+
+
+
+---
+## Attribute Selectors
+
