@@ -1,3 +1,3 @@
-#This is a Repository to store different notes created by David Feng
+#This is a Repository to store different notes by David Feng
 
 
