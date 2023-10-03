@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Front_end/CSS/02 CSS Selectors.md",
+                "file": "Linux/Add obs Command to bashrc.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Front_end/CSS/02 CSS Selectors.md",
+                "file": "Linux/Add obs Command to bashrc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Front_end/CSS/02 CSS Selectors.md",
+                "file": "Linux/Add obs Command to bashrc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Front_end/CSS/02 CSS Selectors.md"
+                "file": "Linux/Add obs Command to bashrc.md"
               }
             }
           }
@@ -187,14 +187,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6b32d1b26a35b21a",
+  "active": "e6dd0a8950805847",
   "lastOpenFiles": [
-    "Front_end/CSS/01 CSS Syntax.md",
-    "Front_end/CSS/02 CSS Selectors.md",
-    "Front_end/CSS/CSS Intro.md",
-    "Front_end/CSS/Pasted image 20231002102723.png",
+    "Screenshot 2023-09-30 180447.png",
+    "Pasted image 20230930180608.png",
+    "Pasted image 20230929104440.png",
+    "Pasted image 20230929103104.png",
+    "Pasted image 20230929101132.png",
+    "Pasted image 20230929100334.png",
+    "Pasted image 20230929100313.png",
+    "Pasted image 20230929093238.png",
+    "Pasted image 20230928210753.png",
+    "Pasted image 20230928110231.png",
     "Pasted image 20230926113319.png",
-    "Pasted image 20230926112131.png",
+    "Linux/YUM Setup.md",
+    "Linux/Add obs Command to bashrc.md",
+    "Linux/Linux Desktop.md",
+    "Front_end/CSS/02 CSS Selectors.md",
+    "Shared-Images",
+    "Windows/Shared Images",
+    "Front_end/CSS/01 CSS Syntax.md",
+    "Front_end/CSS/CSS Intro.md",
     "Untitled 1.md"
   ]
 }
