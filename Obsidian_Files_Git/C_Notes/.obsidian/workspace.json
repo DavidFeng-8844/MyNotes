@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Multi-dimensional Array.md",
+                "file": "Daily/2023-10-03.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fc03589b5e0feccf",
@@ -98,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Multi-dimensional Array.md"
+                "file": "Daily/2023-10-03.md"
               }
             }
           },
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Multi-dimensional Array.md",
+                "file": "Daily/2023-10-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,18 +124,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Multi-dimensional Array.md",
+                "file": "Daily/2023-10-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "abc90d06fcf39c9b",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
             }
           },
           {
@@ -148,9 +139,17 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "99493c9dbb2ce8d4",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -170,6 +169,8 @@
   },
   "active": "24587b5fa6c735e2",
   "lastOpenFiles": [
+    "Multi-dimensional Array.md",
+    "Daily/2023-10-03.md",
     "Daily/2023-09-19.md",
     "Daily/2023-09-20.md",
     "Daily/2023-09-18.md",
@@ -179,7 +180,6 @@
     "Daily/2023-09-08.md",
     "Pointer Compatibility.md",
     "Variable-Length Arrays.md",
-    "Multi-dimensional Array.md",
     "Screenshot 2023-08-31 143938.png",
     "Compound Literal.md",
     "Untitled.canvas",

@@ -1,0 +1,1 @@
+A CSS comment is placed inside a < style> Element and start with /* and end with */

@@ -11,8 +11,12 @@
             "id": "dc15147ffb5c4c89",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "02 Git Delete local Branch.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "02 Git Delete local Branch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "02 Git Delete local Branch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "02 Git Delete local Branch.md"
+              }
             }
           }
         ]
@@ -138,6 +146,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a7306dcae3f22302",
+  "active": "dc15147ffb5c4c89",
   "lastOpenFiles": []
 }
