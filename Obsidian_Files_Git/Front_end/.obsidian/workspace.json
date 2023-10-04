@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 CSS background.md",
+                "file": "CSS/06 CSS background.md",
                 "mode": "source",
                 "source": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06 CSS background.md",
+                "file": "CSS/06 CSS background.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06 CSS background.md",
+                "file": "CSS/06 CSS background.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06 CSS background.md"
+                "file": "CSS/06 CSS background.md"
               }
             }
           }
@@ -199,10 +199,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f976435c8719493a",
+  "active": "f13cf08d4e76196e",
   "lastOpenFiles": [
     "CSS/05 CSS Comments.md",
-    "06 CSS background.md",
+    "CSS/06 CSS background.md",
     "CSS/04 CSS Color.md",
     "CSS/03 CSS How to.md",
     "How Web Works.md",
