@@ -66,13 +66,25 @@
               "type": "markdown",
               "state": {
                 "file": "CSS/06 CSS background.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd263d5dfa009897",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "07 CSS Borders.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -138,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/06 CSS background.md",
+                "file": "07 CSS Borders.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS/06 CSS background.md",
+                "file": "07 CSS Borders.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/06 CSS background.md"
+                "file": "07 CSS Borders.md"
               }
             }
           }
@@ -199,10 +211,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f13cf08d4e76196e",
+  "active": "fd263d5dfa009897",
   "lastOpenFiles": [
-    "CSS/05 CSS Comments.md",
     "CSS/06 CSS background.md",
+    "07 CSS Borders.md",
+    "CSS/05 CSS Comments.md",
     "CSS/04 CSS Color.md",
     "CSS/03 CSS How to.md",
     "How Web Works.md",
