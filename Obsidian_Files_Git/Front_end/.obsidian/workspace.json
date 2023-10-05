@@ -82,9 +82,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cfa4bb94c3e84000",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08 CSS Borders Margins.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd111f0d86887f91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "09CSS Padding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -134,7 +158,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4b56e85041cb2c6c",
@@ -150,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07 CSS Borders.md",
+                "file": "09CSS Padding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07 CSS Borders.md",
+                "file": "09CSS Padding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07 CSS Borders.md"
+                "file": "09CSS Padding.md"
               }
             }
           }
@@ -211,10 +236,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd263d5dfa009897",
+  "active": "dd111f0d86887f91",
   "lastOpenFiles": [
-    "CSS/06 CSS background.md",
+    "08 CSS Borders Margins.md",
+    "09CSS Padding.md",
     "07 CSS Borders.md",
+    "CSS/06 CSS background.md",
     "CSS/05 CSS Comments.md",
     "CSS/04 CSS Color.md",
     "CSS/03 CSS How to.md",

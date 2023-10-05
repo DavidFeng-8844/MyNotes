@@ -52,3 +52,5 @@ is considered an integer constant expression, so it could permit using const , b
 wouldn’t be portable.
 <mark style="background: #FFB8EBA6;">For C99/C11, the answer is yes, if the array could otherwise be a VLA. So the definition would
 have to be for an automatic storage class array declared inside a block.</mark>
+
+ff

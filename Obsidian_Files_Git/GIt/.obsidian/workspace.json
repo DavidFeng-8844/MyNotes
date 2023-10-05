@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Git Delete local Branch.md",
+                "file": "01 Git Basic.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 Git Delete local Branch.md",
+                "file": "01 Git Basic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 Git Delete local Branch.md",
+                "file": "01 Git Basic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 Git Delete local Branch.md"
+                "file": "01 Git Basic.md"
               }
             }
           }
@@ -147,5 +147,18 @@
     }
   },
   "active": "dc15147ffb5c4c89",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "07 Git.md",
+    "07 Git Push changes to github.md",
+    "01 Git Basic.md",
+    "02 Git Delete local Branch.md",
+    "05 Git pull.md",
+    "06 Git pull Branch from Github.md",
+    "Change-Git-Start-in.md",
+    "Git Proxy Problems.md",
+    "Pasted image 20230929093238.png.md",
+    "Pasted image 20230929100334.png.md",
+    "03 Create Branch.md",
+    "Git-Line-Ending-Style.md"
+  ]
 }

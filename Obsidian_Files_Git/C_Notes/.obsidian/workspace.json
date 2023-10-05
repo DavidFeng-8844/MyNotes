@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2023-10-03.md",
+                "file": "Variable-Length Arrays.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2023-10-03.md"
+                "file": "Variable-Length Arrays.md"
               }
             }
           },
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2023-10-03.md",
+                "file": "Variable-Length Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2023-10-03.md",
+                "file": "Variable-Length Arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,19 +169,20 @@
   },
   "active": "24587b5fa6c735e2",
   "lastOpenFiles": [
-    "Multi-dimensional Array.md",
+    "Compound Literal.md",
+    "Day 01.md",
+    "Pointer and Array Review Questions.md",
+    "Daily/2023-10-05.md",
     "Daily/2023-10-03.md",
+    "Multi-dimensional Array.md",
     "Daily/2023-09-19.md",
     "Daily/2023-09-20.md",
     "Daily/2023-09-18.md",
-    "Day 01.md",
-    "Pointer and Array Review Questions.md",
     "Daily/2023-09-09.md",
     "Daily/2023-09-08.md",
     "Pointer Compatibility.md",
     "Variable-Length Arrays.md",
     "Screenshot 2023-08-31 143938.png",
-    "Compound Literal.md",
     "Untitled.canvas",
     "Untitled 1.md",
     "[.md",
