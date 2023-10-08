@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c99b7be68fb27b8e",
+        "id": "2e09a592c470290c",
         "type": "tabs",
         "children": [
           {
-            "id": "29c3519bcc5eabcc",
+            "id": "1e5161ad7e3b8ee3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day 09.md",
+                "file": "Day 02.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61dbda4511a74d66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Day 10.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "457c7d3e0378e2fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Day 01.md",
-                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8ec3e609fa38461c",
@@ -111,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day 01.md",
+                "file": "Day 02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Day 01.md",
+                "file": "Day 02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Day 01.md"
+                "file": "Day 02.md"
               }
             }
           },
@@ -182,10 +156,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "457c7d3e0378e2fb",
+  "active": "1e5161ad7e3b8ee3",
   "lastOpenFiles": [
-    "Day 10.md",
     "Day 01.md",
+    "Day 10.md",
     "Day 02.md",
     "Day 09.md",
     "Summary.md",
