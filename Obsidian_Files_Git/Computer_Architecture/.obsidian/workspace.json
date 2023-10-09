@@ -1,31 +1,27 @@
 {
   "main": {
-    "id": "291eeb6512f1f27a",
+    "id": "9b50bbb20994b338",
     "type": "split",
     "children": [
       {
-        "id": "2e09a592c470290c",
+        "id": "7ec7f816d2512768",
         "type": "tabs",
         "children": [
           {
-            "id": "1e5161ad7e3b8ee3",
+            "id": "60084be98893516d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Day 02.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "fd8b98564603f0d0",
+            "id": "3e9d43d41702ef82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Review.md",
+                "file": "Day 01.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,15 +34,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5f30c619c0cf12f9",
+    "id": "64ff83dd1e30ede6",
     "type": "split",
     "children": [
       {
-        "id": "94e82bc941712c02",
+        "id": "65623d4ff34fe409",
         "type": "tabs",
         "children": [
           {
-            "id": "9dbaa9d927e39e14",
+            "id": "1e46bc21caf546d0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +52,7 @@
             }
           },
           {
-            "id": "a356c0bfcc20e909",
+            "id": "fa1c833b14db0674",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,7 +67,7 @@
             }
           },
           {
-            "id": "ed8ee7d21f3f2b71",
+            "id": "b680227ab15ba04f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -82,23 +78,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "8ec3e609fa38461c",
+    "id": "9d5444a5a6409845",
     "type": "split",
     "children": [
       {
-        "id": "d00097e49881fe6e",
+        "id": "65bcc8179f409075",
         "type": "tabs",
         "children": [
           {
-            "id": "a83ae09be977cf00",
+            "id": "135538f10b860c68",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Review.md",
+                "file": "Day 01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,19 +107,19 @@
             }
           },
           {
-            "id": "0e1e92237cdffcd0",
+            "id": "0c90fedb8e4713ac",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Review.md",
+                "file": "Day 01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "e545c2a0734ee12b",
+            "id": "3a77082ef5e167af",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,22 +130,12 @@
             }
           },
           {
-            "id": "3034d884b9f41376",
+            "id": "62f0cab963f8ca14",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Review.md"
-              }
-            }
-          },
-          {
-            "id": "703b38a440df4ffa",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
+                "file": "Day 01.md"
               }
             }
           }
@@ -169,33 +156,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd8b98564603f0d0",
+  "active": "1e46bc21caf546d0",
   "lastOpenFiles": [
-    "Day 02.md",
-    "Review.md",
-    "Untitled.canvas",
-    "Day 01.md",
-    "Day 10.md",
-    "Day 09.md",
-    "Summary.md",
-    "Prevision.md",
-    "Day 08.md",
-    "Day 07.md",
-    "Day 06.md",
-    "Day 04.md",
-    "Exercise01.md",
-    "Day 05.md",
-    "Day 03.md",
-    "Pasted image 20230911114447.png",
-    "Pasted image 20230911112129.png",
-    "Pasted image 20230911105937.png",
-    "Pasted image 20230907095543.png",
-    "Pasted image 20230906113730.png",
-    "Pasted image 20230906113453.png",
-    "Pasted image 20230904225346.png",
-    "Pasted image 20230904225335.png",
-    "Pasted image 20230904225321.png",
-    "Pasted image 20230904225027.png",
-    "How to type.md"
+    "Pasted image 20231009103610.png",
+    "Day 01.md"
   ]
 }

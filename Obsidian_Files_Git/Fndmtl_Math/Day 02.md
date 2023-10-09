@@ -13,6 +13,9 @@ S $\circ$ R = $\{ \{0, 6\} ,\{1, 5\},\{1, 6\} \}$
 >
 >A $\times$ B Between sets 
 
+## Proposition 
+>Def: A statement that is either true or false 
+
 
 
 ## Inverse
@@ -88,7 +91,7 @@ bi-implication $\leftrightarrow$
 
 ## Precedence Conventions 
 
->Operator ¬ ^ _ ! $ Precedence 1 2 3 4 5
+>Operator $\neg \land \lor \rightarrow \leftrightarrow$ Precedence 1 2 3 4 5
 
 >It is often assumed that binary operators associate to the left
 for example:
