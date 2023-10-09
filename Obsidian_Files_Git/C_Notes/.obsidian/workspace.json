@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compiler Directives.md",
+                "file": "Multi-dimensional Array.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fc03589b5e0feccf",
@@ -97,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Compiler Directives.md"
+                "file": "Multi-dimensional Array.md"
               }
             }
           },
@@ -107,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Compiler Directives.md",
+                "file": "Multi-dimensional Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Compiler Directives.md",
+                "file": "Multi-dimensional Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,11 +170,12 @@
   },
   "active": "d564fc62871b3835",
   "lastOpenFiles": [
+    "Pointer Compatibility.md",
+    "Compiler Directives.md",
+    "Compound Literal.md",
     "Pasted image 20231009142457.png",
     "Daily/2023-10-09.md",
-    "Compiler Directives.md",
     "Variable-Length Arrays.md",
-    "Compound Literal.md",
     "Day 01.md",
     "Pointer and Array Review Questions.md",
     "Daily/2023-10-05.md",
@@ -184,7 +186,6 @@
     "Daily/2023-09-18.md",
     "Daily/2023-09-09.md",
     "Daily/2023-09-08.md",
-    "Pointer Compatibility.md",
     "Screenshot 2023-08-31 143938.png",
     "Untitled.canvas",
     "Untitled 1.md",

@@ -10,3 +10,24 @@ The ‘#include’ directive request the inclusion of a header file into your pr
 ## Some standard Macros 
 
 ![[Pasted image 20231009142457.png]]
+
+# The #if directive
+
+The #if tests a compile time condition, and if the condition is true, the code immediatelyfollowing the #if directive is compiled.
+•The syntax for the #if directive is:
+```c
+#if expression
+// Some code
+#endif
+```
+
+#ifdef/#ifndef
+
+```c
+#ifdef macro_name
+    // Code to include if macro_name is defined
+#else
+    // Code to include if macro_name is not defined
+#endif
+
+```
