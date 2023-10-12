@@ -28,7 +28,7 @@ The `<img>` tag has two required attributes:
 </head>
 <sytle>
 img {
- with:500px;height:500px;
+ width:500px;height:500px;
 }
 </style>
 <body>

@@ -6,3 +6,11 @@ To remove a local reference to a remote branch that has been deleted on the remo
 ```command  
 git fetch --prune
 ```
+
+
+```
+rm -rf .git
+
+```
+
+Delete the .git file 

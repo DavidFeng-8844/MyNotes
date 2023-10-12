@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Multi-dimensional Array.md",
+                "file": "Daily/2023-10-12.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Multi-dimensional Array.md"
+                "file": "Daily/2023-10-12.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Multi-dimensional Array.md",
+                "file": "Daily/2023-10-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Multi-dimensional Array.md",
+                "file": "Daily/2023-10-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,6 +170,9 @@
   },
   "active": "d564fc62871b3835",
   "lastOpenFiles": [
+    "Daily/2023-10-10.md",
+    "Daily/2023-10-12.md",
+    "Multi-dimensional Array.md",
     "Pointer Compatibility.md",
     "Compiler Directives.md",
     "Compound Literal.md",
@@ -180,7 +183,6 @@
     "Pointer and Array Review Questions.md",
     "Daily/2023-10-05.md",
     "Daily/2023-10-03.md",
-    "Multi-dimensional Array.md",
     "Daily/2023-09-19.md",
     "Daily/2023-09-20.md",
     "Daily/2023-09-18.md",

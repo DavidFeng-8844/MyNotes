@@ -4,75 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "66689cd3076cd98e",
+        "id": "122bd468f430bec5",
         "type": "tabs",
         "children": [
           {
-            "id": "e14245b10323e537",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "9b60323e166be3b3",
+            "id": "f82a313c83ab1ff3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Front_end/CSS/CSS Intro.md",
+                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "dd96910be4a0dd30",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "58078bc6be12cabf",
+            "id": "8e5324baddea23fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Front_end/CSS/01 CSS Syntax.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b32d1b26a35b21a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Front_end/CSS/01 CSS Syntax.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "061900f4c526d97d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Front_end/CSS/03 CSS How to.md",
-                "mode": "source",
+                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 237.0091781616211,
+    "collapsed": true
   },
   "right": {
     "id": "4afa32b7c7ce18c6",
@@ -138,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Front_end/CSS/03 CSS How to.md",
+                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Front_end/CSS/03 CSS How to.md",
+                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Front_end/CSS/03 CSS How to.md"
+                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md"
               }
             }
           }
@@ -199,27 +160,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6dd0a8950805847",
+  "active": "8e5324baddea23fe",
   "lastOpenFiles": [
+    "Computer_Architecture/L2-5.png",
+    "Computer_Architecture/L2-6.png",
+    "Pasted image 20231012232731.png",
+    "Pasted image 20231012232752.png",
+    "Computer_Architecture/Numbers.md",
+    "Computer_Architecture/Lecture 2 Numbering Systems.md",
+    "Pasted image 20231012232638.png",
+    "Computer_Architecture/L2-4.png",
+    "L2-3.md",
+    "Computer_Architecture/Lecture 1 Computer and Organization.md",
+    "Pasted image 20231012232057.png",
+    "Computer_Architecture/L2-3.png",
+    "Pasted image 20231012231529.png.md",
+    "L2-3",
+    "Pasted image 20231012231529.png",
+    "Pasted image 20231012231404.png",
+    "Pasted image 20231012231357.png",
+    "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
+    "Pasted image 20231012231157.png.md",
+    "Lecture 2 Numbering Systems.md",
+    "Envir_Set/Anaconda.md",
+    "Computer_Architecture/Lecture 5 Computer Architecture.md",
+    "Computer_Architecture/Untitled 1.canvas",
+    "Computer_Architecture/Untitled.canvas",
+    "Front_end/CSS/CSS Intro.md",
     "Front_end/CSS/01 CSS Syntax.md",
     "Front_end/CSS/03 CSS How to.md",
     "Linux/Add obs Command to bashrc.md",
-    "Shared-Images/Screenshot 2023-09-30 180447.png",
-    "Shared-Images/Pasted image 20230930180608.png",
-    "Shared-Images/Pasted image 20230929104440.png",
-    "Shared-Images/Pasted image 20230929103104.png",
-    "Shared-Images/Pasted image 20230929101132.png",
-    "Shared-Images/Pasted image 20230929100334.png",
-    "Shared-Images/Pasted image 20230926113319.png",
-    "Shared-Images/Pasted image 20230929100313.png",
-    "Shared-Images/Pasted image 20230929093238.png",
-    "Shared-Images/Pasted image 20230928210753.png",
     "Shared-Images",
     "Linux/YUM Setup.md",
     "Linux/Linux Desktop.md",
     "Front_end/CSS/02 CSS Selectors.md",
     "Windows/Shared Images",
-    "Front_end/CSS/CSS Intro.md",
     "Untitled 1.md"
   ]
 }
