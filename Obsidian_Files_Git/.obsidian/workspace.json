@@ -8,25 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f82a313c83ab1ff3",
+            "id": "8e5324baddea23fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md",
+                "file": "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8e5324baddea23fe",
+            "id": "9a9aba12ae059f84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md",
-                "mode": "preview",
+                "file": "Computer_Architecture/Lecture 3 Representing Numbers.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md",
+                "file": "Computer_Architecture/Lecture 3 Representing Numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md",
+                "file": "Computer_Architecture/Lecture 3 Representing Numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md"
+                "file": "Computer_Architecture/Lecture 3 Representing Numbers.md"
               }
             }
           }
@@ -160,30 +160,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e5324baddea23fe",
+  "active": "9a9aba12ae059f84",
   "lastOpenFiles": [
-    "Computer_Architecture/L2-5.png",
-    "Computer_Architecture/L2-6.png",
-    "Pasted image 20231012232731.png",
-    "Pasted image 20231012232752.png",
-    "Computer_Architecture/Numbers.md",
+    "Pasted image 20231014105417.png",
+    "Lecture 7 Memory.md",
+    "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
+    "Computer_Architecture/L6-1.png",
+    "Pasted image 20231013141724.png",
+    "Computer_Architecture/Lecture 5 Computer Architecture.md",
+    "Computer_Architecture/Lecture 3 Representing Numbers.md",
     "Computer_Architecture/Lecture 2 Numbering Systems.md",
-    "Pasted image 20231012232638.png",
-    "Computer_Architecture/L2-4.png",
-    "L2-3.md",
     "Computer_Architecture/Lecture 1 Computer and Organization.md",
-    "Pasted image 20231012232057.png",
-    "Computer_Architecture/L2-3.png",
+    "Lecture 3 Representing Numbers.md",
+    "Computer_Architecture/Lecture 4 Architecture.md",
+    "Computer_Architecture/2023-10-11.md",
+    "Computer_Architecture/L2-11.png",
+    "Computer_Architecture/L2-9.png",
+    "Pasted image 20231013120341.png",
+    "Computer_Architecture/L2-10.png",
+    "Pasted image 20231013120036.png",
+    "Pasted image 20231013114419.png",
+    "Computer_Architecture/L2-8.png",
+    "Pasted image 20231013112438.png",
+    "Computer_Architecture/Numbers.md",
+    "L2-3.md",
     "Pasted image 20231012231529.png.md",
     "L2-3",
-    "Pasted image 20231012231529.png",
-    "Pasted image 20231012231404.png",
-    "Pasted image 20231012231357.png",
-    "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
     "Pasted image 20231012231157.png.md",
     "Lecture 2 Numbering Systems.md",
     "Envir_Set/Anaconda.md",
-    "Computer_Architecture/Lecture 5 Computer Architecture.md",
     "Computer_Architecture/Untitled 1.canvas",
     "Computer_Architecture/Untitled.canvas",
     "Front_end/CSS/CSS Intro.md",
