@@ -2,14 +2,19 @@
 
 Memory not store in the same place, so that the hardware can protect the data and avoid safety issues 
 
+---
+
 ## Von Neuman Concepts 
 * Data and instructions are both stored in the main memory
 * Content of the memory is addressable by location 
 * Instruction are addressed sequentially
+---
 
 ## Programming
 * Configure the hardware to carry out a specific task 
 * Made up of ==instructions==*
+---
+
 ## Computer Components
 
 > CPU
@@ -27,22 +32,35 @@ Memory not store in the same place, so that the hardware can protect the data an
 - **Instruction Register (IR):** The instruction register is a special register that holds the current instruction being executed. The control unit fetches instructions from memory and loads them into the IR.
     
 - **Program Counter (PC):** The program counter is another special register that keeps track of the address of the next instruction to be executed. When an instruction is fetched from memory, the PC is incremented to point to the next instruction.
+- **MAR** Memory Address Register
+stores the memory address from which data will be fetched, or the address to which data will be sent and stored.
+* **MBR**Memory Buffer Register
+stores the data being transferred to and from the immediate access storage (i.e. main memory)
+
 Computer ==loads data from RAM to registers (or AC)== and perform operations on data in registers and ==stores the result in RAM.== 
+
 4. **Memory:** The CPU interacts with memory to fetch instructions and data. The control unit is responsible for coordinating these interactions.
+
+ ---
+ ---
  
  
- ### >How these components work together in a simplified CPU operation:
+## Instruction Cycle
 
 1. The program counter ==(PC) points to the memory address of the next instruction ==to be executed.
     
 2. The control unit ==fetches the instruction from that memory location and loads it into the instruction register (IR).==
     
-3. The control unit ==decodes the instruction in the IR ==to determine what operation needs to be performed and which operands to use.
+3. The control unit ==decodes the instruction in the IR ==to determine what ==operation== needs to be performed and which ==operands to use==.
     
 4. If the instruction involves arithmetic or logic operations,==the control unit instructs the ALU  perform the operation using data from the general-purpose registers.==
     
 5. The result of the operation is stored back in the registers if necessary, and==the program counter (PC) is updated to point to the next instruction.==
- ![[L4-4.png|300]]![[L4-5.png|300]]
+![[L4-6.png|650]]
+
+---
+
+### Putting it all together  ![[L4-4.png|400]]![[L4-5.png|400]]
 
 Examples:
 C $\Leftarrow$ a + b
@@ -62,12 +80,47 @@ C $\Leftarrow$ a + b
 •The contents of this address will be interpreted as data (often as operand).
 
 >Example See Lecture 4 Ex 1
->
+
+---
+## Instruction Cycle - Exceptions (errors)
+
+>Exceptions or errors can occur at various point in the cycle:
+>like: 1. Execution: * Logic Fails : divide by zero, floating point overflow, integer addition overflow or underflow
+>		2. Addressing (Memory address doesn't exist or inaccessible)
 ## Interrupts
+
+>If there two program running simultaneously, the operating system would periodically switch between them: 
+	•Stop A from running
+	•Copy A’s register values to memory
+	•Copy B’s register values from memory
+	•Start B running
+
+>Interrupts Scenarios
+
+* Some Device that slower than the CPU, CPU continues with other calculations. The device interrupts the CPU when the device/data is ready.
+
+	### Alternative to Interrupts 
+>Polling: Continually checking if the data is ready (NOT a efficient way)
+
+## Class of interrupts
+
+1. Program
+2. Timer 
+3. I/O
+4. Hardware Failure 
+
+## Interrupts Flow
+1. Completes current instruction
+2. Saves current state (PC and registers) to status registers
+3. Identify interrupt source
+4. jump to and activate interrupt handler routine or interrupt service routine (ISR)
+5. Return to original program and restore state
+
 
 ### Multiple interrupts
 
-Priority: lower priority interrupts can be interrupted by the higher prioritized ones
+Priority: ==lower priority interrupts can be interrupted by the higher prioritized ones==
+
 
 
 

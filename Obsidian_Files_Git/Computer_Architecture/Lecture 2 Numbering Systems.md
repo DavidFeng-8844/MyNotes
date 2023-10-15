@@ -136,5 +136,7 @@ where R=range, B=base, k=number of digits
 
 ## Binary Coded Decimal (BCD)
 
-|DEC| BI| BCD|
-|68|0100 0100| 0110 1000|
+| DEC | BI        | BCD       |
+| --- | --------- | --------- |
+| 68  | 0100 0100 | 0110 1000 |
+

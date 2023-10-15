@@ -36,27 +36,24 @@ STORE R3, C 5
 3. Amount : 
 4. Size: Large enough to hold full address/word 
 
-## program Status Word Register 
+## program Status Word Register ==PSW==
 
+1. Store a set of bits 
+2. Include Condition codes 
 
 ## The instruction cycle 
 
 ## Data Flow 
 ### Instruction fetch
-•
-PC contains address of next instruction
-•
-Address moved to MAR
-•
-Address placed on address bus (memory interconnection)
-•
-Control unit requests memory read
-•
-Result placed on data bus, copied to MBR, then to IR
-•
-Meanwhile PC incremented by 1
+* PC contains address of next instruction
+* Address moved to MAR
+* Address placed on address bus (memory interconnection)
+* Control unit requests memory read
+* Result placed on data bus, copied to MBR, then to IR
+* Meanwhile PC incremented by 1
 
 ### Data Fetch
+The operand of an instruction contains a short memory address of a location which itself contains the full memory address of the operand (allowing shorter instructions)![[L5-3.png]]
 
 
 
