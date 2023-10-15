@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "122bd468f430bec5",
+        "id": "0f74b04f8e8f1f8f",
         "type": "tabs",
         "children": [
           {
-            "id": "fe18c5507b2c6f6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e63c968aa9646a21",
+            "id": "d171d157f59d0f9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,9 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6dd0a8950805847",
+  "active": "d171d157f59d0f9b",
   "lastOpenFiles": [
     "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
+    "Pasted image 20231015123945.png",
     "Computer_Architecture/Images/L6-1.png",
     "Computer_Architecture/Images/L5-2.png",
     "Computer_Architecture/Images/L5-1.png",
@@ -172,7 +160,6 @@
     "Computer_Architecture/Images/L3-4.png",
     "Computer_Architecture/Images/L3-3.png",
     "Computer_Architecture/Images/L3-2.png",
-    "Computer_Architecture/Images/L3-1.png",
     "Computer_Architecture/Images",
     "Computer_Architecture/New Folder",
     "Computer_Architecture/Lecture 5 Computer Architecture.md",
