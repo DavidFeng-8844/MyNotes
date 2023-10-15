@@ -28,7 +28,7 @@
 
 #### Structure view
 ![[L1-3.png]]
-
+System Interconnection ==(aka. bus) =  
 ![[L1-2.png]] 
 
 ## Structure of Von Neumann Machine

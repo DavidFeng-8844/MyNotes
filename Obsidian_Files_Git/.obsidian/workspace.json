@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8e5324baddea23fe",
+            "id": "fe18c5507b2c6f6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
+                "file": "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9a9aba12ae059f84",
+            "id": "e63c968aa9646a21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer_Architecture/Lecture 3 Representing Numbers.md",
+                "file": "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer_Architecture/Lecture 3 Representing Numbers.md",
+                "file": "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer_Architecture/Lecture 3 Representing Numbers.md",
+                "file": "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer_Architecture/Lecture 3 Representing Numbers.md"
+                "file": "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md"
               }
             }
           }
@@ -160,26 +160,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a9aba12ae059f84",
+  "active": "e6dd0a8950805847",
   "lastOpenFiles": [
-    "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
-    "Computer_Architecture/Lecture 3 Representing Numbers.md",
-    "Computer_Architecture/L3-6.png",
-    "Pasted image 20231014122452.png",
-    "Computer_Architecture/L3-5.png",
-    "Computer_Architecture/L3-2.png",
-    "Pasted image 20231014122339.png",
-    "Computer_Architecture/L3-4.png",
-    "Pasted image 20231014121153.png",
-    "Computer_Architecture/L3-3.png",
-    "Pasted image 20231014121029.png",
-    "Pasted image 20231014112410.png",
-    "Lecture 7 Memory.md",
+    "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
+    "Computer_Architecture/Images/L6-1.png",
+    "Computer_Architecture/Images/L5-2.png",
+    "Computer_Architecture/Images/L5-1.png",
+    "Computer_Architecture/Images/L4-1.png",
+    "Computer_Architecture/Images/L3-6.png",
+    "Computer_Architecture/Images/L3-5.png",
+    "Computer_Architecture/Images/L3-4.png",
+    "Computer_Architecture/Images/L3-3.png",
+    "Computer_Architecture/Images/L3-2.png",
+    "Computer_Architecture/Images/L3-1.png",
+    "Computer_Architecture/Images",
+    "Computer_Architecture/New Folder",
     "Computer_Architecture/Lecture 5 Computer Architecture.md",
-    "Computer_Architecture/Lecture 2 Numbering Systems.md",
     "Computer_Architecture/Lecture 1 Computer and Organization.md",
+    "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
+    "2023-10-14.md",
+    "Computer_Architecture/Lecture 3 Representing Numbers.md",
+    "Lecture 7 Memory.md",
+    "Computer_Architecture/Lecture 2 Numbering Systems.md",
     "Lecture 3 Representing Numbers.md",
-    "Computer_Architecture/Lecture 4 Architecture.md",
     "Computer_Architecture/2023-10-11.md",
     "Computer_Architecture/Numbers.md",
     "L2-3.md",
