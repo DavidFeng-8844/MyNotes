@@ -48,7 +48,7 @@ zippo[1][2] = 3
 | ``*(*(zippo+2) + 1)`` |the value of the second int in the third row (zippo[2][1])|
 
 
-![[Screenshot 2023-08-31 143938.png]]
+![[Lec. 8-1.png]]
 
 ## Pointer to Multidimensional array
 

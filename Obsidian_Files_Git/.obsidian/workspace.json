@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer_Architecture/Lecture 5 Computer Architecture.md",
+                "file": "C_Notes/Lec. 8 File IO.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.00004196166992,
-    "collapsed": true
+    "width": 222.00004196166992
   },
   "right": {
     "id": "4afa32b7c7ce18c6",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer_Architecture/Lecture 5 Computer Architecture.md",
+                "file": "C_Notes/Lec. 8 File IO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer_Architecture/Lecture 5 Computer Architecture.md",
+                "file": "C_Notes/Lec. 8 File IO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer_Architecture/Lecture 5 Computer Architecture.md"
+                "file": "C_Notes/Lec. 8 File IO.md"
               }
             }
           },
@@ -170,26 +169,37 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e6dd0a8950805847",
+  "active": "d171d157f59d0f9b",
   "lastOpenFiles": [
+    "C_Notes/Image/L8. -1.png",
+    "C_Notes/Image/Lec. 8-1.png",
+    "C_Notes/Lec. 8 File IO.md",
+    "Pasted image 20231016145739.png",
+    "C_Notes/Compound Literal.md",
+    "C_Notes/Compiler Directives.md",
+    "C_Notes/Image/Pasted image 20231009142457.png",
+    "C_Notes/Lec. 7.md",
+    "C_Notes/Day 01.md",
+    "C_Notes/Image",
+    "Computer_Architecture/Lecture 5 Computer Architecture.md",
+    "Pasted image 20231016145335.png.md",
+    "Computer_Architecture/Lecture 8 Cache Memory.md",
+    "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
+    "C_Notes/Variable-Length Arrays.md",
+    "Lec. 8 File IO.md",
+    "C_Notes/Images",
+    "Computer_Architecture/Images/Pasted image 20231016145335.png",
+    "Pasted image 20231016145335.png",
+    "Lec. 7.md",
+    "Lecture 8 Cache Memory.md",
     "Computer_Architecture/Images/L5-3.png",
     "Pasted image 20231015214533.png",
-    "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
-    "Computer_Architecture/Lecture 5 Computer Architecture.md",
-    "Untitled.md",
     "Computer_Architecture/Numbers.md",
     "Computer_Architecture/Lecture 2 Numbering Systems.md",
     "Excalidraw/Drawing 2023-10-15 20.26.05.excalidraw.md",
     "Excalidraw",
     "Computer_Architecture/L4-6.png",
     "Computer_Architecture/Images/L4-6.png",
-    "Pasted image 20231015193949.png",
-    "Computer_Architecture/Images/L4-5.png",
-    "Computer_Architecture/Images/L4-4.png",
-    "Pasted image 20231015174921.png",
-    "Pasted image 20231015174918.png",
-    "Computer_Architecture/Images/L4-2.png",
-    "Computer_Architecture/Images/L4-3.png",
     "Computer_Architecture/Images",
     "Computer_Architecture/New Folder",
     "Computer_Architecture/Lecture 1 Computer and Organization.md",
@@ -202,19 +212,9 @@
     "L2-3.md",
     "Pasted image 20231012231529.png.md",
     "L2-3",
-    "Pasted image 20231012231157.png.md",
-    "Lecture 2 Numbering Systems.md",
-    "Envir_Set/Anaconda.md",
     "Computer_Architecture/Untitled 1.canvas",
     "Computer_Architecture/Untitled.canvas",
-    "Front_end/CSS/CSS Intro.md",
-    "Front_end/CSS/01 CSS Syntax.md",
-    "Front_end/CSS/03 CSS How to.md",
-    "Linux/Add obs Command to bashrc.md",
     "Shared-Images",
-    "Linux/YUM Setup.md",
-    "Linux/Linux Desktop.md",
-    "Front_end/CSS/02 CSS Selectors.md",
     "Windows/Shared Images"
   ]
 }
