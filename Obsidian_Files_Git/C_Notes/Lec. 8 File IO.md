@@ -11,8 +11,8 @@ FILE * inputFile = fopen ("data", "r");
 ```
 
 ---
-## Reading and Writng File
+## Reading and Writing File
 
 ---
 ## Buffer 
-
+> Def: 
