@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C_Notes/Lec. 8 File IO.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "063230a9d69baa3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer_Architecture/Lecture 8 Cache Memory.md",
+                "file": "Git/07 Git Push changes to github.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.00004196166992,
-    "collapsed": true
+    "width": 222.00004196166992
   },
   "right": {
     "id": "4afa32b7c7ce18c6",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer_Architecture/Lecture 8 Cache Memory.md",
+                "file": "Git/07 Git Push changes to github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer_Architecture/Lecture 8 Cache Memory.md",
+                "file": "Git/07 Git Push changes to github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer_Architecture/Lecture 8 Cache Memory.md"
+                "file": "Git/07 Git Push changes to github.md"
               }
             }
           },
@@ -171,19 +157,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "063230a9d69baa3b",
+  "active": "e6dd0a8950805847",
   "lastOpenFiles": [
-    "Pasted image 20231017104025.png",
-    "Pasted image 20231017101647.png",
-    "Pasted image 20231017101433.png",
-    "Pasted image 20231017101118.png",
-    "Computer_Architecture/Images/L8-2.png",
-    "Pasted image 20231017100517.png",
+    "Git/Git_Image",
+    "Git/Git_Image/Pasted image 20231018224932.png",
+    "Git/05 Git pull.md",
+    "Git/03 Create Branch.md",
+    "Git/Git Proxy Problems.md",
+    "Git/Change-Git-Start-in.md",
+    "Git/07 Git Push changes to github.md",
+    "Git/06 Git pull Branch from Github.md",
+    "CSS 2D Transformers.md",
+    "Front_end/CSS/02 CSS Selectors.md",
+    "Computer_Architecture/Lecture 9 Bus and IO.md",
+    "Front_end/CSS/Pasted image 20231018110455.png",
+    "Garbage_MtrCtrl/Lecture 8 Cache Memory.md",
+    "Lecture 9 Bus and IO.md",
+    "Computer_Architecture/Images/Pasted image 20231018102528.png",
+    "Pasted image 20231018102528.png",
     "C_Notes/Lec. 8 File IO.md",
-    "Computer_Architecture/Lecture 8 Cache Memory.md",
+    "Computer_Architecture/Images/Pasted image 20231017101118.png",
+    "Computer_Architecture/Images/Pasted image 20231017101433.png",
+    "Computer_Architecture/Images/Pasted image 20231018095448.png",
+    "Computer_Architecture/Images/Pasted image 20231017104025.png",
+    "Computer_Architecture/Images/Pasted image 20231017101647.png",
+    "Computer_Architecture/Images/L8-2.png",
     "Computer_Architecture/Lecture 1 Computer and Organization.md",
-    "Computer_Architecture/Images/L8-1.png",
-    "Pasted image 20231017095716.png",
     "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
     "Excalidraw/Drawing 2023-10-16 20.55.43.excalidraw.md",
     "Computer_Architecture/Excalidraw/Drawing 2023-10-11 23.15.35.excalidraw.md",
@@ -192,28 +191,15 @@
     "Computer_Architecture/Excalidraw/Drawing 2023-10-11 23.18.34.excalidraw.md",
     "Computer_Architecture/Excalidraw/Drawing 2023-10-11 23.21.08.excalidraw.md",
     "Excalidraw/Drawing 2023-10-16 20.54.56.excalidraw.md",
-    "C_Notes/Image/L8. -1.png",
-    "C_Notes/Image/Lec. 8-1.png",
-    "Pasted image 20231016145739.png",
     "C_Notes/Compound Literal.md",
     "C_Notes/Compiler Directives.md",
     "C_Notes/Lec. 7.md",
     "C_Notes/Day 01.md",
     "C_Notes/Image",
-    "Computer_Architecture/Lecture 5 Computer Architecture.md",
-    "Pasted image 20231016145335.png.md",
-    "C_Notes/Variable-Length Arrays.md",
-    "Lec. 8 File IO.md",
     "C_Notes/Images",
-    "Lec. 7.md",
-    "Lecture 8 Cache Memory.md",
-    "Computer_Architecture/Numbers.md",
-    "Computer_Architecture/Lecture 2 Numbering Systems.md",
-    "Excalidraw/Drawing 2023-10-15 20.26.05.excalidraw.md",
     "Excalidraw",
     "Computer_Architecture/Images",
     "Computer_Architecture/New Folder",
-    "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
     "L2-3",
     "Computer_Architecture/Untitled 1.canvas",
     "Computer_Architecture/Untitled.canvas",

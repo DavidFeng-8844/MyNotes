@@ -34,10 +34,10 @@ The adjacent sibling selector is used to select an element that is directly afte
 div + p {  background-color: yellow;}
 ```
 
-### general sibling selector
+### general sibling selector (~)
 The general sibling selector selects all elements that are next siblings of a specified element.
 ```css
-div + p {  background-color: yellow;}
+div ~ p {  background-color: yellow;}
 ```
 
 ---
