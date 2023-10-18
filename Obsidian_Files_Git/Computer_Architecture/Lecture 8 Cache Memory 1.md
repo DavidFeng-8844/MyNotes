@@ -17,9 +17,9 @@ processed by a computer's CPU in one go
 ![[L8-1.png]]
 
 >==Block==
-	The unit of data transfer. We break main memory into blocks. Each block holds m bytes (typically, 64
+	The unit of data transfer. We break main memory into blocks. Each block holds m bytes (typically, 64 bits ) 
 ==Line==
-	The cache is broken into multiple lines, each cache line holds exactly a memory block .
+	The cache is broken into multiple lines, each cache line holds exactly a memory block.
 
 
 >Load and Store Sequence in Direct Mapped cache:

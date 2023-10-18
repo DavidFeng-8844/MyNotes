@@ -37,24 +37,20 @@ Different bus with different hierarchy and speed
 
 # Input and Output Interfaces 
 
-
+---
 ## Programmed IO 
 
-•
-The CPU waits for the I/O module
-to complete operation Polling so not so efficient
+* The CPU waits for the I/O module to complete operation Polling so not so efficient
 
+---
 ## Addressing memory mapped I/O Devices
 
-Under memory mapped I/O, data
+>Under memory mapped I/O, data
 transfer is very like memory access.
-•
-Each device is given a unique identifier
-(
-•
-The CPU commands contain the
+
+* Each device is given a unique identifier
+* The CPU commands contain the
 identifier.
-•
-Each I/O device interprets the address
+* Each I/O device interprets the address
 lines on the bus to determine if a
 command is for itself.

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer_Architecture/Lecture 8 Cache Memory 1.md",
+                "file": "Computer_Architecture/Lecture 9 Bus and IO.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer_Architecture/Lecture 8 Cache Memory 1.md",
+                "file": "Computer_Architecture/Lecture 9 Bus and IO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer_Architecture/Lecture 8 Cache Memory 1.md",
+                "file": "Computer_Architecture/Lecture 9 Bus and IO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer_Architecture/Lecture 8 Cache Memory 1.md"
+                "file": "Computer_Architecture/Lecture 9 Bus and IO.md"
               }
             }
           },
@@ -173,8 +173,8 @@
   },
   "active": "7d330917cc3c22ee",
   "lastOpenFiles": [
-    "Computer_Architecture/Lecture 8 Cache Memory.md",
     "Computer_Architecture/Lecture 8 Cache Memory 1.md",
+    "Computer_Architecture/Lecture 8 Cache Memory.md",
     "Computer_Architecture/Lecture 7 Memory.md",
     "Computer_Architecture/Excalidraw/Drawing 2023-10-11 23.18.34.excalidraw.md",
     "Computer_Architecture/Images/Lecture 8 Cache.md",
