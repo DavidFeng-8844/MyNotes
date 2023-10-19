@@ -34,7 +34,7 @@ Read
 
 
 Load 
-![[Pasted image 20231017101433.png]]
+![[L8-4.png]]
 
 ## Spatial Locality 
 
@@ -42,7 +42,7 @@ To fully make use of it, the CPU access nearby memory from the destination
 
 ==Make the cache line larger than one byte==
 
-![[Pasted image 20231017101647.png]]
+![[L8-5.png]]
 
 #### For Example:  
 if a program reads from byte address 4 we’ll load alloW memory block 2 (both addresses 4 and 5) into cache line 2 spatial locality
@@ -72,7 +72,7 @@ If memory address 2 and 6 map into the same cache line, what if a program repeat
 Combine the benefits of direct and fully associative mappings
 • Divide the cache lines into groups, called sets 
 
-Some possible ones:![[Pasted image 20231018095448.png]]
+Some possible ones:![[L8-7.png]]
 ## Replacement Algorithm
 
 >possible ones:
@@ -104,7 +104,7 @@ Update both the cache and main memory for each write
 * Subsequent reads to the same memory address will be served by the
 cache
 
-![[Pasted image 20231018102528.png]]
+![[L9-1.png]]
 
 ---
 
