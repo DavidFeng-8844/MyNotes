@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md",
+                "file": "Computer_Architecture/Lecture 3 Representing Numbers.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md",
+                "file": "Computer_Architecture/Lecture 3 Representing Numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md",
+                "file": "Computer_Architecture/Lecture 3 Representing Numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md"
+                "file": "Computer_Architecture/Lecture 3 Representing Numbers.md"
               }
             }
           },
@@ -172,9 +172,9 @@
   },
   "active": "7d330917cc3c22ee",
   "lastOpenFiles": [
+    "Computer_Architecture/Lecture 2 Numbering Systems.md",
     "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
     "Computer_Architecture/Lecture 3 Representing Numbers.md",
-    "Computer_Architecture/Lecture 2 Numbering Systems.md",
     "Computer_Architecture/Lecture 1 Computer and Organization.md",
     "Computer_Architecture/Lecture 9 Bus and IO.md",
     "Computer_Architecture/Lecture 8 Cache Memory 1.md",
