@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer_Architecture/Lecture 9 Bus and IO.md",
+                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.00004196166992,
-    "collapsed": true
+    "width": 222.00004196166992
   },
   "right": {
     "id": "4afa32b7c7ce18c6",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer_Architecture/Lecture 9 Bus and IO.md",
+                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer_Architecture/Lecture 9 Bus and IO.md",
+                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer_Architecture/Lecture 9 Bus and IO.md"
+                "file": "Computer_Architecture/Lecture 2 Numbering Systems.md"
               }
             }
           },
@@ -173,9 +172,16 @@
   },
   "active": "7d330917cc3c22ee",
   "lastOpenFiles": [
+    "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
+    "Computer_Architecture/Lecture 3 Representing Numbers.md",
+    "Computer_Architecture/Lecture 2 Numbering Systems.md",
+    "Computer_Architecture/Lecture 1 Computer and Organization.md",
+    "Computer_Architecture/Lecture 9 Bus and IO.md",
     "Computer_Architecture/Lecture 8 Cache Memory 1.md",
-    "Computer_Architecture/Lecture 8 Cache Memory.md",
     "Computer_Architecture/Lecture 7 Memory.md",
+    "Computer_Architecture/Lecture 5 Computer Architecture.md",
+    "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
+    "Computer_Architecture/Lecture 8 Cache Memory.md",
     "Computer_Architecture/Excalidraw/Drawing 2023-10-11 23.18.34.excalidraw.md",
     "Computer_Architecture/Images/Lecture 8 Cache.md",
     "Git/07 Git Push changes to github.md",
@@ -188,7 +194,6 @@
     "Git/06 Git pull Branch from Github.md",
     "Front_end/CSS/CSS 2D Transformers.md",
     "Front_end/CSS/02 CSS Selectors.md",
-    "Computer_Architecture/Lecture 9 Bus and IO.md",
     "Front_end/CSS/Pasted image 20231018110455.png",
     "Lecture 9 Bus and IO.md",
     "Computer_Architecture/Images/Pasted image 20231018102528.png",
@@ -200,16 +205,10 @@
     "Computer_Architecture/Images/Pasted image 20231017104025.png",
     "Computer_Architecture/Images/Pasted image 20231017101647.png",
     "Computer_Architecture/Images/L8-2.png",
-    "Computer_Architecture/Lecture 1 Computer and Organization.md",
-    "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
     "Excalidraw/Drawing 2023-10-16 20.55.43.excalidraw.md",
     "Computer_Architecture/Excalidraw/Drawing 2023-10-11 23.15.35.excalidraw.md",
     "Computer_Architecture/Excalidraw/Drawing 2023-10-11 23.18.01.excalidraw.md",
     "Computer_Architecture/Excalidraw/Drawing 2023-10-11 23.18.29.excalidraw.md",
-    "Computer_Architecture/Excalidraw/Drawing 2023-10-11 23.21.08.excalidraw.md",
-    "Excalidraw/Drawing 2023-10-16 20.54.56.excalidraw.md",
-    "C_Notes/Compound Literal.md",
-    "C_Notes/Compiler Directives.md",
     "C_Notes/Image",
     "C_Notes/Images",
     "Excalidraw",

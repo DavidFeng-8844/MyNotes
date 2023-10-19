@@ -41,7 +41,13 @@ Different bus with different hierarchy and speed
 ## Programmed IO 
 
 * The CPU waits for the I/O module to complete operation Polling so not so efficient
+	* Often in embedded system with single input output instruction
+ ==The primary disadvantage== of programmed I/O is that the CPU spends most of
+its time ==in a tight loop waiting for the device to become ready==. This approach is
+called ==busy waiting.==
 
+* The way to get rid of busy waiting is to have the CPU start the I/O device and
+tell it to generate an interrupt when it is done
 ---
 ## Addressing memory mapped I/O Devices
 
@@ -54,3 +60,27 @@ identifier.
 * Each I/O device interprets the address
 lines on the bus to determine if a
 command is for itself.
+
+
+#Questions: Why Load/store to mmap locations can have side effects
+
+
+## Interrupt Driven IO 
+By setting the INTERRUPT ENABLE bit in a device register, the software
+can request that the hardware give it a signal when the I/O is completed.
+The problem is that an interrupt is required for every
+character transmitted. Processing an interrupt is expensive. A way is needed to get
+rid of most of the interrupts.
+
+## Direct Memory Access
+
+* Require a DMA Controller (Chips) 
+* DMA performs transfer while CPU does other processes 
+* DMA sends interrupt when completed
+
+
+
+
+
+
+Reference: Structured Computer Organization P.394
