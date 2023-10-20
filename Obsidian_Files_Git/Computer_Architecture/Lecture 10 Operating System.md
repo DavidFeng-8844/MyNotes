@@ -44,3 +44,60 @@ user program can abuse computation resources which might trash the entire system
 What if there are not enough contiguous memory :![[L10-2.png|400]]
 Java: compaceim
 
+---
+## Virtual Memory 
+
+Make physical Address looks larger 
+Virtual memory address is converted into a physical address (real
+address)
+![[L10-3.png]]
+
+### Page faults 
+
+A memory is on the disk rather than on the physical memory 
+
+An hardware exception will be generated (which will
+be captured by the OS)
+•
+Current process suspends, others can resume
+•
+OS moves the data and resumes the suspended process
+
+
+==•
+page = block of consecutive virtual memory
+•
+frame = block of consecutive of physical memory
+
+---
+### Separate Address Spaces
+
+Each process has its own virtual address space
+
+---
+### Memory Protection 
+
+
+Page table entry contains access rights information
+
+---
+
+## Virtual Memory vs. Cache 
+
+It is alike but with difference purpose 
+
+Cache : for performance 
+VM: multi-programming and make process access non- contiguous memory 
+
+---
+# Page table 
+
+We have one
+page table entry (PTE) for each page of the virtual memory
+
+
+---
+## Address Translation 
+![[Pasted image 20231019172254.png]]
+
+

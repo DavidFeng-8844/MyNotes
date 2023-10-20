@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer_Architecture/Lecture 10 Operating System.md",
+                "file": "Linux/Add obs Command to bashrc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "31bc86952ebb5c19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Different ways to locate files in Linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer_Architecture/Lecture 10 Operating System.md",
+                "file": "Different ways to locate files in Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer_Architecture/Lecture 10 Operating System.md",
+                "file": "Different ways to locate files in Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer_Architecture/Lecture 10 Operating System.md"
+                "file": "Different ways to locate files in Linux.md"
               }
             }
           },
@@ -169,24 +182,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e6dd0a8950805847",
+  "active": "31bc86952ebb5c19",
   "lastOpenFiles": [
+    "Linux/Add obs Command to bashrc.md",
+    "Different ways to locate files in Linux.md",
+    "Linux/Linux Desktop.md",
+    "Linux/YUM Setup.md",
+    "Linux/Screenshot 2023-09-30 195048.png",
+    "Git/07 Git Push changes to github.md",
+    "Computer_Architecture/Lecture 2 Numbering Systems.md",
+    "Computer_Architecture/Lecture 10 Operating System.md",
+    "Pasted image 20231019172254.png",
+    "Computer_Architecture/Images/L10-3.png",
+    "Pasted image 20231019165136.png",
     "Computer_Architecture/Images/L10-2.png",
     "Pasted image 20231019163326.png",
     "Computer_Architecture/Lecture 7 Memory.md",
     "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
-    "Computer_Architecture/Lecture 10 Operating System.md",
     "Computer_Architecture/Images/L9-1.png",
     "Computer_Architecture/Images/L8-7.png",
     "Computer_Architecture/Images/L8-4.png",
     "Computer_Architecture/Images/L8-3.png",
-    "Computer_Architecture/Images/L8-6.png",
-    "Computer_Architecture/Images/L8-5.png",
-    "Computer_Architecture/Images/L10-1.png",
-    "Pasted image 20231019160429.png",
     "Computer_Architecture/Lecture 3 Representing Numbers.md",
     "Lecture 10 Operating System.md",
-    "Computer_Architecture/Lecture 2 Numbering Systems.md",
     "Computer_Architecture/Lecture 1 Computer and Organization.md",
     "Computer_Architecture/Lecture 9 Bus and IO.md",
     "Computer_Architecture/Lecture 8 Cache Memory 1.md",
@@ -195,9 +213,7 @@
     "Computer_Architecture/Lecture 8 Cache Memory.md",
     "Computer_Architecture/Excalidraw/Drawing 2023-10-11 23.18.34.excalidraw.md",
     "Computer_Architecture/Images/Lecture 8 Cache.md",
-    "Git/07 Git Push changes to github.md",
     "Git/Git_Image",
-    "Git/Git_Image/Pasted image 20231018224932.png",
     "Git/05 Git pull.md",
     "Git/03 Create Branch.md",
     "Git/Git Proxy Problems.md",
@@ -205,9 +221,6 @@
     "Git/06 Git pull Branch from Github.md",
     "Front_end/CSS/CSS 2D Transformers.md",
     "Front_end/CSS/02 CSS Selectors.md",
-    "Lecture 9 Bus and IO.md",
-    "C_Notes/Lec. 8 File IO.md",
-    "Excalidraw/Drawing 2023-10-16 20.55.43.excalidraw.md",
     "C_Notes/Image",
     "C_Notes/Images",
     "Excalidraw",
