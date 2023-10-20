@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Add obs Command to bashrc.md",
+                "file": "Linux/Different ways to locate files in Linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Different ways to locate files in Linux.md",
+                "file": "Linux/Different ways to locate files in Linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Different ways to locate files in Linux.md",
+                "file": "Linux/Different ways to locate files in Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Different ways to locate files in Linux.md",
+                "file": "Linux/Different ways to locate files in Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Different ways to locate files in Linux.md"
+                "file": "Linux/Different ways to locate files in Linux.md"
               }
             }
           },
@@ -182,23 +181,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "31bc86952ebb5c19",
+  "active": "9419e2b2a12ce8b4",
   "lastOpenFiles": [
-    "Linux/Add obs Command to bashrc.md",
-    "Different ways to locate files in Linux.md",
-    "Linux/Linux Desktop.md",
-    "Linux/YUM Setup.md",
     "Linux/Screenshot 2023-09-30 195048.png",
+    "Computer_Architecture/Pasted image 20231019172254.png",
+    "Linux/Different ways to locate files in Linux.md",
+    "Linux/Add obs Command to bashrc.md",
+    "Linux/Linux Desktop.md",
+    "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
+    "Linux/YUM Setup.md",
     "Git/07 Git Push changes to github.md",
     "Computer_Architecture/Lecture 2 Numbering Systems.md",
     "Computer_Architecture/Lecture 10 Operating System.md",
-    "Pasted image 20231019172254.png",
     "Computer_Architecture/Images/L10-3.png",
     "Pasted image 20231019165136.png",
     "Computer_Architecture/Images/L10-2.png",
     "Pasted image 20231019163326.png",
     "Computer_Architecture/Lecture 7 Memory.md",
-    "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
     "Computer_Architecture/Images/L9-1.png",
     "Computer_Architecture/Images/L8-7.png",
     "Computer_Architecture/Images/L8-4.png",
@@ -220,7 +219,6 @@
     "Git/Change-Git-Start-in.md",
     "Git/06 Git pull Branch from Github.md",
     "Front_end/CSS/CSS 2D Transformers.md",
-    "Front_end/CSS/02 CSS Selectors.md",
     "C_Notes/Image",
     "C_Notes/Images",
     "Excalidraw",
