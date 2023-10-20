@@ -12,3 +12,14 @@
 
 git pull origin 
 (which is a combination of fetch and merge )
+
+
+
+***
+# Keep Local Branch updated
+
+```git 
+git fetch --prune
+```
+
+Use the `git fetch --prune` command to fetch the latest changes from the remote and prune (remove) references to remote branches that no longer exist on the remote:

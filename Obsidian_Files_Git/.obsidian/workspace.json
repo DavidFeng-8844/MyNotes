@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Different ways to locate files in Linux.md",
+                "file": "Git/05 Git pull.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Different ways to locate files in Linux.md",
+                "file": "Git/05 Git pull.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Different ways to locate files in Linux.md",
+                "file": "Git/05 Git pull.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Different ways to locate files in Linux.md"
+                "file": "Git/05 Git pull.md"
               }
             }
           },
@@ -183,14 +183,18 @@
   },
   "active": "9419e2b2a12ce8b4",
   "lastOpenFiles": [
+    "Git/06 Git pull Branch from Github.md",
+    "Git/07 Git Push changes to github.md",
+    "Git/Change-Git-Start-in.md",
+    "Git/Git-Line-Ending-Style.md",
+    "Git/Git Proxy Problems.md",
+    "Linux/Different ways to locate files in Linux.md",
+    "Linux/Linux Desktop.md",
     "Linux/Screenshot 2023-09-30 195048.png",
     "Computer_Architecture/Pasted image 20231019172254.png",
-    "Linux/Different ways to locate files in Linux.md",
     "Linux/Add obs Command to bashrc.md",
-    "Linux/Linux Desktop.md",
     "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
     "Linux/YUM Setup.md",
-    "Git/07 Git Push changes to github.md",
     "Computer_Architecture/Lecture 2 Numbering Systems.md",
     "Computer_Architecture/Lecture 10 Operating System.md",
     "Computer_Architecture/Images/L10-3.png",
@@ -215,9 +219,6 @@
     "Git/Git_Image",
     "Git/05 Git pull.md",
     "Git/03 Create Branch.md",
-    "Git/Git Proxy Problems.md",
-    "Git/Change-Git-Start-in.md",
-    "Git/06 Git pull Branch from Github.md",
     "Front_end/CSS/CSS 2D Transformers.md",
     "C_Notes/Image",
     "C_Notes/Images",
