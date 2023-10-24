@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/05 Git pull.md",
+                "file": "C_Notes/Multi-dimensional Array.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/05 Git pull.md",
+                "file": "C_Notes/Multi-dimensional Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/05 Git pull.md",
+                "file": "C_Notes/Multi-dimensional Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/05 Git pull.md"
+                "file": "C_Notes/Multi-dimensional Array.md"
               }
             }
           },
@@ -183,6 +183,14 @@
   },
   "active": "9419e2b2a12ce8b4",
   "lastOpenFiles": [
+    "C_Notes/Pointer and Array Review Questions.md",
+    "C_Notes/Pointer Compatibility.md",
+    "C_Notes/Multi-dimensional Array.md",
+    "C_Notes/Compiler Directives.md",
+    "C_Notes/Compound Literal.md",
+    "C_Notes/Day 01.md",
+    "Front_end/CSS/02 CSS Selectors.md",
+    "Git/05 Git pull.md",
     "Git/06 Git pull Branch from Github.md",
     "Git/07 Git Push changes to github.md",
     "Git/Change-Git-Start-in.md",
@@ -211,15 +219,7 @@
     "Computer_Architecture/Lecture 1 Computer and Organization.md",
     "Computer_Architecture/Lecture 9 Bus and IO.md",
     "Computer_Architecture/Lecture 8 Cache Memory 1.md",
-    "Computer_Architecture/Lecture 5 Computer Architecture.md",
-    "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
-    "Computer_Architecture/Lecture 8 Cache Memory.md",
-    "Computer_Architecture/Excalidraw/Drawing 2023-10-11 23.18.34.excalidraw.md",
-    "Computer_Architecture/Images/Lecture 8 Cache.md",
     "Git/Git_Image",
-    "Git/05 Git pull.md",
-    "Git/03 Create Branch.md",
-    "Front_end/CSS/CSS 2D Transformers.md",
     "C_Notes/Image",
     "C_Notes/Images",
     "Excalidraw",
