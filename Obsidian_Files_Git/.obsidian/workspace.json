@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Issue.md",
+                "file": "Py_Note/Python Issue.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.00004196166992,
-    "collapsed": true
+    "width": 222.00004196166992
   },
   "right": {
     "id": "4afa32b7c7ce18c6",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Issue.md",
+                "file": "Py_Note/Python Issue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Issue.md",
+                "file": "Py_Note/Python Issue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Issue.md"
+                "file": "Py_Note/Python Issue.md"
               }
             }
           },
@@ -195,10 +194,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "235fcfd812469c8a",
+  "active": "e6dd0a8950805847",
   "lastOpenFiles": [
     "Git/02 Git Delete local Branch.md",
-    "Python Issue.md",
+    "Py_Note/Python Issue.md",
     "Git/01 Git Basic.md",
     "Git/07 Git Push changes to github.md",
     "Git/Git Proxy Problems.md",
