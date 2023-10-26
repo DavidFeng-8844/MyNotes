@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C_Notes/Multi-dimensional Array.md",
+                "file": "Git/02 Git Delete local Branch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "235fcfd812469c8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python Issue.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.00004196166992
+    "width": 222.00004196166992,
+    "collapsed": true
   },
   "right": {
     "id": "4afa32b7c7ce18c6",
@@ -109,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C_Notes/Multi-dimensional Array.md",
+                "file": "Python Issue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C_Notes/Multi-dimensional Array.md",
+                "file": "Python Issue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C_Notes/Multi-dimensional Array.md"
+                "file": "Python Issue.md"
               }
             }
           },
@@ -166,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,10 +195,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9419e2b2a12ce8b4",
+  "active": "235fcfd812469c8a",
   "lastOpenFiles": [
-    "2023-10-24.md",
+    "Git/02 Git Delete local Branch.md",
+    "Python Issue.md",
+    "Git/01 Git Basic.md",
+    "Git/07 Git Push changes to github.md",
+    "Git/Git Proxy Problems.md",
+    "Git/Change-Git-Start-in.md",
+    "Git/03 Create Branch.md",
+    "Git/Git-Line-Ending-Style.md",
+    "Git/05 Git pull.md",
+    "Git/06 Git pull Branch from Github.md",
     "C_Notes/Multi-dimensional Array.md",
+    "2023-10-24.md",
     "C_Notes/Daily/2023-10-12.md",
     "C_Notes/Daily/2023-10-09.md",
     "C_Notes/Daily/2023-10-10.md",
@@ -199,16 +224,6 @@
     "C_Notes/Daily",
     "C_Notes/Pointer and Array Review Questions.md",
     "C_Notes/Pointer Compatibility.md",
-    "C_Notes/Compiler Directives.md",
-    "C_Notes/Compound Literal.md",
-    "C_Notes/Day 01.md",
-    "Front_end/CSS/02 CSS Selectors.md",
-    "Git/05 Git pull.md",
-    "Git/06 Git pull Branch from Github.md",
-    "Git/07 Git Push changes to github.md",
-    "Git/Change-Git-Start-in.md",
-    "Git/Git-Line-Ending-Style.md",
-    "Git/Git Proxy Problems.md",
     "Linux/Screenshot 2023-09-30 195048.png",
     "Computer_Architecture/Pasted image 20231019172254.png",
     "Computer_Architecture/Images/L10-3.png",
