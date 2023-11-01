@@ -14,7 +14,7 @@ You can also use CSS Grid to align containers to the left and right:
 ```css
 .parent {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;/*Adjust the fr ratio to adjust the size*/
 }
 
 .left-container {
