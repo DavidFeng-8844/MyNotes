@@ -39,7 +39,7 @@ Underflow, on the other hand, occurs when the result of an operation is smaller 
 3. extended precision 80 bits
 
 >Component:
-1.==start with a sign bit for the number as a whole, 0 being positiv
+1.==start with a sign bit for the number as a whole, 0 being positive
 and 1 being negative.
 == 2. The exponent, using ==excess 127 for single precision and excess 1023 for double precision.==
 3.Fractions 23 and 52 bits respectively.
