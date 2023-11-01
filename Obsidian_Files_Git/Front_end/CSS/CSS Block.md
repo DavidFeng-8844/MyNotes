@@ -1,5 +1,6 @@
 
 ## Under a parent block
+You can also use CSS Grid to align containers to the left and right:
 >HTML
 
 
