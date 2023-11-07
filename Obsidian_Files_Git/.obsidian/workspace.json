@@ -4,117 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0f74b04f8e8f1f8f",
+        "id": "53076f46dbbe19c2",
         "type": "tabs",
         "children": [
           {
-            "id": "9419e2b2a12ce8b4",
+            "id": "c178e98ba864ab6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/02 Git Delete local Branch.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "235fcfd812469c8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f89f7951fc7580c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fndmtl_Math/Day 02.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99da436dbb37b14d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C_Notes/Queue.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48e3581fa0861f1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pro_comp/Strava Design Evaluation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6afd8a8758089b0c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pro_comp/Pasted image 20231107095041.png"
-              }
-            }
-          },
-          {
-            "id": "5de4f2ce9e93088f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pro_comp/Strava Design Evaluation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31bc86952ebb5c19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Different ways to locate files in Linux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d330917cc3c22ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
+                "file": "C_Notes/C_Memory_Alloc/Basic C Memory Allocation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pro_comp/Strava Design Evaluation.md",
+                "file": "C_Notes/C_Memory_Alloc/Basic C Memory Allocation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pro_comp/Strava Design Evaluation.md",
+                "file": "C_Notes/C_Memory_Alloc/Basic C Memory Allocation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pro_comp/Strava Design Evaluation.md"
+                "file": "C_Notes/C_Memory_Alloc/Basic C Memory Allocation.md"
               }
             }
           },
@@ -252,18 +157,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5de4f2ce9e93088f",
+  "active": "c178e98ba864ab6b",
   "lastOpenFiles": [
-    "Pro_comp/Pasted image 20231107094317.png",
+    "C_Notes/Image/Pasted image 20231107221130.png",
+    "C_Notes/Pointer Compatibility.md",
+    "C_Notes/Image/Pasted image 20231107214452.png",
+    "C_Notes/C_Memory_Alloc/Basic C Memory Allocation.md",
+    "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
+    "Linux/Different ways to locate files in Linux.md",
+    "C_Notes/Fancy Declarations.md",
     "Pro_comp/Strava Design Evaluation.md",
     "Pro_comp/Pasted image 20231107095041.png",
+    "C_Notes/Queue.md",
+    "Fndmtl_Math/Day 02.md",
+    "Untitled.canvas",
+    "C_Notes/C_Memory_Alloc",
+    "Pro_comp/Pasted image 20231107094317.png",
     "Pro_comp/Pasted image 20231107094807.png",
     "Pro_comp/Pasted image 20231107094321.png",
-    "C_Notes/Queue.md",
     "Pro_comp",
-    "C_Notes/Pointer Compatibility.md",
     "C_Notes/Image/Pasted image 20231106160715.png",
-    "Fndmtl_Math/Day 02.md",
     "Fndmtl_Math/Day 03.md",
     "Fndmtl_Math/Day 07.md",
     "Fndmtl_Math/How to type.md",
@@ -274,31 +187,25 @@
     "Front_end/CSS/CSS 2D Transformers.md",
     "Front_end/CSS/block_element_problem.png",
     "Front_end/CSS/02 CSS Selectors.md",
-    "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
     "Computer_Architecture/Lecture 3 Representing Numbers.md",
     "Computer_Architecture/Lecture 2 Numbering Systems.md",
     "Py_Note/Python Issue.md",
     "Py_Note/Data type.md",
     "Py_Note/Basic Syntax.md",
     "Linux/Linux Desktop.md",
-    "Linux/Different ways to locate files in Linux.md",
     "Linux/Add obs Command to bashrc.md",
     "Git/Git-Line-Ending-Style.md",
     "Windows/Win Taskbar.md",
-    "Git/01 Git Basic.md",
-    "Git/07 Git Push changes to github.md",
     "C_Notes/Daily",
     "Linux/Screenshot 2023-09-30 195048.png",
     "Computer_Architecture/Pasted image 20231019172254.png",
     "Computer_Architecture/Images/L10-3.png",
-    "Pasted image 20231019165136.png",
     "Git/Git_Image",
     "C_Notes/Image",
     "C_Notes/Images",
     "Excalidraw",
     "Computer_Architecture/Images",
     "Computer_Architecture/New Folder",
-    "L2-3",
     "Computer_Architecture/Untitled 1.canvas",
     "Computer_Architecture/Untitled.canvas"
   ]

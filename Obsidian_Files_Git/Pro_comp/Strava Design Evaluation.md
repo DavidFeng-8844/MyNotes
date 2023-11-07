@@ -88,6 +88,19 @@ But this insurmountable growth didn’t happen without Strava taking measures to
 		![[Pasted image 20231107095041.png|400]]
 
 
+---
+## User Story
+
+📝 Summary:  
+Strava, a social fitness app, has experienced significant growth, with over 1 million new users monthly and an estimated 100 million users by 2023. Unlike mainstream social media, Strava focuses on promoting positive behaviors, exercise, and connecting like-minded individuals. This success can be attributed to its unique features, including leaderboards, Points of Interest, and Flyby, as well as its focus on building an athletic identity and fostering a sense of community.  
+  
+📌 Highlights:  
+- 🏃‍♂️ Strava, a social fitness app, has seen remarkable growth, with over 1 million new users each month.  
+- 🏆 Unique features, such as leaderboards, Points of Interest, and Flyby, enhance the user experience and make working out more enjoyable.  
+- 💪 Strava provides a platform for users to build their athletic identity and showcase their achievements.  
+- 🤝 The app fosters a sense of community and collaboration through features like Clubs and Sponsored Challenges.  
+- 🌟 Strava's success demonstrates the potential of using powerful features and UX elements to incentivize positive behaviors and connect with like-minded people in non-mainstream social media niches.
+---
 
 # Pro_cp_cwk1 References
 

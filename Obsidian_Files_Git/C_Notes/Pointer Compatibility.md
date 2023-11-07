@@ -54,3 +54,8 @@ values for all but the leftmost set of brackets::
 ```c
 int sum4d(int ar[][12][20][30], int rows);
 ```
+
+### Where to place the Asterisk 
+
+==The '*' is associated with the variable name ==
+![[Pasted image 20231107214452.png]]
