@@ -37,7 +37,53 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Front_end/CSS/CSS Block.md",
+                "file": "Fndmtl_Math/Day 02.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99da436dbb37b14d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C_Notes/Queue.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "48e3581fa0861f1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pro_comp/Strava Design Evaluation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6afd8a8758089b0c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pro_comp/Pasted image 20231107095041.png"
+              }
+            }
+          },
+          {
+            "id": "5de4f2ce9e93088f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pro_comp/Strava Design Evaluation.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -134,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Front_end/CSS/CSS Block.md",
+                "file": "Pro_comp/Strava Design Evaluation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Front_end/CSS/CSS Block.md",
+                "file": "Pro_comp/Strava Design Evaluation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Front_end/CSS/CSS Block.md"
+                "file": "Pro_comp/Strava Design Evaluation.md"
               }
             }
           },
@@ -206,10 +252,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e6dd0a8950805847",
+  "active": "5de4f2ce9e93088f",
   "lastOpenFiles": [
-    "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
+    "Pro_comp/Pasted image 20231107094317.png",
+    "Pro_comp/Strava Design Evaluation.md",
+    "Pro_comp/Pasted image 20231107095041.png",
+    "Pro_comp/Pasted image 20231107094807.png",
+    "Pro_comp/Pasted image 20231107094321.png",
+    "C_Notes/Queue.md",
+    "Pro_comp",
+    "C_Notes/Pointer Compatibility.md",
+    "C_Notes/Image/Pasted image 20231106160715.png",
+    "Fndmtl_Math/Day 02.md",
+    "Fndmtl_Math/Day 03.md",
+    "Fndmtl_Math/Day 07.md",
+    "Fndmtl_Math/How to type.md",
+    "Fndmtl_Math/Day 01.md",
+    "Git/02 Git Delete local Branch.md",
+    "Git/git_config.txt",
     "Front_end/CSS/CSS Block.md",
+    "Front_end/CSS/CSS 2D Transformers.md",
+    "Front_end/CSS/block_element_problem.png",
+    "Front_end/CSS/02 CSS Selectors.md",
+    "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
     "Computer_Architecture/Lecture 3 Representing Numbers.md",
     "Computer_Architecture/Lecture 2 Numbering Systems.md",
     "Py_Note/Python Issue.md",
@@ -220,31 +285,13 @@
     "Linux/Add obs Command to bashrc.md",
     "Git/Git-Line-Ending-Style.md",
     "Windows/Win Taskbar.md",
-    "Git/02 Git Delete local Branch.md",
     "Git/01 Git Basic.md",
     "Git/07 Git Push changes to github.md",
-    "Git/Git Proxy Problems.md",
-    "Git/Change-Git-Start-in.md",
-    "Git/03 Create Branch.md",
-    "Git/05 Git pull.md",
-    "Git/06 Git pull Branch from Github.md",
-    "C_Notes/Multi-dimensional Array.md",
-    "2023-10-24.md",
-    "C_Notes/Daily/2023-10-12.md",
-    "C_Notes/Daily/2023-10-09.md",
-    "C_Notes/Daily/2023-10-10.md",
-    "C_Notes/Daily/2023-10-05.md",
     "C_Notes/Daily",
     "Linux/Screenshot 2023-09-30 195048.png",
     "Computer_Architecture/Pasted image 20231019172254.png",
     "Computer_Architecture/Images/L10-3.png",
     "Pasted image 20231019165136.png",
-    "Computer_Architecture/Images/L10-2.png",
-    "Pasted image 20231019163326.png",
-    "Computer_Architecture/Images/L9-1.png",
-    "Computer_Architecture/Images/L8-7.png",
-    "Computer_Architecture/Images/L8-4.png",
-    "Computer_Architecture/Images/L8-3.png",
     "Git/Git_Image",
     "C_Notes/Image",
     "C_Notes/Images",
@@ -253,8 +300,6 @@
     "Computer_Architecture/New Folder",
     "L2-3",
     "Computer_Architecture/Untitled 1.canvas",
-    "Computer_Architecture/Untitled.canvas",
-    "Shared-Images",
-    "Windows/Shared Images"
+    "Computer_Architecture/Untitled.canvas"
   ]
 }

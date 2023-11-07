@@ -1,4 +1,7 @@
 {
   "defaultViewMode": "source",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheckDictionary": [
+    "Strava"
+  ]
 }

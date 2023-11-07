@@ -26,3 +26,10 @@ You can also use CSS Grid to align containers to the left and right:
 }
 
 ```
+
+
+## Some problems
+
+![[block_element_problem.png]]
+
+Somehow I add the position to the element it covers the previous element 
