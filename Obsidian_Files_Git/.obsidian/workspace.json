@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C_Notes/C_Memory_Alloc/Basic C Memory Allocation.md",
+                "file": "Pro_comp/Strava Design Evaluation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c08ca9d5380804d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Front_end/JavaScript/Intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eca1da9282ff1ec2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C_Notes/Array.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c74b9fe26f2c10bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Win Taskbar.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C_Notes/C_Memory_Alloc/Basic C Memory Allocation.md",
+                "file": "Windows/Win Taskbar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C_Notes/C_Memory_Alloc/Basic C Memory Allocation.md",
+                "file": "Windows/Win Taskbar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C_Notes/C_Memory_Alloc/Basic C Memory Allocation.md"
+                "file": "Windows/Win Taskbar.md"
               }
             }
           },
@@ -157,16 +194,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c178e98ba864ab6b",
+  "active": "c74b9fe26f2c10bf",
   "lastOpenFiles": [
+    "C_Notes/Array.md",
+    "Untitled.md",
+    "Front_end/JavaScript/JS Resources.md",
+    "Front_end/JavaScript/Intro.md",
+    "Front_end/JavaScript/Images",
+    "Front_end/JavaScript/Images/Pasted image 20231108153956.png",
+    "Pro_comp/Strava Design Evaluation.md",
+    "Front_end/JavaScript",
+    "C_Notes/C_Memory_Alloc/Basic C Memory Allocation.md",
     "C_Notes/Image/Pasted image 20231107221130.png",
     "C_Notes/Pointer Compatibility.md",
     "C_Notes/Image/Pasted image 20231107214452.png",
-    "C_Notes/C_Memory_Alloc/Basic C Memory Allocation.md",
     "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
     "Linux/Different ways to locate files in Linux.md",
     "C_Notes/Fancy Declarations.md",
-    "Pro_comp/Strava Design Evaluation.md",
     "Pro_comp/Pasted image 20231107095041.png",
     "C_Notes/Queue.md",
     "Fndmtl_Math/Day 02.md",
@@ -193,19 +237,12 @@
     "Py_Note/Data type.md",
     "Py_Note/Basic Syntax.md",
     "Linux/Linux Desktop.md",
-    "Linux/Add obs Command to bashrc.md",
-    "Git/Git-Line-Ending-Style.md",
-    "Windows/Win Taskbar.md",
     "C_Notes/Daily",
     "Linux/Screenshot 2023-09-30 195048.png",
-    "Computer_Architecture/Pasted image 20231019172254.png",
-    "Computer_Architecture/Images/L10-3.png",
     "Git/Git_Image",
     "C_Notes/Image",
     "C_Notes/Images",
     "Excalidraw",
-    "Computer_Architecture/Images",
-    "Computer_Architecture/New Folder",
     "Computer_Architecture/Untitled 1.canvas",
     "Computer_Architecture/Untitled.canvas"
   ]

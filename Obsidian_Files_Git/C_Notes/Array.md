@@ -109,3 +109,58 @@ pz[2][1] = 3
 zippo[m][n] == *(*(zippo + m) + n)  
 pz[m][n] == *(*(pz + m) + n)
 ```
+
+
+
+## Using Sizeof 
+
+To prevent the hardcoding of dimensions in a loop, the `sizeof()` function is used as follows:
+
+```c
+rowDimension = sizeof(matrix)/sizeof(matrix[0]);
+columnDimension = sizeof(matrix[0])/sizeof(dataType);
+```
+
+# Review
+
+
+Good Job! You have just completed the lesson on [arrays](https://www.codecademy.com/resources/docs/c/arrays), probably the most used data structure in software development. Here is a quick recap of everything:
+
+- Arrays are a special data type that allows you to group together many [variables](https://www.codecademy.com/resources/docs/c/variables) that are related. An array of 100 elements saves you the trouble of having to create 100 variables in your code.
+    
+- Arrays can be of any data type, be it primitive, custom-made, or even other arrays.
+    
+- ==Arrays are immutable, so the number of elements must be known at creation time in order for the program to know how much memory to reserve.==
+    
+- After creation, elements may not be added or deleted from the array.
+    
+- Upon creation, an array can be initialized or uninitialized.
+    
+- A single dimension uninitialized array is created like this:
+    
+    - > `data_type name[array_size];`
+        
+- A single dimension initialized array is created like this:
+    
+    - > `data_type` name[] = {`first_value’, ‘second_value’, ‘third_value’, …};
+        
+- In the initialized case, the size of the array is inferred from the number of elements that are supplied.
+    
+- All elements of an array occupy contiguous locations in memory.
+    
+- An element in an array can be accessed like so:
+    
+    - > `arr[idx]`
+        
+- The first element in an array is always at index 0, the last element is at index `array_length - 1`, the _n_th element is at index `n-1`.
+    
+- Elements in an array can be modified like this:
+    
+    - > `arr[idx] = new_value`
+        
+- Since arrays usually contain many elements, the most efficient way to work with them is by using a loop (`for` loop or `while` loop).
+    
+- Multidimensional arrays are simply arrays of arrays. They are created, accessed, and modified in the same way as their single dimension counterpart.
+    
+
+At this point, you should be comfortable working with arrays when you need to. Use them wisely!
