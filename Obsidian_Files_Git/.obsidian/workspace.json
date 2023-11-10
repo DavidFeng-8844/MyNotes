@@ -8,91 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c178e98ba864ab6b",
+            "id": "22bdd6515fd08c11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pro_comp/Strava Design Evaluation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c08ca9d5380804d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Front_end/JavaScript/Intro.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eca1da9282ff1ec2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C_Notes/Array.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c74b9fe26f2c10bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C_Notes/Array.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a54d7d89b390a00b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C_Notes/C Strings.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51c5a7250c245260",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C_Notes/Array.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "862db588721056c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C_Notes/Pointers.md",
+                "file": "Pro_comp_cwk2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C_Notes/Pointers.md",
+                "file": "Pro_comp_cwk2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C_Notes/Pointers.md",
+                "file": "Pro_comp_cwk2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C_Notes/Pointers.md"
+                "file": "Pro_comp_cwk2.md"
               }
             }
           },
@@ -230,55 +157,55 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e6dd0a8950805847",
+  "active": "22bdd6515fd08c11",
   "lastOpenFiles": [
     "C_Notes/Array.md",
-    "C_Notes/Pointers.md",
     "C_Notes/C Strings.md",
+    "Front_end/JavaScript/Intro.md",
+    "Pro_comp_cwk2.md",
+    "Images.md",
+    "Pro_comp/Images",
+    "Fndmtl_Math/Day 01.md",
+    "Fndmtl_Math/Day 07.md",
+    "C_Notes/C_Memory_Alloc/Basic C Memory Allocation.md",
+    "C_Notes/C_Memory_Alloc/C Memory.md",
+    "Pasted image 20231110103314.png",
+    "C_Notes/Pointers.md",
+    "Pro_comp/Strava Design Evaluation.md",
     "C_Notes/Switch.md",
     "Windows/Win Taskbar.md",
     "Front_end/JavaScript/JS Resources.md",
-    "Front_end/JavaScript/Intro.md",
     "Front_end/JavaScript/Images",
     "Front_end/JavaScript/Images/Pasted image 20231108153956.png",
-    "Pro_comp/Strava Design Evaluation.md",
     "Front_end/JavaScript",
-    "C_Notes/C_Memory_Alloc/Basic C Memory Allocation.md",
     "C_Notes/Image/Pasted image 20231107221130.png",
     "C_Notes/Pointer Compatibility.md",
     "C_Notes/Image/Pasted image 20231107214452.png",
     "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
     "Linux/Different ways to locate files in Linux.md",
     "C_Notes/Fancy Declarations.md",
-    "Pro_comp/Pasted image 20231107095041.png",
+    "Pro_comp/Images/Pasted image 20231107095041.png",
     "C_Notes/Queue.md",
     "Fndmtl_Math/Day 02.md",
     "Untitled.canvas",
     "C_Notes/C_Memory_Alloc",
-    "Pro_comp/Pasted image 20231107094317.png",
-    "Pro_comp/Pasted image 20231107094807.png",
-    "Pro_comp/Pasted image 20231107094321.png",
+    "Pro_comp/Images/Pasted image 20231107094317.png",
+    "Pro_comp/Images/Pasted image 20231107094807.png",
+    "Pro_comp/Images/Pasted image 20231107094321.png",
     "Pro_comp",
     "C_Notes/Image/Pasted image 20231106160715.png",
     "Fndmtl_Math/Day 03.md",
-    "Fndmtl_Math/Day 07.md",
     "Fndmtl_Math/How to type.md",
-    "Fndmtl_Math/Day 01.md",
     "Git/02 Git Delete local Branch.md",
     "Git/git_config.txt",
     "Front_end/CSS/CSS Block.md",
     "Front_end/CSS/CSS 2D Transformers.md",
     "Front_end/CSS/block_element_problem.png",
     "Front_end/CSS/02 CSS Selectors.md",
-    "Computer_Architecture/Lecture 3 Representing Numbers.md",
-    "Computer_Architecture/Lecture 2 Numbering Systems.md",
-    "Py_Note/Python Issue.md",
     "C_Notes/Daily",
-    "Linux/Screenshot 2023-09-30 195048.png",
     "Git/Git_Image",
     "C_Notes/Image",
     "C_Notes/Images",
-    "Excalidraw",
     "Computer_Architecture/Untitled 1.canvas",
     "Computer_Architecture/Untitled.canvas"
   ]
