@@ -53,3 +53,19 @@ less circuit and faster
 
 
 ## Hamming Distance 
+
+Between 2 strings of bits:
+
+the number of bit positions in which 2 strings differ
+
+### Minimum Hamming Distance 
+
+Minimum Hamming Distance of a code
+
+If distance is d , then d single bit errors are required to convert
+any one valid code (string) into another code with the same
+
+
+#### checksum
+
+![[Pasted image 20231112124342.png]]

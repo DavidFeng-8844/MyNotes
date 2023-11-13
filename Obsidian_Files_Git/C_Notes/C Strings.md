@@ -54,3 +54,10 @@ strcpy(dst, src);
 ```
 It is important that the size of the empty character array, `dst`, be greater than or equal to the length of the string `src` plus one for the null character (‘\0’) in order to accommodate all incoming characters. If the `dst` char array is too short, the program will exhibit undefined behavior. Similar to the `strcat()` function, a new string will not be created.
 
+
+## fgets
+
+### IO 
+The system uses buffered I/O. This means the input is stored in temporary memory (the buffer) until the Return key is pressed; this adds a newline character to the input and sends the whole line on to fgets() .
+
+

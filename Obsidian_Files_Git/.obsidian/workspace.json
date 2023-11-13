@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "22bdd6515fd08c11",
+            "id": "f044bb3c6891a723",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pro_comp_cwk2.md",
+                "file": "C_Notes/C Strings.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pro_comp_cwk2.md",
+                "file": "C_Notes/C Strings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pro_comp_cwk2.md",
+                "file": "C_Notes/C Strings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pro_comp_cwk2.md"
+                "file": "C_Notes/C Strings.md"
               }
             }
           },
@@ -157,23 +157,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "22bdd6515fd08c11",
+  "active": "f044bb3c6891a723",
   "lastOpenFiles": [
-    "C_Notes/Array.md",
+    "C_Notes/C Strings 1.md",
     "C_Notes/C Strings.md",
+    "C_Notes/Ternary conditional operator.md",
+    "C_Notes/Compiler Directives.md",
+    "C_Notes/Array.md",
+    "Computer_Architecture/Lecture 7 Memory.md",
+    "Windows/Win Taskbar.md",
+    "Computer_Architecture/Images/Pasted image 20231112124342.png",
+    "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
+    "Pro_comp/Pro_comp_cwk2.md",
     "Front_end/JavaScript/Intro.md",
-    "Pro_comp_cwk2.md",
     "Images.md",
     "Pro_comp/Images",
     "Fndmtl_Math/Day 01.md",
     "Fndmtl_Math/Day 07.md",
     "C_Notes/C_Memory_Alloc/Basic C Memory Allocation.md",
     "C_Notes/C_Memory_Alloc/C Memory.md",
-    "Pasted image 20231110103314.png",
+    "Pro_comp/Images/Pasted image 20231110103314.png",
     "C_Notes/Pointers.md",
     "Pro_comp/Strava Design Evaluation.md",
     "C_Notes/Switch.md",
-    "Windows/Win Taskbar.md",
     "Front_end/JavaScript/JS Resources.md",
     "Front_end/JavaScript/Images",
     "Front_end/JavaScript/Images/Pasted image 20231108153956.png",
@@ -195,13 +201,7 @@
     "Pro_comp",
     "C_Notes/Image/Pasted image 20231106160715.png",
     "Fndmtl_Math/Day 03.md",
-    "Fndmtl_Math/How to type.md",
-    "Git/02 Git Delete local Branch.md",
     "Git/git_config.txt",
-    "Front_end/CSS/CSS Block.md",
-    "Front_end/CSS/CSS 2D Transformers.md",
-    "Front_end/CSS/block_element_problem.png",
-    "Front_end/CSS/02 CSS Selectors.md",
     "C_Notes/Daily",
     "Git/Git_Image",
     "C_Notes/Image",
