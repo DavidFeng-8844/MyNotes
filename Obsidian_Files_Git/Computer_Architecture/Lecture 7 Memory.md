@@ -69,3 +69,12 @@ any one valid code (string) into another code with the same
 #### checksum
 
 ![[Pasted image 20231112124342.png]]
+#Hamming_Distance
+## Reference
+1. 
+![[Pasted image 20231115174033.png]]
+[(7,4) Hamming Code (asecuritysite.com)](https://asecuritysite.com/calculators/hamming)
+
+2. Error-Correcting Codes
+	Andrew S, Computer Architecture, 2.2.4 Error-Correcting Codes (P78)
+![[Pasted image 20231115230621.png]]

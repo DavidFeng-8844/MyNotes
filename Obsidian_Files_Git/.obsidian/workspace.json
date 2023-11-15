@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C_Notes/C Strings.md",
+                "file": "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C_Notes/C Strings.md",
+                "file": "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C_Notes/C Strings.md",
+                "file": "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C_Notes/C Strings.md"
+                "file": "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md"
               }
             }
           },
@@ -159,15 +159,24 @@
   },
   "active": "f044bb3c6891a723",
   "lastOpenFiles": [
-    "C_Notes/C Strings 1.md",
+    "Computer_Architecture/Lecture 2 Numbering Systems.md",
+    "Computer_Architecture/Lecture 7 Memory.md",
+    "Computer_Architecture/Lecture 8 Cache Memory 1.md",
+    "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
+    "Computer_Architecture/Lecture 5 Computer Architecture.md",
+    "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
+    "Computer_Architecture/Lecture 3 Representing Numbers.md",
+    "Computer_Architecture/Lecture 9 Bus and IO.md",
+    "Computer_Architecture/Images/Pasted image 20231115174042.png",
+    "Computer_Architecture/Images/Pasted image 20231115230621.png",
+    "Computer_Architecture/Images/Pasted image 20231115174033.png",
     "C_Notes/C Strings.md",
+    "C_Notes/C Strings 1.md",
     "C_Notes/Ternary conditional operator.md",
     "C_Notes/Compiler Directives.md",
     "C_Notes/Array.md",
-    "Computer_Architecture/Lecture 7 Memory.md",
     "Windows/Win Taskbar.md",
     "Computer_Architecture/Images/Pasted image 20231112124342.png",
-    "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
     "Pro_comp/Pro_comp_cwk2.md",
     "Front_end/JavaScript/Intro.md",
     "Images.md",
@@ -187,20 +196,11 @@
     "C_Notes/Image/Pasted image 20231107221130.png",
     "C_Notes/Pointer Compatibility.md",
     "C_Notes/Image/Pasted image 20231107214452.png",
-    "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
-    "Linux/Different ways to locate files in Linux.md",
-    "C_Notes/Fancy Declarations.md",
     "Pro_comp/Images/Pasted image 20231107095041.png",
-    "C_Notes/Queue.md",
-    "Fndmtl_Math/Day 02.md",
     "Untitled.canvas",
     "C_Notes/C_Memory_Alloc",
     "Pro_comp/Images/Pasted image 20231107094317.png",
-    "Pro_comp/Images/Pasted image 20231107094807.png",
-    "Pro_comp/Images/Pasted image 20231107094321.png",
     "Pro_comp",
-    "C_Notes/Image/Pasted image 20231106160715.png",
-    "Fndmtl_Math/Day 03.md",
     "Git/git_config.txt",
     "C_Notes/Daily",
     "Git/Git_Image",
