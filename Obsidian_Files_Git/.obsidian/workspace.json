@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
+                "file": "Pro_comp/Pro_cp_cwk2/Pro_comp_cwk2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
+                "file": "Pro_comp/Pro_cp_cwk2/Pro_comp_cwk2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
+                "file": "Pro_comp/Pro_cp_cwk2/Pro_comp_cwk2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md"
+                "file": "Pro_comp/Pro_cp_cwk2/Pro_comp_cwk2.md"
               }
             }
           },
@@ -157,14 +157,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f044bb3c6891a723",
+  "active": "e6dd0a8950805847",
   "lastOpenFiles": [
+    "Pro_comp/Pro_cp_cwk2",
+    "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
     "Computer_Architecture/Lecture 2 Numbering Systems.md",
     "Computer_Architecture/Lecture 7 Memory.md",
     "Computer_Architecture/Lecture 8 Cache Memory 1.md",
     "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
     "Computer_Architecture/Lecture 5 Computer Architecture.md",
-    "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
     "Computer_Architecture/Lecture 3 Representing Numbers.md",
     "Computer_Architecture/Lecture 9 Bus and IO.md",
     "Computer_Architecture/Images/Pasted image 20231115174042.png",
@@ -177,7 +178,7 @@
     "C_Notes/Array.md",
     "Windows/Win Taskbar.md",
     "Computer_Architecture/Images/Pasted image 20231112124342.png",
-    "Pro_comp/Pro_comp_cwk2.md",
+    "Pro_comp/Pro_cp_cwk2/Pro_comp_cwk2.md",
     "Front_end/JavaScript/Intro.md",
     "Images.md",
     "Pro_comp/Images",
@@ -194,7 +195,6 @@
     "Front_end/JavaScript/Images/Pasted image 20231108153956.png",
     "Front_end/JavaScript",
     "C_Notes/Image/Pasted image 20231107221130.png",
-    "C_Notes/Pointer Compatibility.md",
     "C_Notes/Image/Pasted image 20231107214452.png",
     "Pro_comp/Images/Pasted image 20231107095041.png",
     "Untitled.canvas",
