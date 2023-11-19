@@ -37,11 +37,13 @@ In mathematics, a relation is a fundamental concept that describes how elements 
 3. **Properties of Relations:**
     
     - **Reflexivity:** A relation R on a set A is reflexive if (a, a) ∈ R for every element a in A. In other words, every element is related to itself.
+	    - Irreflexive $\all(a,a)\subsetR$ (Total not reflexive)
     - **Symmetry:** A relation R on a set A is symmetric if (a, b) ∈ R implies (b, a) ∈ R for all a, b in A.
     - **Transitivity:** A relation R on a set A is transitive if (a, b) ∈ R and (b, c) ∈ R imply (a, c) ∈ R for all a, b, c in A.
-4. **Equivalence Relations:** Equivalence relations are a special type of relation that satisfies reflexivity, symmetry, and transitivity. They are often used to partition a set into equivalence classes, where elements within each class are related to each other in an equivalent manner.
+	    - Assymetry 
+1. **Equivalence Relations:** Equivalence relations are a special type of relation that satisfies reflexivity, symmetry, and transitivity. They are often used to partition a set into equivalence classes, where elements within each class are related to each other in an equivalent manner.
     
-5. **Partial Orders:** A partial order is a relation that is reflexive, antisymmetric, and transitive. It's used to define a partial order on a set of elements, leading to concepts like partially ordered sets (posets).
+5. **Partial Orders:** A partial order is a relation that is ==reflexive, antisymmetric, and transitive.== It's used to define a partial order on a set of elements, leading to concepts like partially ordered sets (posets).
     
 6. **Total Orders:** A total order is a partial order in which every pair of elements is comparable. In a total order, for any two distinct elements a and b, either (a, b) or (b, a) is in the relation.
     

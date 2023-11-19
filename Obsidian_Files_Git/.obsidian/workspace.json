@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pro_comp/Pro_cp_cwk2/Pro_comp_cwk2.md",
+                "file": "C_Notes/Switch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ba70b48a39edbe8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Front_end/JavaScript/Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7e915e59f0e8ee4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Others/Garbage_MtrCtrl/Garbage_Motor_control/NEMA Motor.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pro_comp/Pro_cp_cwk2/Pro_comp_cwk2.md",
+                "file": "Others/Garbage_MtrCtrl/Garbage_Motor_control/NEMA Motor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pro_comp/Pro_cp_cwk2/Pro_comp_cwk2.md",
+                "file": "Others/Garbage_MtrCtrl/Garbage_Motor_control/NEMA Motor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pro_comp/Pro_cp_cwk2/Pro_comp_cwk2.md"
+                "file": "Others/Garbage_MtrCtrl/Garbage_Motor_control/NEMA Motor.md"
               }
             }
           },
@@ -159,6 +184,18 @@
   },
   "active": "e6dd0a8950805847",
   "lastOpenFiles": [
+    "Others",
+    "Front_end/JavaScript/Objects.md",
+    "Front_end/JavaScript/Functions.md",
+    "C_Notes/Switch.md",
+    "Fndmtl_Math/Images/Pasted image 20230911114447.png",
+    "Fndmtl_Math/Images",
+    "Fndmtl_Math/Day 08.md",
+    "Fndmtl_Math/Day 07.md",
+    "Fndmtl_Math/Day 10.md",
+    "Fndmtl_Math/Day 09.md",
+    "Fndmtl_Math/Day 03.md",
+    "Pro_comp/Pro_cp_cwk2/Pro_comp_cwk2.md",
     "Pro_comp/Pro_cp_cwk2",
     "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
     "Computer_Architecture/Lecture 2 Numbering Systems.md",
@@ -178,19 +215,10 @@
     "C_Notes/Array.md",
     "Windows/Win Taskbar.md",
     "Computer_Architecture/Images/Pasted image 20231112124342.png",
-    "Pro_comp/Pro_cp_cwk2/Pro_comp_cwk2.md",
     "Front_end/JavaScript/Intro.md",
     "Images.md",
     "Pro_comp/Images",
-    "Fndmtl_Math/Day 01.md",
-    "Fndmtl_Math/Day 07.md",
-    "C_Notes/C_Memory_Alloc/Basic C Memory Allocation.md",
-    "C_Notes/C_Memory_Alloc/C Memory.md",
     "Pro_comp/Images/Pasted image 20231110103314.png",
-    "C_Notes/Pointers.md",
-    "Pro_comp/Strava Design Evaluation.md",
-    "C_Notes/Switch.md",
-    "Front_end/JavaScript/JS Resources.md",
     "Front_end/JavaScript/Images",
     "Front_end/JavaScript/Images/Pasted image 20231108153956.png",
     "Front_end/JavaScript",
@@ -199,13 +227,10 @@
     "Pro_comp/Images/Pasted image 20231107095041.png",
     "Untitled.canvas",
     "C_Notes/C_Memory_Alloc",
-    "Pro_comp/Images/Pasted image 20231107094317.png",
     "Pro_comp",
     "Git/git_config.txt",
     "C_Notes/Daily",
     "Git/Git_Image",
-    "C_Notes/Image",
-    "C_Notes/Images",
     "Computer_Architecture/Untitled 1.canvas",
     "Computer_Architecture/Untitled.canvas"
   ]
