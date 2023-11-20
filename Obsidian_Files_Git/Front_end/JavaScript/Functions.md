@@ -1,3 +1,6 @@
+## Initialize a function
+![[Pasted image 20231120102227.png]]
+
 ## Call back Functions 
 
 ```Javascript

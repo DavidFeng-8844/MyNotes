@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Others/Garbage_MtrCtrl/Garbage_Motor_control/NEMA Motor.md",
+                "file": "Front_end/JavaScript/Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Others/Garbage_MtrCtrl/Garbage_Motor_control/NEMA Motor.md",
+                "file": "Front_end/JavaScript/Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Others/Garbage_MtrCtrl/Garbage_Motor_control/NEMA Motor.md",
+                "file": "Front_end/JavaScript/Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Others/Garbage_MtrCtrl/Garbage_Motor_control/NEMA Motor.md"
+                "file": "Front_end/JavaScript/Functions.md"
               }
             }
           },
@@ -182,8 +182,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e6dd0a8950805847",
+  "active": "c7e915e59f0e8ee4",
   "lastOpenFiles": [
+    "Front_end/JavaScript/Images/Pasted image 20231120102227.png",
+    "Fndmtl_Math/Day 05.md",
+    "Others/Garbage_MtrCtrl/Garbage_Motor_control/NEMA Motor.md",
     "Others",
     "Front_end/JavaScript/Objects.md",
     "Front_end/JavaScript/Functions.md",
@@ -215,8 +218,6 @@
     "C_Notes/Array.md",
     "Windows/Win Taskbar.md",
     "Computer_Architecture/Images/Pasted image 20231112124342.png",
-    "Front_end/JavaScript/Intro.md",
-    "Images.md",
     "Pro_comp/Images",
     "Pro_comp/Images/Pasted image 20231110103314.png",
     "Front_end/JavaScript/Images",
@@ -230,7 +231,6 @@
     "Pro_comp",
     "Git/git_config.txt",
     "C_Notes/Daily",
-    "Git/Git_Image",
     "Computer_Architecture/Untitled 1.canvas",
     "Computer_Architecture/Untitled.canvas"
   ]
