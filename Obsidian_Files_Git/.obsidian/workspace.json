@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C_Notes/Leeds_C/C week11.md",
+                "file": "Fndmtl_Math/Day 01.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C_Notes/Leeds_C/C week11.md",
+                "file": "Fndmtl_Math/Day 01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C_Notes/Leeds_C/C week11.md",
+                "file": "Fndmtl_Math/Day 01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C_Notes/Leeds_C/C week11.md"
+                "file": "Fndmtl_Math/Day 01.md"
               }
             }
           },
@@ -194,12 +194,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e6dd0a8950805847",
+  "active": "ca35d56f92f31bfc",
   "lastOpenFiles": [
+    "Fndmtl_Math/Day 04.md",
+    "Fndmtl_Math/Day 03.md",
+    "Fndmtl_Math/Day 02.md",
+    "Fndmtl_Math/Day 01.md",
+    "Fndmtl_Math/Day 06.md",
+    "Fndmtl_Math/Images/Pasted image 20231120164941.png",
+    "C_Notes/Leeds_C/C week11.md",
     "C_Notes/Leeds_C",
     "C_Notes/Image/Pasted image 20231120143930.png",
     "Front_end/JavaScript/Functions.md",
-    "C_Notes/Leeds_C/C week11.md",
     "Front_end/JavaScript/Images/Pasted image 20231120121355.png",
     "Front_end/JavaScript/Images/Pasted image 20231120121052.png",
     "Front_end/JavaScript/Images/Pasted image 20231120112638.png",
@@ -215,7 +221,6 @@
     "Fndmtl_Math/Day 07.md",
     "Fndmtl_Math/Day 10.md",
     "Fndmtl_Math/Day 09.md",
-    "Fndmtl_Math/Day 03.md",
     "Pro_comp/Pro_cp_cwk2/Pro_comp_cwk2.md",
     "Pro_comp/Pro_cp_cwk2",
     "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
@@ -231,10 +236,6 @@
     "Computer_Architecture/Images/Pasted image 20231115174033.png",
     "C_Notes/C Strings.md",
     "C_Notes/C Strings 1.md",
-    "C_Notes/Ternary conditional operator.md",
-    "C_Notes/Compiler Directives.md",
-    "C_Notes/Array.md",
-    "Computer_Architecture/Images/Pasted image 20231112124342.png",
     "Pro_comp/Images",
     "Front_end/JavaScript/Images",
     "Front_end/JavaScript",
@@ -242,7 +243,6 @@
     "C_Notes/C_Memory_Alloc",
     "Pro_comp",
     "Git/git_config.txt",
-    "C_Notes/Daily",
     "Computer_Architecture/Untitled 1.canvas",
     "Computer_Architecture/Untitled.canvas"
   ]

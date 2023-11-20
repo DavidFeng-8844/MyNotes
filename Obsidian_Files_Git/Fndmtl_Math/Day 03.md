@@ -57,6 +57,9 @@ happens we write α ⊨ β. When it does not happen we write α ⊭ β.
 ## Equivalence
 ![[Pasted image 20230906113453.png]]
 ![[Pasted image 20230906113730.png]]
+
+## De Morgan's Law: 
+
 Some key ones:
 ¬(p ∧ q) ≡ ¬p ∨ ¬q De Morgan’s law:
 negated conjunction

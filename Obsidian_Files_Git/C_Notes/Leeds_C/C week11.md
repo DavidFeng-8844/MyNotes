@@ -32,3 +32,30 @@ gcc mod1.o mod2.o main.o -o dbtest
 ## Extern Variables 
 
 ![[Pasted image 20231120143930.png]]
+
+---
+### -E
+In the context of the `gcc` compiler, the `-E` option is used to instruct the compiler to stop after the preprocessing stage and output the result to the standard output (usually the console or terminal).
+```c
+gcc -E source.c
+```
+
+## -D 
+The `-D` option in the context of the `gcc` compiler is used to define a macro during the compilation process. This option allows you to specify macro definitions directly on the command line. The syntax is as follows:
+```c
+gcc -D<macro_name>=<value> source.c
+```
+
+### ifndef
+The `#ifndef` (if not defined) directive is a preprocessor directive in C that checks whether a particular macro is not defined. If the specified macro is not defined, the code between `#ifndef` and a corresponding `#endif` is included during the preprocessing stage. If the macro is defined, the code is skipped.
+```c
+#ifndef MY_HEADER_FILE
+#define MY_HEADER_FILE
+
+// Your header file contents go here
+
+#endif // MY_HEADER_FILE
+
+```
+
+

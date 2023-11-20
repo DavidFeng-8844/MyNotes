@@ -1,20 +1,3 @@
-
-	Arragement
-
-20 class each 90 mins 
-	Textbook Discrete math
-	Mcgraw hill
-
-
-
-
-Definition in CS 
-
-adj 
-noun 
-
-
-
 ## <mark style="background: #FFB8EBA6;">Sets</mark>
 
 >Def: A set is a collection of things 
@@ -61,7 +44,8 @@ $\{1,2\}$ and $\{2, 1\}$ is the same set
 
 >Def: A subset of a set, X, means a set every element of which is also
 an element of X. The empty set is a subset of every set.
-
+	Symbolically, A $\subseteq$ B 
+	$\forall x$ (x $\in$ A $\rightarrow$ x $\in$ B) 
 >Syntax 
 >If A is a subset of X we write A $\subseteq$ X.
 >
@@ -87,18 +71,7 @@ say A is a proper superset of B, denoted A ⊃ B, if B ⊂ A.
 
 >![[Pasted image 20230904222911.png]]
 
--------
-
-
-
-
-
-
-
-
-
 {2} {1} {0} {1}
-
 {{2}, {1} {} {1}}
 
 ----------------
