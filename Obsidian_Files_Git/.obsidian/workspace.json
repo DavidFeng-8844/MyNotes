@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ca35d56f92f31bfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C_Notes/Leeds_C/C week11.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Front_end/JavaScript/Functions.md",
+                "file": "C_Notes/Leeds_C/C week11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Front_end/JavaScript/Functions.md",
+                "file": "C_Notes/Leeds_C/C week11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Front_end/JavaScript/Functions.md"
+                "file": "C_Notes/Leeds_C/C week11.md"
               }
             }
           },
@@ -182,14 +194,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c7e915e59f0e8ee4",
+  "active": "e6dd0a8950805847",
   "lastOpenFiles": [
+    "C_Notes/Leeds_C",
+    "C_Notes/Image/Pasted image 20231120143930.png",
+    "Front_end/JavaScript/Functions.md",
+    "C_Notes/Leeds_C/C week11.md",
+    "Front_end/JavaScript/Images/Pasted image 20231120121355.png",
+    "Front_end/JavaScript/Images/Pasted image 20231120121052.png",
+    "Front_end/JavaScript/Images/Pasted image 20231120112638.png",
     "Front_end/JavaScript/Images/Pasted image 20231120102227.png",
     "Fndmtl_Math/Day 05.md",
     "Others/Garbage_MtrCtrl/Garbage_Motor_control/NEMA Motor.md",
     "Others",
     "Front_end/JavaScript/Objects.md",
-    "Front_end/JavaScript/Functions.md",
     "C_Notes/Switch.md",
     "Fndmtl_Math/Images/Pasted image 20230911114447.png",
     "Fndmtl_Math/Images",
@@ -216,16 +234,10 @@
     "C_Notes/Ternary conditional operator.md",
     "C_Notes/Compiler Directives.md",
     "C_Notes/Array.md",
-    "Windows/Win Taskbar.md",
     "Computer_Architecture/Images/Pasted image 20231112124342.png",
     "Pro_comp/Images",
-    "Pro_comp/Images/Pasted image 20231110103314.png",
     "Front_end/JavaScript/Images",
-    "Front_end/JavaScript/Images/Pasted image 20231108153956.png",
     "Front_end/JavaScript",
-    "C_Notes/Image/Pasted image 20231107221130.png",
-    "C_Notes/Image/Pasted image 20231107214452.png",
-    "Pro_comp/Images/Pasted image 20231107095041.png",
     "Untitled.canvas",
     "C_Notes/C_Memory_Alloc",
     "Pro_comp",
