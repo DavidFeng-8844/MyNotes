@@ -54,9 +54,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bae532cd9eea5672",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fndmtl_Math/Day 01.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "943540f03a6b4723",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Front_end/JavaScript/JS Iterators.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -122,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fndmtl_Math/Day 01.md",
+                "file": "Front_end/JavaScript/JS Iterators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fndmtl_Math/Day 01.md",
+                "file": "Front_end/JavaScript/JS Iterators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fndmtl_Math/Day 01.md"
+                "file": "Front_end/JavaScript/JS Iterators.md"
               }
             }
           },
@@ -194,13 +218,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ca35d56f92f31bfc",
+  "active": "943540f03a6b4723",
   "lastOpenFiles": [
-    "Fndmtl_Math/Day 04.md",
-    "Fndmtl_Math/Day 03.md",
-    "Fndmtl_Math/Day 02.md",
+    "Front_end/JavaScript/Images/Pasted image 20231122212524.png",
     "Fndmtl_Math/Day 01.md",
+    "Front_end/JavaScript/JS Iterators.md",
+    "Untitled",
+    "Fndmtl_Math/Day 02.md",
+    "Fndmtl_Math/Day 04.md",
+    "Fndmtl_Math/Day 07.md",
     "Fndmtl_Math/Day 06.md",
+    "C_Notes/Printf.md",
+    "Fndmtl_Math/Day 03.md",
     "Fndmtl_Math/Images/Pasted image 20231120164941.png",
     "C_Notes/Leeds_C/C week11.md",
     "C_Notes/Leeds_C",
@@ -218,7 +247,6 @@
     "Fndmtl_Math/Images/Pasted image 20230911114447.png",
     "Fndmtl_Math/Images",
     "Fndmtl_Math/Day 08.md",
-    "Fndmtl_Math/Day 07.md",
     "Fndmtl_Math/Day 10.md",
     "Fndmtl_Math/Day 09.md",
     "Pro_comp/Pro_cp_cwk2/Pro_comp_cwk2.md",
@@ -230,19 +258,15 @@
     "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
     "Computer_Architecture/Lecture 5 Computer Architecture.md",
     "Computer_Architecture/Lecture 3 Representing Numbers.md",
-    "Computer_Architecture/Lecture 9 Bus and IO.md",
     "Computer_Architecture/Images/Pasted image 20231115174042.png",
     "Computer_Architecture/Images/Pasted image 20231115230621.png",
     "Computer_Architecture/Images/Pasted image 20231115174033.png",
-    "C_Notes/C Strings.md",
-    "C_Notes/C Strings 1.md",
     "Pro_comp/Images",
     "Front_end/JavaScript/Images",
     "Front_end/JavaScript",
     "Untitled.canvas",
     "C_Notes/C_Memory_Alloc",
     "Pro_comp",
-    "Git/git_config.txt",
     "Computer_Architecture/Untitled 1.canvas",
     "Computer_Architecture/Untitled.canvas"
   ]
