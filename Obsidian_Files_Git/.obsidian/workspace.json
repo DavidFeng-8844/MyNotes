@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C_Notes/Switch.md",
+                "file": "Front_end/JavaScript/JS Objects.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,8 +79,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +129,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.00004196166992
+    "width": 200
   },
   "right": {
     "id": "4afa32b7c7ce18c6",
@@ -146,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Front_end/JavaScript/JS Iterators.md",
+                "file": "Front_end/JavaScript/JS Objects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Front_end/JavaScript/JS Iterators.md",
+                "file": "Front_end/JavaScript/JS Objects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Front_end/JavaScript/JS Iterators.md"
+                "file": "Front_end/JavaScript/JS Objects.md"
               }
             }
           },
@@ -218,11 +217,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "943540f03a6b4723",
+  "active": "f044bb3c6891a723",
   "lastOpenFiles": [
+    "C_Notes/Switch.md",
+    "Front_end/JavaScript/JS Iterators.md",
+    "Front_end/JavaScript/JS Objects.md",
     "Front_end/JavaScript/Images/Pasted image 20231122212524.png",
     "Fndmtl_Math/Day 01.md",
-    "Front_end/JavaScript/JS Iterators.md",
     "Untitled",
     "Fndmtl_Math/Day 02.md",
     "Fndmtl_Math/Day 04.md",
@@ -243,7 +244,6 @@
     "Others/Garbage_MtrCtrl/Garbage_Motor_control/NEMA Motor.md",
     "Others",
     "Front_end/JavaScript/Objects.md",
-    "C_Notes/Switch.md",
     "Fndmtl_Math/Images/Pasted image 20230911114447.png",
     "Fndmtl_Math/Images",
     "Fndmtl_Math/Day 08.md",
@@ -260,7 +260,6 @@
     "Computer_Architecture/Lecture 3 Representing Numbers.md",
     "Computer_Architecture/Images/Pasted image 20231115174042.png",
     "Computer_Architecture/Images/Pasted image 20231115230621.png",
-    "Computer_Architecture/Images/Pasted image 20231115174033.png",
     "Pro_comp/Images",
     "Front_end/JavaScript/Images",
     "Front_end/JavaScript",
