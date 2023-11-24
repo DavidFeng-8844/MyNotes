@@ -12,8 +12,9 @@ We fill an object with unordered data. This data is organized into ==key-value 
 A key’s value can be of any data type in the language including functions or other objects.
 
 We make a key-value pair by writing the key’s name, or _identifier_, followed by a colon and then the value. We separate each key-value pair in an object literal with a comma (`,`). Keys are strings, but when we have a key that does not have any special characters in it, JavaScript allows us to omit the quotation marks:
-```
-// An object literal with two key-value pairslet spaceship = {  'Fuel Type': 'diesel',  color: 'silver'};
+```JavaScript
+// An object literal with two key-value pairslet 
+spaceship = {  'Fuel Type': 'diesel',  color: 'silver'};
 ```
 
 The `spaceship` object has two properties `Fuel Type` and `color`. `'Fuel Type'` has quotation marks because it contains a space character.
@@ -27,13 +28,13 @@ There are two ways we can access an object’s property. Let’s explore the fir
 
 You’ve used dot notation to access the properties and methods of built-in objects and data instances:
 
-```
+```JavaScript
 'hello'.length; // Returns 5
 ```
 
 With property dot notation, we write the object’s name, followed by the dot operator and then the property name (key):
 
-```
+```JavaScript
 let spaceship = {  homePlanet: 'Earth',  color: 'silver'};spaceship.homePlanet; // Returns 'Earth',spaceship.color; // Returns 'silver',
 ```
 
@@ -51,7 +52,7 @@ The second way to access a key’s value is by using bracket notation, `[ ]`.
 
 You’ve used bracket notation when indexing an array:
 
-```
+```JavaScript
 ['A', 'B', 'C'][0]; // Returns 'A'
 ```
 
@@ -74,7 +75,7 @@ spaceship['!!!!!!!!!!!!!!!'];   // Returns undefined
 
 With bracket notation you can also use a variable inside the brackets to select the keys of an object. This can be especially helpful when working with functions:
 
-```
+```JavaScript
 let returnAnyProp = (objectName, propName) => objectName[propName]; returnAnyProp(spaceship, 'homePlanet'); // Returns 'Earth'
 ```
 
@@ -293,3 +294,328 @@ Let’s review what we learned in this lesson:
 - Objects are mutable—we can change their properties even when they’re declared with `const`.
 - Objects are passed by reference— when we make changes to an object passed into a function, those changes are permanent.
 - We can iterate through objects using the `For...in` syntax.
+
+---
+# Advanced Objects 
+
+### The this Keyword
+
+Objects are collections of related data and functionality. We store that functionality in methods on our objects:
+
+```JavaScript
+const goat = {  
+  dietType: 'herbivore',  
+  makeSound() {  
+    console.log('baaa');  
+  }  
+};
+```
+
+In our `goat` object we have a `.makeSound()` method. We can invoke the `.makeSound()` method on `goat`.
+
+```JavaScript
+goat.makeSound(); // Prints baaa
+```
+
+Nice, we have a `goat` object that can print `baaa` to the console. Everything seems to be working fine. What if we wanted to add a new method to our `goat` object called `.diet()` that prints the `goat`‘s `dietType`?
+
+```JavaScript
+const goat = {  
+  dietType: 'herbivore',  
+  makeSound() {  
+    console.log('baaa');  
+  },  
+  diet() {  
+    console.log(dietType);  
+	  }  
+};  
+goat.diet();  
+// Output will be "ReferenceError: dietType is not defined"
+```
+
+That’s strange, why is `dietType` not defined even though it’s a property of `goat`? That’s because inside the scope of the `.diet()` method, we don’t automatically have access to other properties of the `goat` object.
+
+Here’s where the [`this`](https://www.codecademy.com/resources/docs/javascript/this?page_ref=catalog) keyword comes to the rescue. ==If we change the `.diet()` method to use the `this`, the `.diet()` works! :==
+
+```JavaScript
+const goat = {  
+  dietType: 'herbivore',  
+  makeSound() {  
+    console.log('baaa');  
+  },  
+  diet() {  
+    console.log(this.dietType);  
+  }  
+};  
+  
+goat.diet();  
+// Output: herbivore
+```
+
+The `this` keyword references the _calling object_ which provides access to the calling object’s properties. In the example above, the calling object is `goat` and by using `this` we’re accessing the `goat` object itself, and then the `dietType` property of `goat` by using property dot notation.
+
+Let’s get comfortable using the `this` keyword in a method.
+
+### Arrow Functions and this
+
+We saw in the previous exercise that for a method, the calling object is the object the method belongs to. If we use the [`this`](https://www.codecademy.com/resources/docs/javascript/this?page_ref=catalog) keyword in a method then the value of `this` is the calling object. However, it becomes a bit more complicated when we start using arrow functions for methods. Take a look at the example below:
+
+```JavaScript
+const goat = {  
+  dietType: 'herbivore',  
+  makeSound() {  
+    console.log('baaa');  
+  },  
+  diet: () => {  
+    console.log(this.dietType);  
+  }  
+};  
+  
+goat.diet(); // Prints undefined
+```
+
+In the comment, you can see that `goat.diet()` would log `undefined`. So what happened? Notice that the `.diet()` method is defined using an arrow function.
+
+Arrow functions inherently _bind_, or tie, an already defined `this` value to the function itself that is NOT the calling object. In the code snippet above, the value of `this` is the _global object_, or an object that exists in the global scope, which doesn’t have a `dietType` property and therefore returns `undefined`.
+
+To read more about either arrow functions or the global object check out the MDN documentation of [the global object](https://developer.mozilla.org/en-US/docs/Glossary/Global_object) and [arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions).
+
+The key takeaway from the example above is to _avoid_ using arrow functions when using `this` in a method!
+
+### Privacy
+
+Accessing and updating properties is fundamental in working with objects. However, there are cases in which we don’t want other code simply accessing and updating an object’s properties. When discussing _privacy_ in objects, we define it as the idea that only certain properties should be mutable or able to change in value.
+
+Certain languages have privacy built-in for objects, but JavaScript does not have this feature. Rather, JavaScript developers follow naming conventions that signal to other developers how to interact with a property. One common convention is to place an underscore `_` before the name of a property to mean that the property should not be altered. Here’s an example of using `_` to prepend a property.
+
+```JavaScript
+const bankAccount = {  _amount: 1000}
+```
+
+In the example above, the `_amount` is not intended to be directly manipulated.
+
+Even so, it is still possible to reassign `_amount`:
+
+```JavaScript
+bankAccount._amount = 1000000;
+```
+
+In later exercises, we’ll cover the use of methods called _getters_ and _setters_. Both methods are used to respect the intention of properties prepended, or began, with `_`. Getters can return the value of internal properties and setters can safely reassign property values. For now, let’s see what happens if we can change properties that don’t have setters or getters.
+
+### Getters
+
+_Getters_ are methods that get and return the internal properties of an object. But they can do more than just retrieve the value of a property! Let’s take a look at a getter method:
+
+```JavaScript
+const person = {  
+  _firstName: 'John',  
+  _lastName: 'Doe',  
+  get fullName() {  
+    if (this._firstName && this._lastName){  
+      return `${this._firstName} ${this._lastName}`;  
+    } else {  
+      return 'Missing a first name or a last name.';  
+    }  
+  }  
+}  
+  
+// To call the getter method:  
+person.fullName; // 'John Doe'
+```
+
+Notice that in the getter method above:
+
+- We use the `get` keyword followed by a function.
+- We use an `if...else` conditional to check if both `_firstName` and `_lastName` exist (by making sure they both return truthy values) and then return a different value depending on the result.
+- We can access the calling object’s internal properties using `this`. In `fullName`, we’re accessing both `this._firstName` and `this._lastName`.
+- In the last line we call `fullName` on `person`. ==In general, getter methods do not need to be called with a set of parentheses. Syntactically, it looks like we’re accessing a property.==
+
+Now that we’ve gone over syntax, let’s discuss some notable advantages of using getter methods:
+
+- Getters can perform an action on the data when getting a property.
+- Getters can return different values using conditionals.
+- In a getter, we can access the properties of the calling object using `this`.
+- The functionality of our code is easier for other developers to understand.
+
+Another thing to keep in mind when using getter (and setter) methods is that properties cannot share the same name as the getter/setter function. If we do so, then calling the method will result in an infinite call stack error. One workaround is to add an underscore before the property name like we did in the example above.
+
+Great, let’s go getter!
+
+### Setters
+
+Along with getter methods, we can also create _setter_ methods which reassign values of existing properties within an object. Let’s see an example of a setter method:
+
+```JavaScript
+const person = {  
+  _age: 37,  
+  set age(newAge){  
+    if (typeof newAge === 'number'){  
+      this._age = newAge;  
+    } else {  
+      console.log('You must assign a number to age');  
+    }  
+  }  
+};
+```
+
+Notice that in the example above:
+
+- We can perform a check for what value is being assigned to `this._age`.
+- When we use the setter method, only values that are numbers will reassign `this._age`
+- There are different outputs depending on what values are used to reassign `this._age`.
+
+Then to use the setter method:
+
+```JavaScript
+person.age = 40;  
+console.log(person._age); // Logs: 40  
+person.age = '40'; // Logs: You must assign a number to age
+```
+
+Setter methods like `age` do not need to be called with a set of parentheses. Syntactically, it looks like we’re reassigning the value of a property.
+
+Like getter methods, there are similar advantages to using setter methods that include checking input, performing actions on properties, and displaying a clear intention for how the object is supposed to be used. Nonetheless, even with a setter method, it is still possible to directly reassign properties. For example, in the example above, we can still set `._age` directly:
+
+```JavaScript
+person._age = 'forty-five'
+console.log(person._age); // Prints forty-five
+```
+
+### Factory Functions
+
+So far we’ve been creating objects individually, but there are times where we want to create many instances of an object quickly. Here’s where _factory functions_ come in. A real world factory manufactures multiple copies of an item quickly and on a massive scale. A factory function is a function that returns an object and can be reused to make multiple object instances. Factory functions can also have parameters allowing us to customize the object that gets returned.
+
+Let’s say we wanted to create an object to represent monsters in JavaScript. There are many different types of monsters and we could go about making each monster individually but we can also use a factory function to make our lives easier. To achieve this diabolical plan of creating multiple monsters objects, we can use a factory function that has parameters:
+
+```JavaScript
+const monsterFactory = (name, age, energySource, catchPhrase) => {  
+  return {   
+    name: name,  
+    age: age,  
+    energySource: energySource,  
+    scare() {  
+      console.log(catchPhrase);  
+    }  
+  }  
+};
+```
+
+In the `monsterFactory` function above, it has four parameters and returns an object that has the properties: `name`, `age`, `energySource`, and `scare()`. To make an object that represents a specific monster like a ghost, we can call `monsterFactory` with the necessary arguments and assign the return value to a variable:
+
+```JavaScript
+const ghost = monsterFactory('Ghouly', 251, 'ectoplasm', 'BOO!');  
+ghost.scare(); // 'BOO!'
+```
+
+Now we have a `ghost` object as a result of calling `monsterFactory()` with the needed arguments. With `monsterFactory` in place, we don’t have to create an object literal every time we need a new monster. Instead, we can invoke the `monsterFactory` function with the necessary arguments to ~~take over the world~~ make a monster for us!
+
+### Property Value Shorthand
+
+ES6 introduced some new shortcuts for assigning properties to variables known as _destructuring_.
+
+In the previous exercise, we created a factory function that helped us create objects. We had to assign each property a key and value even though the key name was the same as the parameter name we assigned to it. To remind ourselves, here’s a truncated version of the factory function:
+
+```JavaScript
+const monsterFactory = (name, age) => {  
+  return {   
+    name: name,  
+    age: age  
+  }  
+};
+```
+
+Imagine if we had to include more properties, that process would quickly become tedious! But we can use a destructuring technique, called _property value shorthand_, to save ourselves some keystrokes. The example below works exactly like the example above:
+
+```JavaScript
+const monsterFactory = (name, age) => {  
+  return {   
+    name,  
+    age  
+  }  
+};
+```
+
+Notice that we don’t have to repeat ourselves for property assignments!
+
+### Destructured Assignment
+
+We often want to extract key-value pairs from objects and save them as variables. Take for example the following object:
+
+```JavaScript
+const vampire = {  
+  name: 'Dracula',  
+  residence: 'Transylvania',  
+  preferences: {  
+    day: 'stay inside',  
+    night: 'satisfy appetite'  
+  }  
+};
+```
+
+If we wanted to extract the `residence` property as a variable, we could use the following code:
+
+```JavaScript
+const residence = vampire.residence;  
+console.log(residence); // Prints 'Transylvania'
+```
+
+However, we can also take advantage of a destructuring technique called ==_destructured assignment_== to save ourselves some keystrokes. In destructured assignment we create a variable with the name of an object’s key that is wrapped in curly braces `{ }` and assign to it the object. Take a look at the example below:
+
+```JavaScript
+const { residence } = vampire;  
+console.log(residence); // Prints 'Transylvania'
+```
+
+Look back at the `vampire` object’s properties in the first code example. Then, in the example above, we declare a new variable `residence` that extracts the value of the `residence` property of `vampire`. When we log the value of `residence` to the console, `'Transylvania'` is printed.
+
+We can even use destructured assignment to grab nested properties of an object:
+
+```JavaScript
+const { day } = vampire.preferences; 
+console.log(day); // Prints 'stay inside'
+```
+
+> Since `functionality` is referencing `robot.functionality` we can call the methods available to `robot.functionality` simply through `functionality`.Take advantage of this shortcut and call the `.beep()` method on `functionality`.
+    
+```JavaScript
+const robot = {
+
+  model: '1E78V2',
+
+  energyLevel: 100,
+
+  functionality: {
+
+    beep() {
+
+      console.log('Beep Boop');
+
+    },
+
+    fireLaser() {
+
+      console.log('Pew Pew');
+
+    },
+
+  }
+
+};
+
+  
+
+const { functionality } = robot;
+```
+
+
+### Built-in Object Methods
+
+In the previous exercises we’ve been creating instances of objects that have their own methods. But, we can also take advantage of built-in methods for Objects!
+
+For example, we have access to object instance methods like: `.hasOwnProperty()`, `.valueOf()`, and many more! Practice your documentation reading skills and check out: [MDN’s object instance documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#Methods).
+
+There are also useful Object class methods such as `Object.assign()`, `Object.entries()`, and `Object.keys()` just to name a few. For a comprehensive list, browse: [MDN’s object instance documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#Methods_of_the_Object_constructor).
+
+Let’s get acquainted with some of these methods and their documentation.
+
+Note: You will see errors as you work through this exercise, but by the end the errors will be fixed!

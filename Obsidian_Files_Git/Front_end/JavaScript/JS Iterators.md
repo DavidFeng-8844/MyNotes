@@ -86,8 +86,9 @@ const shortWords = words.filter(word => {
 
 We sometimes want to find the location of an element in an array. That’s where the `.findIndex()` method comes in! Calling [`.findIndex()`](https://www.codecademy.com/resources/docs/javascript/arrays/findIndex?page_ref=catalog) on an array will return the index of the first element that evaluates to `true` in the callback function.
 
-```
-const jumbledNums = [123, 25, 78, 5, 9]; const lessThanTen = jumbledNums.findIndex(num => {  return num < 10;});
+```JavaScript
+const jumbledNums = [123, 25, 78, 5, 9]; 
+const lessThanTen = jumbledNums.findIndex(num => {  return num < 10;});
 ```
 
 - `jumbledNums` is an array that contains elements that are numbers.
@@ -97,13 +98,13 @@ const jumbledNums = [123, 25, 78, 5, 9]; const lessThanTen = jumbledNums.findI
 
 Let’s take a look at what `lessThanTen` evaluates to:
 
-```
+```JavaScript
 console.log(lessThanTen); // Output: 3 
 ```
 
 If we check what element has index of 3:
 
-```
+```JavaScript
 console.log(jumbledNums[3]); // Output: 5
 ```
 
@@ -111,8 +112,9 @@ Great, the element in index `3` is the number `5`. This makes sense since `5
 
 If there isn’t a single element in the array that satisfies the condition in the callback, then `.findIndex()` will return `-1`.
 
-```
-const greaterThan1000 = jumbledNums.findIndex(num => {  return num > 1000;});console.log(greaterThan1000); // Output: -1
+```JavaScript
+const greaterThan1000 = jumbledNums.findIndex(num => {  return num > 1000;});
+console.log(greaterThan1000); // Output: -1
 ```
 
 ### The .reduce() Method
@@ -145,8 +147,10 @@ Now let’s go over the use of `.reduce()` from the example above:
 
 The `.reduce()` method can also take an optional second parameter to set an initial value for `accumulator` (remember, the first argument is the callback function!). For instance:
 
-```
-const numbers = [1, 2, 4, 10];const summedNums = numbers.reduce((accumulator, currentValue) => {  return accumulator + currentValue}, 100)  // <- Second argument for .reduce()console.log(summedNums); // Output: 117
+```JavaScript
+const numbers = [1, 2, 4, 10];
+const summedNums = numbers.reduce((accumulator, currentValue) => {  return accumulator + currentValue}, 100)  // <- Second argument for .reduce()
+console.log(summedNums); // Output: 117
 ```
 
 Here’s an updated chart that accounts for the second argument of `100`:

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Front_end/JavaScript/JS Objects.md",
+                "file": "Front_end/JavaScript/JS Iterators.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Front_end/JavaScript/Functions.md",
+                "file": "Front_end/JavaScript/JS Objects.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3abb937d7e3b6785",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fndmtl_Math/Day 06.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Front_end/JavaScript/Functions.md",
+                "file": "Front_end/JavaScript/JS Objects.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,7 +91,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -217,37 +230,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f044bb3c6891a723",
+  "active": "c7e915e59f0e8ee4",
   "lastOpenFiles": [
-    "C_Notes/Switch.md",
-    "Front_end/JavaScript/JS Iterators.md",
+    "Front_end/JavaScript/Functions.md",
+    "Fndmtl_Math/Day 06.md",
+    "Fndmtl_Math/Day 08.md",
+    "Fndmtl_Math/Day 07.md",
+    "Fndmtl_Math/Day 05.md",
+    "Fndmtl_Math/Day 10.md",
     "Front_end/JavaScript/JS Objects.md",
+    "Front_end/JavaScript/JS Iterators.md",
+    "JS typeof.md",
+    "C_Notes/Switch.md",
     "Front_end/JavaScript/Images/Pasted image 20231122212524.png",
     "Fndmtl_Math/Day 01.md",
     "Untitled",
     "Fndmtl_Math/Day 02.md",
     "Fndmtl_Math/Day 04.md",
-    "Fndmtl_Math/Day 07.md",
-    "Fndmtl_Math/Day 06.md",
     "C_Notes/Printf.md",
     "Fndmtl_Math/Day 03.md",
     "Fndmtl_Math/Images/Pasted image 20231120164941.png",
     "C_Notes/Leeds_C/C week11.md",
     "C_Notes/Leeds_C",
     "C_Notes/Image/Pasted image 20231120143930.png",
-    "Front_end/JavaScript/Functions.md",
     "Front_end/JavaScript/Images/Pasted image 20231120121355.png",
     "Front_end/JavaScript/Images/Pasted image 20231120121052.png",
     "Front_end/JavaScript/Images/Pasted image 20231120112638.png",
     "Front_end/JavaScript/Images/Pasted image 20231120102227.png",
-    "Fndmtl_Math/Day 05.md",
     "Others/Garbage_MtrCtrl/Garbage_Motor_control/NEMA Motor.md",
     "Others",
     "Front_end/JavaScript/Objects.md",
     "Fndmtl_Math/Images/Pasted image 20230911114447.png",
     "Fndmtl_Math/Images",
-    "Fndmtl_Math/Day 08.md",
-    "Fndmtl_Math/Day 10.md",
     "Fndmtl_Math/Day 09.md",
     "Pro_comp/Pro_cp_cwk2/Pro_comp_cwk2.md",
     "Pro_comp/Pro_cp_cwk2",
@@ -257,7 +271,6 @@
     "Computer_Architecture/Lecture 8 Cache Memory 1.md",
     "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
     "Computer_Architecture/Lecture 5 Computer Architecture.md",
-    "Computer_Architecture/Lecture 3 Representing Numbers.md",
     "Computer_Architecture/Images/Pasted image 20231115174042.png",
     "Computer_Architecture/Images/Pasted image 20231115230621.png",
     "Pro_comp/Images",
