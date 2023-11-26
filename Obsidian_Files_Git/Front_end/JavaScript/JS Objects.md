@@ -619,3 +619,20 @@ There are also useful Object class methods such as `Object.assign()`, `Object.
 Let’s get acquainted with some of these methods and their documentation.
 
 Note: You will see errors as you work through this exercise, but by the end the errors will be fixed!
+
+
+Example: 
+# Object.keys()
+
+The **`Object.keys()`** static method returns an array of a given object's own enumerable string-keyed property names.
+
+```JavaScript
+const object1 = {
+  a: 'somestring',
+  b: 42,
+  c: false,
+};
+
+console.log(Object.keys(object1));
+// Expected output: Array ["a", "b", "c"]
+```

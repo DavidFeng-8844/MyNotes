@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Front_end/JavaScript/JS Objects.md",
+                "file": "Front_end/JavaScript/Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fndmtl_Math/Day 01.md",
+                "file": "Front_end/JavaScript/JS Iterators.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "66b9d9db46f8cb54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Front_end/JavaScript/JS DOM Document Keyword.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -158,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Front_end/JavaScript/JS Objects.md",
+                "file": "Front_end/JavaScript/JS DOM Document Keyword.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Front_end/JavaScript/JS Objects.md",
+                "file": "Front_end/JavaScript/JS DOM Document Keyword.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Front_end/JavaScript/JS Objects.md"
+                "file": "Front_end/JavaScript/JS DOM Document Keyword.md"
               }
             }
           },
@@ -230,20 +242,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c7e915e59f0e8ee4",
+  "active": "e6dd0a8950805847",
   "lastOpenFiles": [
+    "Front_end/JavaScript/JS Iterators.md",
+    "Front_end/JavaScript/JS DOM Document Keyword.md",
+    "Fndmtl_Math/Day 01.md",
     "Front_end/JavaScript/Functions.md",
+    "Front_end/JavaScript/JS Objects.md",
+    "Front_end/JavaScript/Objects.md",
     "Fndmtl_Math/Day 06.md",
     "Fndmtl_Math/Day 08.md",
     "Fndmtl_Math/Day 07.md",
     "Fndmtl_Math/Day 05.md",
     "Fndmtl_Math/Day 10.md",
-    "Front_end/JavaScript/JS Objects.md",
-    "Front_end/JavaScript/JS Iterators.md",
-    "JS typeof.md",
+    "Front_end/JavaScript/Images/JS typeof.md",
     "C_Notes/Switch.md",
     "Front_end/JavaScript/Images/Pasted image 20231122212524.png",
-    "Fndmtl_Math/Day 01.md",
     "Untitled",
     "Fndmtl_Math/Day 02.md",
     "Fndmtl_Math/Day 04.md",
@@ -259,7 +273,6 @@
     "Front_end/JavaScript/Images/Pasted image 20231120102227.png",
     "Others/Garbage_MtrCtrl/Garbage_Motor_control/NEMA Motor.md",
     "Others",
-    "Front_end/JavaScript/Objects.md",
     "Fndmtl_Math/Images/Pasted image 20230911114447.png",
     "Fndmtl_Math/Images",
     "Fndmtl_Math/Day 09.md",
@@ -270,7 +283,6 @@
     "Computer_Architecture/Lecture 7 Memory.md",
     "Computer_Architecture/Lecture 8 Cache Memory 1.md",
     "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
-    "Computer_Architecture/Lecture 5 Computer Architecture.md",
     "Computer_Architecture/Images/Pasted image 20231115174042.png",
     "Computer_Architecture/Images/Pasted image 20231115230621.png",
     "Pro_comp/Images",
