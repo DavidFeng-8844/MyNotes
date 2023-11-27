@@ -56,6 +56,10 @@ if a program reads from byte address 4 we’ll load alloW memory block 2 (both a
 
 If memory address 2 and 6 map into the same cache line, what if a program repeatedly access to them.
 
+---
+## Locating Data in a Cache 
+
+![[Pasted image 20231127225951.png]]
 
 ---
 
