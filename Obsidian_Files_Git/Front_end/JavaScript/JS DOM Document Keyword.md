@@ -35,7 +35,7 @@ What if we wanted to select a specific element besides the entire `<body>` ele
 
 _CSS selectors_ define the elements to which a set of CSS rules apply, but we can also use these same selectors to access DOM elements with JavaScript! Selectors can include a tag name, a class, or an ID.
 
-The `.querySelector()` method allows us to specify a CSS selector as a string and returns the first element that matches that selector. The following code would return the first paragraph in the document.
+<mark style="background: #ABF7F7A6;">The `.querySelector()` method allows us to specify a CSS selector as a string and returns the first element that matches that selector. </mark>The following code would return the first paragraph in the document.
 
 ```JavaScript
 document.querySelector('p');
@@ -43,7 +43,7 @@ document.querySelector('p');
 
 Along with `.querySelector()`, JavaScript has more targeted methods that select elements based on their class, id, or tag name.
 
-For example, if you want to access an element directly by its `id`, you can use the aptly named `.getElementById()` method:
+For example, if you want to <mark style="background: #ABF7F7A6;">access an element directly by its `id`, you can use the aptly named `.getElementById()` method:</mark>
 
 ```JavaScript
 document.getElementById('bio').innerHTML = 'The description';
@@ -77,3 +77,12 @@ Let’s review what we learned:
 - You can create, append, and remove elements by using the `.createElement()`,`.appendChild()` and `.removeChild()` methods respectively.
 - The `.onclick` property can add interactivity to a DOM element based on a click event.
 - The `.children` property returns a list of an element’s children and the `.parentNode` property returns the element’s closest connected node in the direction towards the root.
+
+
+## Examples
+
+> BackGround Color using style 
+
+```JavaScript 
+document.getElementById('gears-container').style.backgroundColor = 'red';
+```
