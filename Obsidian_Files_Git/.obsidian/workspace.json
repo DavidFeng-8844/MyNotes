@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "9ba70b48a39edbe8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Front_end/JavaScript/Functions.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3abb937d7e3b6785",
             "type": "leaf",
             "state": {
@@ -54,79 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c7e915e59f0e8ee4",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Front_end/JavaScript/Images/Pasted image 20231128215410.png"
-              }
-            }
-          },
-          {
-            "id": "ca35d56f92f31bfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Front_end/JavaScript/JS Iterators.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "66b9d9db46f8cb54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fndmtl_Math/Day 01.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee0c63b269ce82a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fndmtl_Math/Day 06.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bae532cd9eea5672",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fndmtl_Math/Day 01.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "943540f03a6b4723",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Front_end/JavaScript/JS Iterators.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -192,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Front_end/JavaScript/Images/Pasted image 20231128215410.png",
+                "file": "Front_end/JavaScript/JS DOM Events.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Front_end/JavaScript/Images/Pasted image 20231128215410.png",
+                "file": "Front_end/JavaScript/JS DOM Events.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Front_end/JavaScript/Images/Pasted image 20231128215410.png"
+                "file": "Front_end/JavaScript/JS DOM Events.md"
               }
             }
           },
@@ -264,8 +182,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e6dd0a8950805847",
+  "active": "a109611d8761ed4e",
   "lastOpenFiles": [
+    "C_Notes/Image/Pasted image 20231129201759.png",
+    "C_Notes/C_Memory_Alloc/C Memory.md",
+    "Computer_Architecture/Lecture 8 Cache Memory 1.md",
+    "Computer_Architecture/Images/Pasted image 20231129165320.png",
+    "Computer_Architecture/Images/Pasted image 20231129114955.png",
+    "Computer_Architecture/Lecture 9 Bus and IO.md",
+    "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
+    "Computer_Architecture/Lecture 3 Representing Numbers.md",
+    "Computer_Architecture/Lecture 2 Numbering Systems.md",
+    "Computer_Architecture/Lecture 1 Computer and Organization.md",
+    "Front_end/JavaScript/JS Iterators.md",
     "Front_end/JavaScript/Images/Pasted image 20231128215456.png",
     "Fndmtl_Math/Day 01.md",
     "Fndmtl_Math/Day 02.md",
@@ -285,24 +214,13 @@
     "Front_end/JavaScript/Images/Pasted image 20231128205849.png",
     "Front_end/JavaScript/Functions.md",
     "Git/01 Git Basic.md",
-    "Front_end/JavaScript/JS Iterators.md",
     "Computer_Architecture/Images/Pasted image 20231127225951.png",
     "Computer_Architecture/Lecture 7 Memory.md",
-    "Computer_Architecture/Lecture 8 Cache Memory 1.md",
     "Fndmtl_Math/Math_cwk2/func_math cwk2.md",
     "Front_end/JavaScript/JS Objects.md",
     "Fndmtl_Math/Math_cwk2",
     "Front_end/JavaScript/Objects.md",
-    "Fndmtl_Math/Day 10.md",
-    "Front_end/JavaScript/Images/JS typeof.md",
-    "C_Notes/Switch.md",
-    "Front_end/JavaScript/Images/Pasted image 20231122212524.png",
-    "C_Notes/Printf.md",
-    "Fndmtl_Math/Images/Pasted image 20231120164941.png",
-    "C_Notes/Leeds_C/C week11.md",
     "C_Notes/Leeds_C",
-    "C_Notes/Image/Pasted image 20231120143930.png",
-    "Others/Garbage_MtrCtrl/Garbage_Motor_control/NEMA Motor.md",
     "Others",
     "Fndmtl_Math/Images",
     "Pro_comp/Pro_cp_cwk2",

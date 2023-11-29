@@ -62,7 +62,7 @@ If memory address 2 and 6 map into the same cache line, what if a program repeat
 ![[Pasted image 20231127225951.png]]
 
 ---
-
+![[Pasted image 20231129114955.png]]
 # Fully associative mapping 
 
 -- A memory block can be load into any line of cache 
@@ -89,30 +89,40 @@ Some possible ones:![[L8-7.png]]
 ---
 ## Write Policy for Cache Memory 
 
+### Reference
+
+[Cache Design - An Overview - YouTube](https://www.youtube.com/watch?v=1tvW8kzOpSA)
+
 >Cache ==hit ==and ==cache miss== 
 
 #### Example:
 In the following examples, we assume a direct mapped cache
 Assume the address to write to is already loaded in the cache
 
-==Two option to update 
+Write Hits
 
->==Write-through cache :
+The data is presented in the cache 
+
+Two Option:
+
+>1. ==Write-through cache :
 
 Update both the cache and main memory for each write
 
->==Write-back cache:  
+>2. ==Write-back cache:  
 
 * Delay the update until cache block needs to be replaced 
 * Need a dirty bit in the cache to mark the inconsistency
 * Subsequent reads to the same memory address will be served by the
 cache
+![[Pasted image 20231129165320.png]]
 
 ![[L9-1.png]]
 
 ---
 
->==Write Miss  (What if the memory address you want to write is not in the cache)
+>==Write Miss 
+> (What if the memory address you want to write is not in the cache)
 
 Load it or not? 
 
@@ -126,3 +136,8 @@ Load it or not?
 
 >	The write operation goes directly to main memory without affecting the cache
 
+## Some Terms 
+
+- **Store (Write):** When a program writes data to memory, the data may be stored in both the cache and the main memory.
+    
+- **Load (Read):** When a program reads data from memory, the processor checks whether the data is already present in the cache. If it is, this is called a "cache hit," and the data is loaded from the cache. If the data is not in the cache, it's a "cache miss," and the data is loaded from the slower main memory into the cache for future use.
