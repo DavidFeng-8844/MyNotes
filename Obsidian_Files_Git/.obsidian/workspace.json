@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7139ac25b5c2dd3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fndmtl_Math/Day 09.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Front_end/JavaScript/JS DOM Events.md",
+                "file": "Fndmtl_Math/Day 09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Front_end/JavaScript/JS DOM Events.md",
+                "file": "Fndmtl_Math/Day 09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Front_end/JavaScript/JS DOM Events.md"
+                "file": "Fndmtl_Math/Day 09.md"
               }
             }
           },
@@ -182,8 +194,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a109611d8761ed4e",
+  "active": "7139ac25b5c2dd3a",
   "lastOpenFiles": [
+    "Fndmtl_Math/Day 08.md",
+    "C_Notes/Pointers.md",
+    "C_Notes/C Strings.md",
+    "C_Notes/Compound Literal.md",
+    "C_Notes/Fancy Declarations.md",
+    "C_Notes/Pointer and Array Review Questions.md",
+    "C Variable Scope.md",
+    "Front_end/JavaScript/JS DOM Events.md",
     "C_Notes/Image/Pasted image 20231129201759.png",
     "C_Notes/C_Memory_Alloc/C Memory.md",
     "Computer_Architecture/Lecture 8 Cache Memory 1.md",
@@ -200,12 +220,10 @@
     "Fndmtl_Math/Day 02.md",
     "Fndmtl_Math/Day 03.md",
     "Fndmtl_Math/Day 07.md",
-    "Fndmtl_Math/Day 08.md",
     "Fndmtl_Math/Day 05.md",
     "Fndmtl_Math/Day 06.md",
     "Fndmtl_Math/Day 04.md",
     "Fndmtl_Math/Day 09.md",
-    "Front_end/JavaScript/JS DOM Events.md",
     "Front_end/JavaScript/Images/Pasted image 20231128220316.png",
     "Front_end/JavaScript/Images/Pasted image 20231128220313.png",
     "Front_end/JavaScript/Images/Pasted image 20231128215410.png",
@@ -213,13 +231,8 @@
     "Front_end/JavaScript/JS DOM Document Keyword.md",
     "Front_end/JavaScript/Images/Pasted image 20231128205849.png",
     "Front_end/JavaScript/Functions.md",
-    "Git/01 Git Basic.md",
     "Computer_Architecture/Images/Pasted image 20231127225951.png",
-    "Computer_Architecture/Lecture 7 Memory.md",
-    "Fndmtl_Math/Math_cwk2/func_math cwk2.md",
-    "Front_end/JavaScript/JS Objects.md",
     "Fndmtl_Math/Math_cwk2",
-    "Front_end/JavaScript/Objects.md",
     "C_Notes/Leeds_C",
     "Others",
     "Fndmtl_Math/Images",
