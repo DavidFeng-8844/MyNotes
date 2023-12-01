@@ -11,6 +11,16 @@ Relations:
 Composition and Inverse $A, B，C\subset U$ 
 
 ---
+# Binary Relation 
+
+Definition: 
+  
+A binary relation is a mathematical concept that describes a relationship between two elements of a set. More formally, a binary relation on a set A is a subset of the Cartesian product A×A, which is the set of all ordered pairs (a, b) where a and b are elements of A.
+
+In other words, a binary relation is a collection of pairs of elements from a set, where each pair represents a certain relationship or property. The elements in the pairs are ordered, meaning that the order in which they appear matters.
+
+A binary relation on set �A is often denoted by �R and is defined as a set of ordered pairs:
+---
 
 ## Reflexivity, Symmetry, Transitivity 
 

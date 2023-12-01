@@ -1,7 +1,7 @@
 {
   "accentColor": "#6be7ef",
   "cssTheme": "GitHub Theme",
-  "baseFontSize": 20,
+  "baseFontSize": 21,
   "theme": "obsidian",
   "enabledCssSnippets": [
     "Justified"
