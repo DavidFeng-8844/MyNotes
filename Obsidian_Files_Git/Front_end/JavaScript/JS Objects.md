@@ -63,14 +63,16 @@ We ==**must** use bracket notation when accessing keys that have numbers, spac
 
 ```JavaScript 
 let spaceship = {
-'Fuel Type': 'Turbo Fuel',
-'Active Duty': true,
-homePlanet: 'Earth',
-numCrew: 5};
-spaceship['Active Duty'];// Returns true
-spaceship['Fuel Type'];   // Returns  'Turbo Fuel'
-spaceship['numCrew'];   // Returns 5
-spaceship['!!!!!!!!!!!!!!!'];   // Returns undefined
+	'Fuel Type': 'Turbo Fuel',
+	'Active Duty': true,
+	homePlanet: 'Earth',
+	numCrew: 5
+	};
+	spaceship['Active Duty'];// Returns true
+	spaceship['Fuel Type'];   // Returns  'Turbo Fuel'
+	spaceship['numCrew'];   // Returns 5
+	spaceship['!!!!!!!!!!!!!!!'];   // Returns undefined
+
 ```
 
 With bracket notation you can also use a variable inside the brackets to select the keys of an object. This can be especially helpful when working with functions:
