@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Front_end/JavaScript/JS Objects.md",
+                "file": "Computer_Architecture/Lecture 5 Computer Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Front_end/JavaScript/JS Objects.md",
+                "file": "Computer_Architecture/Lecture 5 Computer Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Front_end/JavaScript/JS Objects.md",
+                "file": "Computer_Architecture/Lecture 5 Computer Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Front_end/JavaScript/JS Objects.md"
+                "file": "Computer_Architecture/Lecture 5 Computer Architecture.md"
               }
             }
           },
@@ -256,13 +256,23 @@
   },
   "active": "83b394b7832f82b1",
   "lastOpenFiles": [
+    "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
+    "Computer_Architecture/Lecture 7 Memory.md",
+    "Computer_Architecture/Lecture 5 Computer Architecture.md",
+    "Computer_Architecture/Lecture 2 Numbering Systems.md",
+    "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
+    "Computer_Architecture/Lecture 8 Cache Memory 1.md",
+    "Fndmtl_Math/Day 05.md",
+    "Fndmtl_Math/Day 04.md",
+    "Fndmtl_Math/Day 03.md",
+    "Fndmtl_Math/Day 02.md",
+    "Front_end/JavaScript/JS Objects.md",
     "Py_Note/Py_Data_Type/Lists Comprehension.md",
     "Py_Note/Basic Syntax.md",
     "Others/Eng_Comm/commu_skill_cwk1.md",
     "Fndmtl_Math/Day 08.md",
     "Fndmtl_Math/Day 07.md",
     "Fndmtl_Math/Day 06.md",
-    "Fndmtl_Math/Day 05.md",
     "Py_Note/IO/Working with Files.md",
     "Py_Note/Python Issue.md",
     "Py_Note/Data type.md",
@@ -270,23 +280,13 @@
     "Py_Note/IO",
     "Py_Note/Py_Data_Type/Methods",
     "Py_Note/Py_Data_Type",
-    "Front_end/JavaScript/JS Objects.md",
     "Front_end/JavaScript/JS Iterators.md",
     "Fndmtl_Math/Images/Pasted image 20231201221411.png",
     "Fndmtl_Math/Math_cwk2/Fund_Math cwk2.md",
     "Fndmtl_Math/Day 01.md",
     "Fndmtl_Math/Day 09.md",
     "Fndmtl_Math/Day 10.md",
-    "C_Notes/Pointers.md",
-    "C_Notes/C Strings.md",
-    "C_Notes/Compound Literal.md",
-    "C_Notes/Fancy Declarations.md",
-    "C_Notes/Pointer and Array Review Questions.md",
-    "C_Notes/C_Memory_Alloc/C Variable Scope.md",
-    "Front_end/JavaScript/JS DOM Events.md",
     "C_Notes/Image/Pasted image 20231129201759.png",
-    "C_Notes/C_Memory_Alloc/C Memory.md",
-    "Computer_Architecture/Lecture 8 Cache Memory 1.md",
     "Computer_Architecture/Images/Pasted image 20231129165320.png",
     "Computer_Architecture/Images/Pasted image 20231129114955.png",
     "Front_end/JavaScript/Images/Pasted image 20231128215456.png",
