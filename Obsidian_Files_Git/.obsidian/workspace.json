@@ -114,9 +114,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9bbb4f3a5e3d62d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Leeds_c_Pedometer/Pedometer Alogrithm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -182,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer_Architecture/Lecture 5 Computer Architecture.md",
+                "file": "Leeds_c_Pedometer/Pedometer Alogrithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer_Architecture/Lecture 5 Computer Architecture.md",
+                "file": "Leeds_c_Pedometer/Pedometer Alogrithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer_Architecture/Lecture 5 Computer Architecture.md"
+                "file": "Leeds_c_Pedometer/Pedometer Alogrithm.md"
               }
             }
           },
@@ -254,11 +266,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "83b394b7832f82b1",
+  "active": "e6dd0a8950805847",
   "lastOpenFiles": [
+    "Computer_Architecture/Lecture 5 Computer Architecture.md",
+    "Leeds_c_Pedometer/Pedometer Alogrithm.md",
+    "Leeds_c_Pedometer",
     "Computer_Architecture/Lecture 6 Instruction Sets - Characteristics and Functions.md",
     "Computer_Architecture/Lecture 7 Memory.md",
-    "Computer_Architecture/Lecture 5 Computer Architecture.md",
     "Computer_Architecture/Lecture 2 Numbering Systems.md",
     "Computer_Architecture/Lecture 4 The instruction cycle & interrupts.md",
     "Computer_Architecture/Lecture 8 Cache Memory 1.md",
@@ -285,7 +299,6 @@
     "Fndmtl_Math/Math_cwk2/Fund_Math cwk2.md",
     "Fndmtl_Math/Day 01.md",
     "Fndmtl_Math/Day 09.md",
-    "Fndmtl_Math/Day 10.md",
     "C_Notes/Image/Pasted image 20231129201759.png",
     "Computer_Architecture/Images/Pasted image 20231129165320.png",
     "Computer_Architecture/Images/Pasted image 20231129114955.png",
@@ -301,7 +314,6 @@
     "Fndmtl_Math/Images",
     "Pro_comp/Pro_cp_cwk2",
     "Pro_comp/Images",
-    "Front_end/JavaScript/Images",
     "Untitled.canvas",
     "Computer_Architecture/Untitled 1.canvas",
     "Computer_Architecture/Untitled.canvas"
