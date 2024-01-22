@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "0b1bfe667f7ac73c",
+    "type": "split",
+    "children": [
+      {
+        "id": "745394b85f324500",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc15147ffb5c4c89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Git Delete local Branch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2eb8f135badbb87f",
+    "type": "split",
+    "children": [
+      {
+        "id": "4abae7ba4fc3fc37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7306dcae3f22302",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c4f855eae1e4aef3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "78203e287db59712",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a8c102acf588c8b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e5d010e569c0189",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1bb8e9337ede4da",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02 Git Delete local Branch.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "aa0230613ae4567d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02 Git Delete local Branch.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5514651043f37b34",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "11cd92a68eead5ed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02 Git Delete local Branch.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "dc15147ffb5c4c89",
+  "lastOpenFiles": [
+    "Pasted image 20231010130408.png",
+    "01 Git Basic.md",
+    "07 Git.md",
+    "07 Git Push changes to github.md",
+    "02 Git Delete local Branch.md",
+    "05 Git pull.md",
+    "06 Git pull Branch from Github.md",
+    "Change-Git-Start-in.md",
+    "Git Proxy Problems.md",
+    "Pasted image 20230929093238.png.md",
+    "Pasted image 20230929100334.png.md",
+    "03 Create Branch.md",
+    "Git-Line-Ending-Style.md"
+  ]
+}

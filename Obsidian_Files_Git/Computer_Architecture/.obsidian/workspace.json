@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "9b50bbb20994b338",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe3b408593a0a037",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2a9e1605a40b7fe",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "abcc6a6478aa7095",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture 5 Computer Architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4f9447056626184",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture 6.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "64ff83dd1e30ede6",
+    "type": "split",
+    "children": [
+      {
+        "id": "65623d4ff34fe409",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e46bc21caf546d0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fa1c833b14db0674",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b680227ab15ba04f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9d5444a5a6409845",
+    "type": "split",
+    "children": [
+      {
+        "id": "65bcc8179f409075",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "135538f10b860c68",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Lecture 6.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0c90fedb8e4713ac",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Lecture 6.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3a77082ef5e167af",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "62f0cab963f8ca14",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Lecture 6.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "b4f9447056626184",
+  "lastOpenFiles": [
+    "Lecture 5 Computer Architecture.md",
+    "Lecture 6.md",
+    "L5-2.png",
+    "L5-1.png",
+    "Excalidraw/Drawing 2023-10-11 23.21.08.excalidraw.md",
+    "Untitled 1.canvas",
+    "Excalidraw/Drawing 2023-10-11 23.18.34.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-11 23.18.29.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-11 23.18.01.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-11 23.15.35.excalidraw.md",
+    "2023-10-11.md",
+    "Lecture 4 Architecture.md",
+    "Drawing 2023-10-11 23.10.38.excalidraw.md",
+    "Untitled.canvas",
+    "Day 01.md",
+    "Numbers.md",
+    "Excalidraw",
+    "Pasted image 20231010105519.png",
+    "Pasted image 20231009103610.png"
+  ]
+}

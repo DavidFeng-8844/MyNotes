@@ -1,0 +1,264 @@
+{
+  "main": {
+    "id": "4dd4bdebec93374e",
+    "type": "split",
+    "children": [
+      {
+        "id": "43bb2be98cf7414c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e21b26aab291d14",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f0d257a1a720634d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "e911dd22950cc782",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/03 CSS How to.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7aea20d01018d863",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/05 CSS Comments.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2e1a75ba9fb061d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/05 CSS Comments.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f976435c8719493a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/06 CSS background.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd263d5dfa009897",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTML/07 CSS Borders.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cfa4bb94c3e84000",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTML/08 CSS Borders Margins.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd111f0d86887f91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/02 CSS Selectors.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1d7cdcecd68188d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "f87dc1ee6a4dc338",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f13cf08d4e76196e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "de69aa9c66cf954d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b23b9f37d9294839",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "4b56e85041cb2c6c",
+    "type": "split",
+    "children": [
+      {
+        "id": "00342cb16d4ac690",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd56d1064c49fe72",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CSS/02 CSS Selectors.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a244fbae40e9633b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CSS/02 CSS Selectors.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5d4514ad0ddd5d20",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "68914e16572370e8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CSS/02 CSS Selectors.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "dd111f0d86887f91",
+  "lastOpenFiles": [
+    "HTML/15 HTML Images.md",
+    "HTML/18 HTML Table.md",
+    "HTML/20 Block Level elements.md",
+    "HTML/19 HTML Lists.md",
+    "HTML/11 HTML Colors.md",
+    "HTML/06 HTML Paragraphs.md",
+    "HTML/14 HTML Links.md",
+    "HTML/13 HTML CSS.md",
+    "HTML/08 HTML Formatting.md",
+    "HTML/08 CSS Borders Margins.md",
+    "HTML/07 CSS Borders.md",
+    "HTML/05 HTML Headings.md",
+    "HTML/04 HTML Attributes.md",
+    "HTML/03 HTML Elements.md",
+    "HTML/09 CSS Padding.md",
+    "CSS/02 CSS Selectors.md",
+    "CSS/06 CSS background.md",
+    "CSS/05 CSS Comments.md",
+    "CSS/04 CSS Color.md",
+    "CSS/03 CSS How to.md",
+    "How Web Works.md",
+    "Intro.md",
+    "Web Intro"
+  ]
+}

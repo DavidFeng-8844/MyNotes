@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "f4a0f0ddb8d5ca4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "7621e4988a70a6dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "940052c0bd9cd793",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a61ea9246643d24c",
+    "type": "split",
+    "children": [
+      {
+        "id": "7fa7abb83bdf6dd6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f17d18f8b820c614",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9b3a88c3994b415a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#A4988",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dff6ec80eca8a48f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "36c7292a8bbb9440",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b0105cf4392abbf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1838a2c37c78aa07",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f1f455b6393ee4ee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8726490d60586479",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f753054b500f2472",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "940052c0bd9cd793",
+  "lastOpenFiles": [
+    "Pasted image 20230901111746.png",
+    "NEMA Motor.md",
+    "Screenshot 2023-09-01 115729.png",
+    "Screenshot 2023-09-01 105205.png"
+  ]
+}

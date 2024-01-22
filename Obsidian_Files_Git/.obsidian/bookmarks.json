@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1699323968065,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1699324018132,
+          "path": "Pro_comp/Strava Design Evaluation.md",
+          "subpath": "#UI Design",
+          "title": "Strava UI Design"
+        },
+        {
+          "type": "file",
+          "ctime": 1699324050546,
+          "path": "Pro_comp/Strava Design Evaluation.md",
+          "subpath": "#Development Path",
+          "title": "Strava Development Path "
+        },
+        {
+          "type": "file",
+          "ctime": 1699324076702,
+          "path": "Pro_comp/Strava Design Evaluation.md",
+          "subpath": "#Stakeholders",
+          "title": "Starva Stackholders"
+        }
+      ],
+      "title": "Pro_cp_cwk1"
+    },
+    {
+      "type": "group",
+      "ctime": 1699448116751,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1699448132704,
+          "path": "C_Notes/Array.md",
+          "subpath": "#Review",
+          "title": "Array"
+        }
+      ],
+      "title": "C"
+    }
+  ]
+}
