@@ -11,11 +11,9 @@
             "id": "19981302dce78e2f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Py_Note/DSA/Big O.md",
-                "mode": "source",
-                "source": false
+                "file": "Fndmtl_Math/Images/Pasted image 20240201000124.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Py_Note/DSA/Big O.md",
+                "file": "Fndmtl_Math/Images/Pasted image 20240201000124.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Py_Note/DSA/Big O.md",
+                "file": "Fndmtl_Math/Images/Pasted image 20240201000124.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Py_Note/DSA/Big O.md"
+                "file": "Fndmtl_Math/Images/Pasted image 20240201000124.png"
               }
             }
           }
@@ -147,21 +145,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19981302dce78e2f",
+  "active": "233c0e1c402ae8bd",
   "lastOpenFiles": [
-    "Py_Note/DSA/images/Pasted image 20240201001222.png",
-    "Py_Note/DSA/images/Pasted image 20240201000126.png",
-    "Pasted image 20240201000124.png",
+    "Python/basic/Python Issue.md",
+    "Python/basic/Data type.md",
+    "Python/basic/Py_Data_Type/Methods/enumerate().md",
+    "Python/basic/Py_Data_Type/Methods",
+    "Python/basic/Py_Data_Type/Lists Comprehension.md",
+    "Python/basic/Py_Data_Type",
+    "Python/basic",
+    "Python/Untitled.md",
+    "Fndmtl_Math/Images/Pasted image 20240201000124.png",
+    "Fndmtl_Math/Images/Pasted image 20240118003604.png",
+    "Fndmtl_Math/Images/Pasted image 20240118003553.png",
+    "Python/DSA/Big O.md",
+    "Python/DSA/images/Pasted image 20240201001222.png",
+    "Python/DSA/images/Pasted image 20240201000126.png",
     "Git/06 Git pull Branch from Github.md",
     "Git/05 Git pull.md",
     "Git/Change-Git-Start-in.md",
     "Git/07 Git Push changes to github.md",
     "Git/03 Create Branch.md",
-    "Py_Note/DSA/Big O.md",
-    "Py_Note/DSA/images/Pasted image 20240131222234.png",
-    "Py_Note/DSA/images/Pasted image 20240131220430.png",
-    "Py_Note/DSA/images/Pasted image 20240131214318.png",
-    "Py_Note/DSA/images",
-    "Py_Note/DSA"
+    "Python/DSA/images/Pasted image 20240131222234.png",
+    "Python/DSA/images/Pasted image 20240131220430.png",
+    "Python/DSA/images/Pasted image 20240131214318.png",
+    "Python/DSA/images",
+    "Python/DSA"
   ]
 }
