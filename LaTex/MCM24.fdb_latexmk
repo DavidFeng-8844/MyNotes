@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex MCM24"] 1707064738 "MCM24.aux" "MCM24.bbl" "MCM24" 1707064742 0
-  "MCM24.aux" 1707064741 3322 ad37aa49f77ca167c9d17d04c0ffae85 "pdflatex"
+["bibtex MCM24"] 1707068263 "MCM24.aux" "MCM24.bbl" "MCM24" 1707068266 0
+  "MCM24.aux" 1707068265 3454 e13722214de77b8048f06353d98e11f9 "pdflatex"
   "d:/texlive/2023/texmf-dist/bibtex/bib/gloss/sample.bib" 1703935345 2721 b88105703bd616b4f9867992219afb8a ""
   "d:/texlive/2023/texmf-dist/bibtex/bst/base/alpha.bst" 1703934712 23907 a5f93555796fb564b924339521f10a7c ""
   (generated)
   "MCM24.bbl"
   "MCM24.blg"
   (rewritten before read)
-["pdflatex"] 1707064739 "d:/Notes/LaTex/MCM24.tex" "MCM24.pdf" "MCM24" 1707064742 0
-  "MCM24.aux" 1707064741 3322 ad37aa49f77ca167c9d17d04c0ffae85 "pdflatex"
-  "MCM24.bbl" 1707064739 49 0eba253fc001332e731e8aba3f23127b "bibtex MCM24"
-  "MCM24.out" 1707064741 2992 ade90a2a24b5d8c359632a6422a9c601 "pdflatex"
-  "MCM24.tex" 1707064735 12225 2135017b8ee26c06e8f4829482ee897f ""
-  "MCM24.toc" 1707064741 1449 bda7fe00af66548f8fcee83fb3806b5f "pdflatex"
-  "d:/Notes/LaTex/MCM24.tex" 1707064735 12225 2135017b8ee26c06e8f4829482ee897f ""
+["pdflatex"] 1707068264 "d:/Notes/LaTex/MCM24.tex" "MCM24.pdf" "MCM24" 1707068266 0
+  "MCM24.aux" 1707068265 3454 e13722214de77b8048f06353d98e11f9 "pdflatex"
+  "MCM24.bbl" 1707068264 49 0eba253fc001332e731e8aba3f23127b "bibtex MCM24"
+  "MCM24.out" 1707068265 2933 dd649e389ea830158c9678fa53e2f3a9 "pdflatex"
+  "MCM24.tex" 1707068259 13511 9f15c6a16db9826c077be2561233aca2 ""
+  "MCM24.toc" 1707068265 1439 acc339938335f55dc7a0763407c32992 "pdflatex"
+  "d:/Notes/LaTex/MCM24.tex" 1707068259 13511 9f15c6a16db9826c077be2561233aca2 ""
   "d:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1703934856 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "d:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1703935275 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "d:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1703935096 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""

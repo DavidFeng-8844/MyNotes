@@ -74,9 +74,8 @@ Once you're familiar with the editor, you can find various project settings in t
 
 \section{Introduction}
 \subsection{Background}
-In the 2023 Wimbledon Men's Singles final, 20-year-old Spanish rising star Carlos Alcaraz defeated 36-year-old Novak Djokovic, ending Djokovic's winning streak at Wimbledon since 2013. This match was an exciting contest that witnessed
- multiple shifts in momentum. Djokovic easily won the first set 6-1, but Alcaraz gradually regained his form in the subsequent matches, ultimately winning with a score of 6-4 in the fifth set. This match exemplified the concept of "momentum" in sports,
-  which is the strength or force gained by motion or a series of events, even though this phenomenon is difficult to quantify.
+Tennis originated in the 13th century in France. As early as the 16th to 17th centuries, French missionaries often played a game similar to tennis in the corridors of churches, using their hands to strike a small ball,
+providing a diversion from the monotonous church life. Now, modern tennis has formally developed and quickly gained popularity in Europe and America, becoming a widely loved sport. [1] Tennis, as a charming and elegant sport, enjoys a high reputation and strong influence internationally. [2] With the continuous development of tennis, the fluctuations in the scores of opponents have become increasingly scrutinized during tennis matches. Recently, in the men's singles final at Wimbledon in 2023, 20-year-old Spanish rising star Carlos Alcaraz defeated 36-year-old Novak Djokovic, ending Djokovic's winning streak at Wimbledon since 2013. The twists and turns in the score and the changing dynamics of the match attracted significant attention. Therefore, effectively exploring the impact of the "momentum" on the score during the game is crucial.
 
 \subsection{Problem restatement}
 \begin{enumerate}
@@ -91,25 +90,37 @@ object to alleviate the monotonous church life. Now, modern tennis has formally 
 enjoys a high reputation and strong influence internationally. [2] With the continuous development of tennis, the fluctuations in scores and game situations during tennis matches have increasingly attracted people's attention.
 Recently, in the men's singles final of the 2023 Wimbledon Championships, 20-year-old Spanish newcomer Carlos Alcaraz defeated 36-year-old Novak Djokovic, ending Djokovic's winning streak at Wimbledon since 2013. The twists and turns in the score
 and the repeated changes in the game situation during the match have captured people's attention. Therefore, it is crucial to effectively explore the impact of "momentum" on the score during the course of the game.
+\section{Symbol Description}
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|l|}
+\hline
+\textbf{Symbol} & \textbf{Description} \\ \hline
+$S1$ & The number of game winning in the current set \\ \hline
+$S2$ & The leading score in the current game \\ \hline
+$S3$ & Whether it is the server \\ \hline
+$S4$ & Whether score in the last point \\ \hline
+$S5$ & The score lead progress of this match\\ \hline
+$S6$ & Whether the serve is scored (no contact) \\ \hline
+$S7$ & Whether to score on a return kick (no touch). \\ \hline
+$S8$ & No touch score on the backhand \\ \hline
+$S9$ & Is there a double fault in this game? \\ \hline
+$S10$ & Whether there were unforced errors in this game. \\ \hline
+$S11$ & The ratio of the number of times you use the Internet to the number of times you use the Internet. \\ \hline
+$S12$ & The ratio of the chance of scoring when the opponent serves to the number of points actually scored. \\ \hline
+$S13$ & Total mileage in this match \\ \hline
+$S14$ & The total mileage in the last three points \\ \hline
+$S15$ & Mileage chart from last point \\ \hline
+$S16$ & Serve real-time pace \\ \hline
+\end{tabular}
+\caption{Symbol Description}
+\end{table}
 
-[1] Wu Lijun. Research on the Sustainable Development of Competitive Tennis in China [D]. Shanxi University, 2010.
-[2] Wei Zide, Wang Wenqin. Exploration of Tennis Teaching for Female College Students in General Universities [J]. Sports Science and Technology Literature Bulletin, 2007, (02): 29-30 + 40.
-
-
-
-
-
-
-\section{Some examples to get started}
 
 \subsection{How to create Sections and Subsections}
-
 Simply use the section and subsection commands, as in this example document! With Overleaf, all the formatting and numbering is handled automatically according to the template you've chosen. If you're using the Visual Editor, you can also create new section and subsections via the buttons in the editor toolbar.
-
 \subsection{How to include Figures}
-
 First you have to upload the image file from your computer using the upload link in the file-tree menu. Then use the includegraphics command to include it in your document. Use the figure environment and the caption command to add a number and a caption to your figure. See the code for Figure \ref{fig:frog} in this section for an example.
-
 Note that your figure will automatically be placed in the most appropriate place for it, given the surrounding text and taking into account other figures or tables that may be close by. You can find out more about adding images to your documents in this help article on \href{https://www.overleaf.com/learn/how-to/Including_images_on_Overleaf}{including images on Overleaf}.
 
 \begin{figure}[h]
