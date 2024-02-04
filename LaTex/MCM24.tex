@@ -7,7 +7,6 @@
 % Set page size and margins
 % Replace `letterpaper' with `a4paper' for UK/EU standard size
 \usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
-\usepackage{newtxtext,newtxmath}  % Times New Roman font
 
 % Useful packages
 \usepackage{fancyhdr}
@@ -24,7 +23,6 @@
 \usepackage{subcaption}
 \usepackage{listings}
 \usepackage{color}
-\usepackage{float}
 
 \title{\vspace*{-3cm} % Adjusted to reduce the top margin
       \begin{center}
@@ -54,6 +52,10 @@
 
 \begin{document}
 \maketitle
+\section{Abstract}
+My introduction goes here! Simply start writing your document and use the Recompile button to view the updated PDF preview. Examples of commonly used commands and features are listed below, to help you get started.
+Once you're familiar with the editor, you can find various project settings in the Overleaf menu, accessed via the button in the very top left of the editor. To view tutorials, user guides, and further documentation, please visit our \href{https://www.overleaf.com/learn}{help library}, or head to our plans page to \href{https://www.overleaf.com/user/subscription/plans}{choose your plan}.
+
 % Define header and footer
 \pagestyle{fancy}
 \fancyhf{} % Clear default header and footer
@@ -65,27 +67,52 @@
 \fancyfoot[C]{\thepage} % Centered page number
 \fancyfoot[L]{\textcolor{gray}{2024 MCM/ICM C 90169}} % Left-aligned footer content
 \fancyfoot[R]{\textcolor{gray}{}} % Right-aligned footer content
-\begin{center}
-      \textbf{Abstract}
-  \end{center}
-      This is the abstract content. Replace this with your actual abstract.
+
 \newpage
 \tableofcontents % Table of contents
 \newpage
 
 \section{Introduction}
-My introduction goes here! Simply start writing your document and use the Recompile button to view the updated PDF preview. Examples of commonly used commands and features are listed below, to help you get started.
-Once you're familiar with the editor, you can find various project settings in the Overleaf menu, accessed via the button in the very top left of the editor. To view tutorials, user guides, and further documentation, please visit our \href{https://www.overleaf.com/learn}{help library}, or head to our plans page to \href{https://www.overleaf.com/user/subscription/plans}{choose your plan}.
+\subsection{Background}
+In the 2023 Wimbledon Men's Singles final, 20-year-old Spanish rising star Carlos Alcaraz defeated 36-year-old Novak Djokovic, ending Djokovic's winning streak at Wimbledon since 2013. This match was an exciting contest that witnessed
+ multiple shifts in momentum. Djokovic easily won the first set 6-1, but Alcaraz gradually regained his form in the subsequent matches, ultimately winning with a score of 6-4 in the fifth set. This match exemplified the concept of "momentum" in sports,
+  which is the strength or force gained by motion or a series of events, even though this phenomenon is difficult to quantify.
+
+\subsection{Problem restatement}
+\begin{enumerate}
+\item  Develop a mathematical model to quantify and visualize the progression of tennis matches, identifying key performance metrics for players during specific time intervals, with a particular focus on the service advantage.
+\item Construct a statistical framework to assess the impact of momentum within a match, challenging the notion that players' swings in performance are random, and providing empirical evidence for or against this assertion.
+\item Formulate a predictive model capable of indicating potential shifts in match dynamics, utilizing data from previous matches to identify indicators that signal when the flow of play may change in favor of one player over another.
+\item Execute a comprehensive testing protocol for the aforementioned models across a series of matches, evaluating the predictive capabilities with respect to different match conditions, and identifying additional variables that may enhance future model iterations. Analyze the generalizability of the models to other match formats and sporting contexts, such as women's tennis, various tournaments, court surfaces, and racket sports akin to table tennis.
+\end{enumerate}
+\subsection{Our Work}
+Tennis originated in the 13th century in France. As early as the 1st century, French missionaries often played with their hands in the corridors of churches, hitting a small ball-like
+object to alleviate the monotonous church life. Now, modern tennis has formally developed and quickly gained popularity in Europe and America, becoming a widely loved sport. [1] Tennis, as a charming and elegant sport,
+enjoys a high reputation and strong influence internationally. [2] With the continuous development of tennis, the fluctuations in scores and game situations during tennis matches have increasingly attracted people's attention.
+Recently, in the men's singles final of the 2023 Wimbledon Championships, 20-year-old Spanish newcomer Carlos Alcaraz defeated 36-year-old Novak Djokovic, ending Djokovic's winning streak at Wimbledon since 2013. The twists and turns in the score
+and the repeated changes in the game situation during the match have captured people's attention. Therefore, it is crucial to effectively explore the impact of "momentum" on the score during the course of the game.
+
+[1] Wu Lijun. Research on the Sustainable Development of Competitive Tennis in China [D]. Shanxi University, 2010.
+[2] Wei Zide, Wang Wenqin. Exploration of Tennis Teaching for Female College Students in General Universities [J]. Sports Science and Technology Literature Bulletin, 2007, (02): 29-30 + 40.
+
+
+
+
+
 
 \section{Some examples to get started}
+
 \subsection{How to create Sections and Subsections}
+
 Simply use the section and subsection commands, as in this example document! With Overleaf, all the formatting and numbering is handled automatically according to the template you've chosen. If you're using the Visual Editor, you can also create new section and subsections via the buttons in the editor toolbar.
 
 \subsection{How to include Figures}
+
 First you have to upload the image file from your computer using the upload link in the file-tree menu. Then use the includegraphics command to include it in your document. Use the figure environment and the caption command to add a number and a caption to your figure. See the code for Figure \ref{fig:frog} in this section for an example.
+
 Note that your figure will automatically be placed in the most appropriate place for it, given the surrounding text and taking into account other figures or tables that may be close by. You can find out more about adding images to your documents in this help article on \href{https://www.overleaf.com/learn/how-to/Including_images_on_Overleaf}{including images on Overleaf}.
 
-\begin{figure}
+\begin{figure}[h]
 \centering
 \includegraphics[width=0.25\linewidth]{test1.png}
 \caption{\label{fig:frog}This frog was uploaded via the file-tree menu.}
@@ -93,9 +120,10 @@ Note that your figure will automatically be placed in the most appropriate place
 
 \subsection{How to add Tables}
 
+
 Use the table and tabular environments for basic tables --- see Table~\ref{tab:widgets}, for example. For more information, please see this help article on \href{https://www.overleaf.com/learn/latex/tables}{tables}.
 
-\begin{table}
+\begin{table}[h]
 \centering
 \begin{tabular}{l|r}
 Item & Quantity \\\hline
