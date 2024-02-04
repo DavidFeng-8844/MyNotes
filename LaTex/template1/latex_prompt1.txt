@@ -1,0 +1,35 @@
+\documentclass[12pt]{article} % The default font size seems to be 12pt, which is common for articles
+\usepackage{xcolor} % Required for specifying custom colors
+\usepackage{lmodern} % Latin modern font family
+\usepackage[utf8]{inputenc} % Input encoding
+\usepackage[T1]{fontenc} % Font encoding
+
+\usepackage[a4paper, margin=1in]{geometry} % Adjust page margins as needed
+
+% Define colors used in the document
+\definecolor{problemChosenColor}{RGB}{255,0,0} % Red color for "Problem Chosen" and "Team Control Number"
+\definecolor{titleColor}{RGB}{0,0,0} % Black color for the main title
+
+% Start the document
+\begin{document}
+
+\thispagestyle{empty} % No header and footer (no page numbers)
+
+% Create the title section
+\noindent{\Large\textbf{Problem Chosen} \textcolor{problemChosenColor}{B}}\hfill{\Large\textbf{2021 MCM/ICM Summary Sheet}}\hfill{\Large\textbf{Team Control Number} \textcolor{problemChosenColor}{2105363}}
+
+% Thick horizontal line
+\noindent\rule{\textwidth}{2pt}
+
+\vspace{10pt} % Add some space before the title
+
+% Title of the document
+{\noindent\Huge\textbf{\textcolor{titleColor}{Rapid Bushfire Response for Emergency Response}}}
+
+\vspace{4pt} % Add some space after the title
+
+% Subtitle "Summary"
+{\noindent\Large\textbf{Summary}}
+
+% End the document
+\end{document}

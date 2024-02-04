@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage{graphicx} % For the logo
+\usepackage{xcolor} % For colors
+\usepackage[margin=1in]{geometry} % For page margins
+
+\begin{document}
+\thispagestyle{empty} % No page number
+
+\begin{center} % Center everything on the page
+
+% Upper part with title and information
+{\Large Problem Chosen \textcolor{red}{B}}\hfill {\Large 2021 MCM/ICM Summary Sheet} \hfill {\Large Team Control Number \textcolor{red}{2105363}}\\
+\rule{\textwidth}{1pt} % Thick horizontal line
+
+\vspace{10pt} % Whitespace between the line and title
+
+% Main title
+{\LARGE \bfseries Rapid Bushfire Response for Emergency Response}\\[4mm] % Title of your document
+
+% Subtitle
+{\large Summary}
+
+\end{center}
+
+% Rest of your document starts here
+
+\end{document}

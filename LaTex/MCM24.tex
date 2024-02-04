@@ -7,38 +7,82 @@
 % Set page size and margins
 % Replace `letterpaper' with `a4paper' for UK/EU standard size
 \usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage{newtxtext,newtxmath}  % Times New Roman font
 
 % Useful packages
+\usepackage{fancyhdr}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{float}
 
-\title{David's Paper}
-\author{You}
+\title{\vspace*{-3cm} % Adjusted to reduce the top margin
+      \begin{center}
+            \hspace*{0cm} % Adjusted to extend the black strip to the left
+            \begin{tabular}{l@{}c@{}r}
+                  \begin{tabular}{@{}c}
+                        \textbf{Problem Chosen} \\
+                        \textcolor{red}{\textbf{C}}
+                  \end{tabular} &
+                  \begin{tabular}{@{}c}
+                      \textbf{2024} \\
+                      \textbf{MCM/ICM} \\
+                      \textbf{Summary Sheet}
+                  \end{tabular} &
+                  \begin{tabular}{@{}c}
+                      \textcolor{black}{\textbf{Team control number}} \\
+                      \textcolor{red}{\textbf{90169}}
+                  \end{tabular}
+            \end{tabular} \\[0.3cm]
+            \rule{\linewidth}{2pt} % Adjust the width and height here
+            \vspace{-2.5cm} % Adjusted to reduce the bottom margin
+      \end{center}
+}
+
+\date{} % Removes the date
+\author{} % Removes the author
 
 \begin{document}
 \maketitle
+% Define header and footer
+\pagestyle{fancy}
+\fancyhf{} % Clear default header and footer
+% Header
+\fancyhead[C]{\textbf{Tennis Model}} % Centered header content
+\fancyhead[L]{\textit{Team control number 90169}} % Left-aligned header content
 
-\begin{abstract}
-Your abstract.
-\end{abstract}
+% Footer
+\fancyfoot[C]{\thepage} % Centered page number
+\fancyfoot[L]{\textcolor{gray}{2024 MCM/ICM C 90169}} % Left-aligned footer content
+\fancyfoot[R]{\textcolor{gray}{}} % Right-aligned footer content
+\begin{center}
+      \textbf{Abstract}
+  \end{center}
+      This is the abstract content. Replace this with your actual abstract.
+\newpage
+\tableofcontents % Table of contents
+\newpage
 
 \section{Introduction}
-
 My introduction goes here! Simply start writing your document and use the Recompile button to view the updated PDF preview. Examples of commonly used commands and features are listed below, to help you get started.
-
 Once you're familiar with the editor, you can find various project settings in the Overleaf menu, accessed via the button in the very top left of the editor. To view tutorials, user guides, and further documentation, please visit our \href{https://www.overleaf.com/learn}{help library}, or head to our plans page to \href{https://www.overleaf.com/user/subscription/plans}{choose your plan}.
 
 \section{Some examples to get started}
-
 \subsection{How to create Sections and Subsections}
-
 Simply use the section and subsection commands, as in this example document! With Overleaf, all the formatting and numbering is handled automatically according to the template you've chosen. If you're using the Visual Editor, you can also create new section and subsections via the buttons in the editor toolbar.
 
 \subsection{How to include Figures}
-
 First you have to upload the image file from your computer using the upload link in the file-tree menu. Then use the includegraphics command to include it in your document. Use the figure environment and the caption command to add a number and a caption to your figure. See the code for Figure \ref{fig:frog} in this section for an example.
-
 Note that your figure will automatically be placed in the most appropriate place for it, given the surrounding text and taking into account other figures or tables that may be close by. You can find out more about adding images to your documents in this help article on \href{https://www.overleaf.com/learn/how-to/Including_images_on_Overleaf}{including images on Overleaf}.
 
 \begin{figure}
@@ -63,7 +107,7 @@ Gadgets & 13
 
 \subsection{How to add Comments and Track Changes}
 
-Comments can be added to your project by highlighting some text and clicking ``Add comment'' in the top right of the editor pane. To view existing comments, click on the Review menu in the toolbar above. To reply to a comment, click on the Reply button in the lower right corner of the comment. You can close the Review pane by clicking its name on the toolbar when you're done reviewing for the time being.
+Comments can be added to your project by highlighting some text and clicking ``Add comment'' in the top right of the editor pane. To view existing comments, click on the Review menu in the toolbar above. To reply to a comment, click on the Reply button in the lower right corner of the comment. You can close the Review pane by clicking its name on the toolbar when you're done reviewing for the  being.
 
 Track changes are available on all our \href{https://www.overleaf.com/user/subscription/plans}{premium plans}, and can be toggled on or off using the option at the top of the Review pane. Track changes allow you to keep track of every change made to the document, along with the person making the change.
 
