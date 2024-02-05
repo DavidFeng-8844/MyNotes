@@ -151,12 +151,22 @@ Subsequent to this, we utilized a range of machine learning algorithms, includin
 In the concluding phase, we opted for the LGAM algorithm for modeling. This algorithm not only dynamically evaluates a player's performance but also captures shifts in "momentum" during a match. This dynamic assessment model facilitates more accurate predictions of a player's performance, enhancing the precision of predicting match outcomes. Through this research, we have taken a noteworthy stride in comprehending and appraising player tactics and scoring, establishing a strong basis for more in-depth analysis and prediction.
 
 Concerning the creation of the indicator system, we analyzed potential factors influencing a tennis player's scoring. The system was formulated based on elements like player fatigue, real-time and historical scoring situations, and the player's psychological state. This thorough analysis contributes to a nuanced understanding of player performance, paving the way for further exploration and prediction.
-\begin{figure}[h]
+\begin{figure}[htbp]
       \centering
-      \includegraphics[width=0.25\linewidth]{test1.png}
-      \caption{\label{fig:frog}This frog was uploaded via the file-tree menu.}
+      \begin{subfigure}{0.48\textwidth} % Adjust the width as needed
+          \includegraphics[width=\linewidth]{task1_image\roc_auc(test(before_sampling)).png} % Replace 'figure1' with the filename of your first figure
+          \caption{roc_auc_test}
+          \label{fig:roc_test}
+      \end{subfigure}
+      \hfill % Add horizontal space between the subfigures
+      \begin{subfigure}{0.48\textwidth} % Adjust the width as needed
+          \includegraphics[width=\linewidth]{task1_image\roc_auc(train(before_sampling)).png} % Replace 'figure2' with the filename of your second figure
+          \caption{roc_auc_train}
+          \label{fig:roc_train}
+      \end{subfigure}
+      \caption{Overall caption for the figures}
+      \label{fig:overall}
 \end{figure}
-
 \bibliographystyle{alpha}
 \bibliography{sample}
 

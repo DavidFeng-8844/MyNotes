@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.30)  5 FEB 2024 15:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.30)  5 FEB 2024 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -671,7 +671,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring ON on input line 55.
- (./MCM24.out) (./MCM24.out)
 \@outlinefile=\write4
 \openout4 = `MCM24.out'.
 
@@ -698,42 +697,231 @@ Overfull \hbox (48.94037pt too wide) in paragraph at lines 57--57
 
 [1
 
-{d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./MCM24.toc)
+{d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+No file MCM24.toc.
 \tf@toc=\write5
 \openout5 = `MCM24.toc'.
 
- [2] [3]
+[2] [3]
 Overfull \hbox (60.43597pt too wide) in paragraph at lines 114--134
  [][] 
  []
 
 [4] [5]
-<test1.png, id=98, 1155.1155pt x 650.43pt>
-File: test1.png Graphic file (type png)
-<use test1.png>
-Package pdftex.def Info: test1.png  used on input line 156.
-(pdftex.def)             Requested size: 110.8946pt x 62.4366pt.
- (./MCM24.bbl
+d:/Notes/LaTex/MCM24.tex:157: Undefined control sequence.
+<argument> task1_imageroc 
+                          _auc(test(before_sampling)).png
+l.157 ...image\roc_auc(test(before_sampling)).png}
+                                                   % Replace 'figure1' with ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+d:/Notes/LaTex/MCM24.tex:157: Undefined control sequence.
+<argument> task1_imageroc 
+                          _auc(test(before_sampling)).png
+l.157 ...image\roc_auc(test(before_sampling)).png}
+                                                   % Replace 'figure1' with ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+d:/Notes/LaTex/MCM24.tex:157: Undefined control sequence.
+<argument> task1_imageroc 
+                          _auc(test(before_sampling)).png
+l.157 ...image\roc_auc(test(before_sampling)).png}
+                                                   % Replace 'figure1' with ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+d:/Notes/LaTex/MCM24.tex:157: Undefined control sequence.
+<write> 
+LaTeX Warning: File `task1_image\roc 
+                                              _auc(test(before_sampling)).pn...
+l.157 ...image\roc_auc(test(before_sampling)).png}
+                                                   % Replace 'figure1' with ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: File `task1_image_auc(test(before_sampling)).png' not found on input line 157.
+
+
+d:/Notes/LaTex/MCM24.tex:157: Package pdftex.def Error: File `task1_image_auc(test(before_sampling)).png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 ...image\roc_auc(test(before_sampling)).png}
+                                                   % Replace 'figure1' with ...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+d:/Notes/LaTex/MCM24.tex:158: Missing $ inserted.
+<inserted text> 
+                $
+l.158           \caption{roc_auc_test}
+                                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+d:/Notes/LaTex/MCM24.tex:158: Missing $ inserted.
+<inserted text> 
+                $
+l.158           \caption{roc_auc_test}
+                                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+d:/Notes/LaTex/MCM24.tex:158: Missing $ inserted.
+<inserted text> 
+                $
+l.158           \caption{roc_auc_test}
+                                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+d:/Notes/LaTex/MCM24.tex:158: Missing $ inserted.
+<inserted text> 
+                $
+l.158           \caption{roc_auc_test}
+                                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+d:/Notes/LaTex/MCM24.tex:163: Undefined control sequence.
+<argument> task1_imageroc 
+                          _auc(train(before_sampling)).png
+l.163 ...mage\roc_auc(train(before_sampling)).png}
+                                                   % Replace 'figure2' with ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+d:/Notes/LaTex/MCM24.tex:163: Undefined control sequence.
+<argument> task1_imageroc 
+                          _auc(train(before_sampling)).png
+l.163 ...mage\roc_auc(train(before_sampling)).png}
+                                                   % Replace 'figure2' with ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+d:/Notes/LaTex/MCM24.tex:163: Undefined control sequence.
+<argument> task1_imageroc 
+                          _auc(train(before_sampling)).png
+l.163 ...mage\roc_auc(train(before_sampling)).png}
+                                                   % Replace 'figure2' with ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+d:/Notes/LaTex/MCM24.tex:163: Undefined control sequence.
+<write> 
+LaTeX Warning: File `task1_image\roc 
+                                              _auc(train(before_sampling)).p...
+l.163 ...mage\roc_auc(train(before_sampling)).png}
+                                                   % Replace 'figure2' with ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: File `task1_image_auc(train(before_sampling)).png' not found on input line 163.
+
+
+d:/Notes/LaTex/MCM24.tex:163: Package pdftex.def Error: File `task1_image_auc(train(before_sampling)).png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 ...mage\roc_auc(train(before_sampling)).png}
+                                                   % Replace 'figure2' with ...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+d:/Notes/LaTex/MCM24.tex:164: Missing $ inserted.
+<inserted text> 
+                $
+l.164           \caption{roc_auc_train}
+                                       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+d:/Notes/LaTex/MCM24.tex:164: Missing $ inserted.
+<inserted text> 
+                $
+l.164           \caption{roc_auc_train}
+                                       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+d:/Notes/LaTex/MCM24.tex:164: Missing $ inserted.
+<inserted text> 
+                $
+l.164           \caption{roc_auc_train}
+                                       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+d:/Notes/LaTex/MCM24.tex:164: Missing $ inserted.
+<inserted text> 
+                $
+l.164           \caption{roc_auc_train}
+                                       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+(./MCM24.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [6 <./test1.png>] (./MCM24.aux)
-Package rerunfilecheck Info: File `MCM24.out' has not changed.
-(rerunfilecheck)             Checksum: DD3C413C13A9055188A6BA1F3E47C6DD;1487.
+) [6] (./MCM24.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `MCM24.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `MCM24.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  DD3C413C13A9055188A6BA1F3E47C6DD;1487.
  ) 
 Here is how much of TeX's memory you used:
- 34988 strings out of 476025
- 794406 string characters out of 5794014
+ 35062 strings out of 476025
+ 797719 string characters out of 5794014
  1868382 words of memory out of 5000000
- 54881 multiletter control sequences out of 15000+600000
- 522050 words of font info for 70 fonts, out of 8000000 for 9000
+ 54943 multiletter control sequences out of 15000+600000
+ 523763 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,89p,1085b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on MCM24.pdf (6 pages, 430170 bytes).
+<d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on MCM24.pdf (6 pages, 131551 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
+ 108 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  29 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
