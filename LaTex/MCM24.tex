@@ -9,6 +9,14 @@
 \usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 
 % Useful packages
+\usepackage{xcolor} % For color in the text
+\definecolor{astana}{RGB}{220,220,220}
+\definecolor{gray}{RGB}{128,128,128}
+\definecolor{red}{RGB}{255,0,0}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{amsmath} % For math
+\usepackage{subcaption} % For subfigures
 \usepackage{fancyhdr}
 \usepackage{amsmath}
 \usepackage{graphicx}
@@ -63,8 +71,7 @@ Abstract goes here.
 \pagestyle{fancy}
 \fancyhf{} % Clear default header and footer
 % Header
-\fancyhead[C]{\textbf{Tennis Model}} % Centered header content
-\fancyhead[L]{\textit{Team control number 2417022}} % Left-aligned header content
+\fancyhead[L]{\textit{Uncover the secrets behind Alcaraz's success in Wimbledon}} % Left-aligned header content
 
 % Footer
 \fancyfoot[C]{\thepage} % Centered page number
@@ -111,7 +118,7 @@ In the final study, by selecting four matches as a validation set and using othe
 \section{Symbol Description}
 \begin{table}[H]
 \centering
-\begin{tabular}{|c|l|}
+\begin{tabular}{|>{\centering\arraybackslash}m{2.5cm}|p{0.6\textwidth}|}
 \hline
 \textbf{Symbol} & \textbf{Description} \\ \hline
 $S1$ & The number of game winning in the current set \\ \hline
@@ -124,7 +131,7 @@ $S7$ & Whether to score on a return kick (no touch). \\ \hline
 $S8$ & No touch score on the backhand \\ \hline
 $S9$ & Is there a double fault in this game? \\ \hline
 $S10$ & Whether there were unforced errors in this game. \\ \hline
-$S11$ & The ratio of the number of times you use the Internet to the number of times you use the Internet. \\ \hline
+$S11$ & The ratio of the number of net to the number of times score by net \\ \hline
 $S12$ & The ratio of the chance of scoring when the opponent serves to the number of points actually scored. \\ \hline
 $S13$ & Total mileage in this match \\ \hline
 $S14$ & The total mileage in the last three points \\ \hline
@@ -151,22 +158,184 @@ Subsequent to this, we utilized a range of machine learning algorithms, includin
 In the concluding phase, we opted for the LGAM algorithm for modeling. This algorithm not only dynamically evaluates a player's performance but also captures shifts in "momentum" during a match. This dynamic assessment model facilitates more accurate predictions of a player's performance, enhancing the precision of predicting match outcomes. Through this research, we have taken a noteworthy stride in comprehending and appraising player tactics and scoring, establishing a strong basis for more in-depth analysis and prediction.
 
 Concerning the creation of the indicator system, we analyzed potential factors influencing a tennis player's scoring. The system was formulated based on elements like player fatigue, real-time and historical scoring situations, and the player's psychological state. This thorough analysis contributes to a nuanced understanding of player performance, paving the way for further exploration and prediction.
-\begin{figure}[htbp]
+
+\subsubsection{Index creation}
+we analyze the factors that might correlate with the player's score. According to the player's fatigue and mental state etc., make an index system as follows.
+
+\begin{table}[H]
+      \centering
+      \begin{tabular}{|>{\centering\arraybackslash}m{2.5cm}|p{0.6\textwidth}|}
+      \hline
+      \textbf{Categery} & \textbf{Index} \\ \hline
+      Fatigue &  Total mileage in this match\\ \hline
+      Fatigue &  The total mileage in the last three points \\ \hline
+      Fatigue &  Whether score in the last point \\ \hline
+      State & Whether there is a double fault \\ \hline
+      State & Whether there were unforced errors in this game.\\ \hline
+      State & Serve real-time pace  \\ \hline
+      State & Whether it is an interactive item for the server's serving pace\\ \hline
+      State &  The ratio of the number of net to the number of times score by net\\ \hline
+      State & The ratio of the chance of scoring when the opponent serves to the number of points actually scored.\\ \hline
+      Ability& Whether the serve is scored (no contact) \\ \hline
+      Ability& Whether to score on a return kick (no touch). \\ \hline
+      Ability& No touch score on the backhand \\ \hline
+      Ability& The score lead progress of this match\\ \hline
+      Ability& The leading scores in the current game \\ \hline
+      Ability& The number of game winning in the current set \\ \hline
+      Ability& Whether score in the last point \\ \hline
+      Situations& Whether it is the server \\ \hline
+      \end{tabular}
+      \caption{Symbol Description}
+\end{table}
+\subsubsection{Statistical Logistic Regression Analysis Based on Indicator System}
+This study employs a comprehensive indicator system to assess the impact of various factors on the real-time scoring of players in sports matches.
+The indicator system allows for the calculation of scores for each point in every set of every match played by a participant, with corresponding assessments 
+of the player's current performance indicators. To validate the significance of the indicators within this system concerning point scoring, a statistical regression analysis is conducted. 
+Given the binary nature of point scoring outcomes, a binary logistic regression model is selected, and the analysis is executed using SPSS software.
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=0.7\textwidth]{logistic_classfication_1.png}
+      \caption{logistic regression performance}
+\end{figure}
+The logistic regression analysis in SPSS yielded an overall accuracy of 65.5\%. The model exhibited a classification accuracy of 34.4\%
+for instances where players genuinely did not score, while achieving a significantly higher accuracy of 85.2\% for instances where players did score. 
+This suggests a preference of the model to classify samples into situations where players actually scored (label 1).
+
+However, it is crucial to note that this logistic regression analysis provides a prospective examination. Its purpose is to investigate 
+whether the constructed indicators significantly influence the actual scoring situation of players. The results of the logistic regression analysis are presented in the following table.
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=0.7\textwidth]{variable_eq1.png}
+      \caption{Logistic regression results}
+\end{figure}
+As the figure table shows, the p-values for the majority of the independent variables are less than 0.05, indicating a significant influence of these variables on the dependent variable. Consequently, in this indicator system, 
+variables such as s2, s6, s7, s8, s10, and s14 have been identified as significantly affecting a player's real-time scoring situation. 
+This suggests that both a player's individual abilities and factors like fatigue or psychological state can exert a significant impact on their real-time scoring performance.
+
+\subsubsection{Evaluation of Machine Learning Models Based on an Indicator System}
+The model construction phase involves the selection of high-performing ensemble tree models, specifically LightGBM (LGBM) and XGBoost, alongside classical machine learning algorithms, 
+namely Support Vector Machine (SVM), Perceptron Neural Network, and Logistic Regression, serving as comparative benchmarks. The models are validated using k-fold cross-validation, 
+and performance metrics such as accuracy, precision, recall, F1 score, and AUC-ROC curve are derived from confusion matrices.
+
+The confusion matrix-based results are presented in the table below, while the training and testing outcomes based on AUC-ROC curves are illustrated in the figures.
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=0.7\textwidth]{cross_valadation.png}
+      \caption{Cross Valadation}
+\end{figure}
+
+Among the models, LGBM exhibits superior performance with accuracy, precision, recall, F1 score, and AUC values of 0.69, 0.69, 0.77, 0.69, and AUC\_L respectively. Neural Network follows closely, demonstrating minimal discrepancies in metrics (0.69, 0.66, 0.71, 0.68, AUC\_NN), indicating a lack of pronounced bias in positive or negative sample discrimination. Consequently, the effectiveness of LGBM is affirmed.
+\begin{figure}[H]
       \centering
       \begin{subfigure}{0.48\textwidth} % Adjust the width as needed
-          \includegraphics[width=\linewidth]{task1_image\roc_auc(test(before_sampling)).png} % Replace 'figure1' with the filename of your first figure
-          \caption{roc_auc_test}
+          \includegraphics[width=\linewidth]{roc_auc(test(before_sampling)).png} % Replace 'figure1' with the filename of your first figure
+          \caption{Test}
           \label{fig:roc_test}
       \end{subfigure}
       \hfill % Add horizontal space between the subfigures
       \begin{subfigure}{0.48\textwidth} % Adjust the width as needed
-          \includegraphics[width=\linewidth]{task1_image\roc_auc(train(before_sampling)).png} % Replace 'figure2' with the filename of your second figure
-          \caption{roc_auc_train}
+          \includegraphics[width=\linewidth]{roc_auc(train(before_sampling)).png} % Replace 'figure2' with the filename of your second figure
+          \caption{Train}
           \label{fig:roc_train}
       \end{subfigure}
-      \caption{Overall caption for the figures}
+      \caption{Task 1 Overall performance of the model}
       \label{fig:overall}
 \end{figure}
+
+The ROC curves illustrate variations in precision and recall metrics at different threshold settings. Through ROC analysis, it further validates LGBM as the most effective algorithm.
+
+Building upon these findings, a new training model is established utilizing the top-performing LGBM model. Real-time performance visualization is conducted on the classic match between 20-year-old rising Spanish star Carlos Alcaraz and 36-year-old Novak Djokovic in the 2023 Wimbledon Men's Singles Final. The result is shown as follows.
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=0.7\textwidth]{classic_duel_trend.png}
+      \caption{Classic duel}
+\end{figure}
+
+In fact, the predictive accuracy for scoring points has no upper limit, which aligns with our intuition. The complexity of factors influencing whether a player can score is highly intricate. 
+Without considering these complex elements, the noise in a player's performance becomes significantly pronounced. As a result, the model can accurately discern the real scoring situations of only approximately 70\% 
+of the players. We observe that in this classic match, the server and scorer precisely align with the actual scoring situations of the players. When Carlos Alcaraz secures victory, the momentum is high, and it is relatively low when facing defeat. 
+This indicates that the model remains effective, as it reflects the consistency between the classic battle outcomes and the real-time scoring situations of the players.
+\subsection{Task2's Model}
+\subsubsection{Task2's Model Analysis}
+In the second phase of our research, we are dedicated to gaining a deeper understanding of the practical role of "momentum" in sports competitions. The aim is to unveil whether the fluctuations and successes exhibited by players during a match demonstrate a non-random trend. 
+To achieve this objective, I initially applied the optimal machine learning model established in question one to the test set, generating probability outputs for player scoring. Through Pearson correlation tests between these outputs and the actual player scoring situations, 
+we attempt to identify the degree of association between the output probabilities and the real scoring outcomes.
+
+Furthermore, we employ a univariate linear regression model, where the predicted "momentum" serves as the independent variable and the player's actual scoring as the dependent variable. Through this modeling process, we not only track the impact of momentum on real-time scoring 
+but also endeavor to uncover the interpretable components behind the "momentum." This in-depth analytical process aims to reveal the exact mechanisms through which "momentum" influences player scoring, providing a more comprehensive understanding of the dynamic characteristics of player performance.
+
+Within this research framework, we anticipate concluding that "momentum" is not merely a simple random phenomenon but indeed exerts a noticeable and meaningful impact on player scoring. Through these efforts, we aim to offer a more detailed and profound insight into the practical significance 
+of momentum in sports competitions, providing specific recommendations and guidance for player performance during matches.
+\subsubsection{Pearson Correlation Test}
+\textbf{Principles of Pearson Correlation Test}\\
+
+The Pearson correlation coefficient is a statistical measure used to assess the linear relationship between two variables, with values ranging from -1 to 1. Specifically:
+
+\begin{itemize}
+  \item A value of 1 indicates a perfect positive correlation: when one variable increases, the other variable increases correspondingly.
+  \item A value of -1 indicates a perfect negative correlation: when one variable increases, the other variable decreases.
+  \item A value of 0 suggests no linear relationship.
+\end{itemize}
+
+The calculation formula for the Pearson correlation coefficient (often denoted by the symbol \(r\)) is as follows:
+
+\[ r = \frac{\sum{(x_i - \bar{x})(y_i - \bar{y})}}{\sqrt{\sum{(x_i - \bar{x})^2} \cdot \sum{(y_i - \bar{y})^2}}} \]
+\\
+Here, \( x_i \) and \( y_i \) are the corresponding data points, \( \bar{x} \) and \( \bar{y} \) are the respective means of the variables. The numerator represents the sum of the product of the deviations of each data point from their respective means, while the denominator signifies the square root of the product of the sums of squared deviations for both variables.
+
+A computed \( r \) value closer to 1 or -1 indicates a stronger linear relationship between the two variables. Conversely, an \( r \) value close to 0 suggests a lack of linear relationship between the variables.
+\\
+\textbf{Pearson Correlation Test Results}\\
+
+As the goal is to demonstrate whether the momentum output by the model can influence the players' actual performance, it is necessary to establish the significance of their correlation.
+\begin{table}[H]
+      \centering
+      \begin{tabular}{|c|c|}
+      \hline
+      \textbf{Correlation coefficient} & \textbf{P Value} \\ \hline
+      0.482 &  0.000\\ \hline
+      \end{tabular}
+      \caption{Pearson result}
+\end{table}
+It is observed that the p-value is less than 0.05, indicating a significant correlation between momentum and player performance. Furthermore, this relationship is characterized as a positive correlation, signifying that a larger momentum corresponds to better player performance and an increased likelihood of scoring.
+
+\subsubsection{Univariate Linear Regression Model}  
+Similarly, we use linear regression to analyze whether momentum can significantly affect player scores. The result is as shown below:
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=0.7\textwidth]{Univariate_linear_regression.png}
+      \caption{Univariate regression}
+\end{figure}
+It can be seen that the p-value of momentum is also less than 0.05, and its weight is 0.9231. The impact of momentum x1 on the results is significant, and it can explain 0.233 of the results.
+
+\subsection{Task3's Model}
+In the study of question three, we deeply analyzed the limitations of the established model. This model mainly focuses on predicting the score of each player's serve and stroke, and is therefore limited to having high randomness. ,To overcome one of the limitations, we adopted a ,more nuanced approach designed to more accurately reflect ,player performance fluctuations throughout the game.
+
+First, we upgraded the model in Question 1 to aggregate features and calculate the player's single game win. This new prediction goal provides us with more specific and accurate data, allowing us to better understand Player performance in the game. Subsequently, we again used statistical LOGISTI to build a model to determine the significant impact of the proposed indicator system on predicting game results.
+
+Comparing the results of Question 1, we found that the indicator system proposed in the text has a more significant impact on the independent variables in game prediction. In the comparative analysis of multiple machine learning algorithms, especially LGBM, XGBOOST, support vector machine, perceptron network, and logistic regression, the support vector machine performed well and became the best model we selected. In order to further strengthen the model For interpretability, we used the information gain method to calculate the importance score of the indicator system, which helps us understand the specific contribution of each indicator to the players.
+
+In the end, we not only provided an excellent support vector machine model for modeling player performance fluctuations, but also gained a deeper understanding of the importance of the indicator system through the analysis of information gain. At the end of the study,
+we provide performance recommendations for players when entering new games, aiming to help players achieve better performance in the game. These recommendations are not only based on our model results, but also incorporate the overall status of the players and specific 
+situations. Deep insights provide players with more comprehensive support.
+
+\subsection{Logistic test with game as granularity}
+Similarly, we use statistical logistic regression for testing. The results are shown in the table
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=0.7\textwidth]{logisitc_classification2.png}
+      \caption{Logistic regression performance}
+\end{figure}
+It can be seen that compared to point-based logistic regression, the accuracy of game-based logistic regression has a clear value-added, 
+from 65.5 to 71.4. At this time, the results of the model can better reflect the real fluctuation state of the players. Then, the results of the logistic 
+regression test are as shown in the figure
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=0.7\textwidth]{logistic_eq2.png}
+      \caption{Logistic regression results}
+\end{figure}
+Compared with the results of Question 1, in the existing results, many variables that were originally insignificant became significant, including x3, x4, x11 and x13
 \bibliographystyle{alpha}
 \bibliography{sample}
 
