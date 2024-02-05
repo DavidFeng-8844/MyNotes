@@ -31,7 +31,38 @@
 \usepackage{subcaption}
 \usepackage{listings}
 \usepackage{color}
-
+\usepackage{listings}
+% Define custom colors for code highlighting
+\definecolor{codebackground}{RGB}{255,253,238}  % Light yellow
+\definecolor{codecomment}{RGB}{0,128,0}        % Dark green
+\definecolor{codekeyword}{RGB}{0,0,255}         % Blue
+\definecolor{codenumber}{RGB}{128,128,128}      % Gray
+\definecolor{codestring}{RGB}{255,0,0}           % Red
+\definecolor{codecyan}{RGB}{0,255,255}           % Cyan
+\definecolor{codeorange}{RGB}{255,165,0}         % Orange
+\definecolor{codepurple}{RGB}{128,0,128}         % Purple
+% Set the code style
+\lstdefinestyle{mystyle}{
+    language=Python,
+    basicstyle=\small\ttfamily,
+    commentstyle=\color{codecomment},
+    keywordstyle=\color{codekeyword},
+    numberstyle=\tiny\color{codenumber},
+    stringstyle=\color{codestring},
+    morekeywords={as},
+    emph={True, False, None},
+    emphstyle=\color{codepurple},
+    backgroundcolor=\color{codebackground},
+    breaklines=true,
+    showtabs=false,
+    showspaces=false,
+    numbers=left,
+    frame=single,
+    captionpos=b,
+    tabsize=2
+}
+% 使用定义的样式
+\lstset{style=mystyle}
 \title{\vspace*{-3cm} % Adjusted to reduce the top margin
       \begin{center}
             \hspace*{0cm} % Adjusted to extend the black strip to the left
@@ -54,7 +85,7 @@
             \vspace{-2.5cm} % Adjusted to reduce the bottom margin
       \end{center}
       \vspace{2cm}
-      \textbf{\LARGE Uncover the secrets behind Alcaraz's success in Wimbledon}
+      \textbf{\LARGE Uncover the Secrets Behind Alcaraz's Success in Wimbledon}
 }
 
 \date{} % Removes the date
@@ -65,7 +96,17 @@
 \begin{center}
       \Large\textbf{Abstract}
 \end{center}
-Abstract goes here.
+With the development of tennis, people are paying more and more attention to tennis. In order to solve the problem of which are the key factors for scoring in tennis matches, this article established and solved an accurate model about the relationship between the changes in players' "momentum" and various factors.
+
+For Task 1, we first use logistic regression to construct 16 possible influencing factors, and then use 5 mechanical learning algorithms: LGBM, XGB, SVC, MLP and LR models to use the preprocessed game score data through accuracy, recall, precision, Curve indicators such as f1, auc, roc were visually compared and verified using the 5-fold cross-validation method. Finally, it was found that the LGBM model had the highest accuracy of 65.5\%, which means that the values predicted by the LGBM model have the highest degree of fit with the actual values, so we Use the LGBM model as a simulation of which player performs better at a specific time in the game.
+
+For Task 2, we first put the preprocessed point score data into the LGBM model to predict and get the output probability, then combine the output probability with the actual score, and obtain the Pearson correlation coefficient of 0.482 and p value through the Pearson correlation coefficient formula Very close to 0. Secondly, we continue to use linear regression analysis to find that the p value here is also very close to 0. The smaller the p-value, the stronger the evidence for rejecting the null hypothesis. So this proves that "momentum" has a strong correlation with game scores. So this proves the extremely important role of "momentum" in the game.
+
+For Task 3, because "momentum" has a strong correlation with game scores, we specifically explore the fluctuations of "momentum" in the game. First, we use the Logistic model to construct possible influencing factors and use the preprocessed game score data (eliminating the inaccuracy caused by the high probability of serving scores) to input the machine learning algorithms of LGBM, XGB, SVC, MLP and LR models Within, and then visually compared through accuracy, recall, precision, f1, auc, roc and other curve indicators and verified with the 5-fold cross-validation method, it was finally found that the SVC model has the highest accuracy of 71.4\%, which represents the value predicted by the SVC model The best fit is with the actual value, so we use the SVC model to predict the fluctuation of "momentum" in the game.
+
+For Task 4, we first still use machine learning indicators to evaluate the ambiguity of oweng to the volatility indicator, and use roc-auc to visualize the random game data to predict the SVC model, and find that the accuracy is lower than the previous data; then by adding the future Factors such as "personal ability" were used to construct new indicators based on the original basis, and the SVC model was re-predicted and visualized. It was found that the accuracy was improved, proving that the model we built also has a certain degree of generalization in other competitions.
+
+The uniqueness of our model is that we use a highly accurate machine learning algorithm model. In addition, the model established in this article has high versatility, accuracy, universality, and comprehensive analysis of various factors and situations. In the meantime, a two-page memo was provided to tennis coaches.
 
 % Define header and footer
 \pagestyle{fancy}
@@ -79,7 +120,9 @@ Abstract goes here.
 \fancyfoot[R]{\textcolor{gray}{}} % Right-aligned footer content
 
 \newpage
-\tableofcontents % Table of contents
+\begin{center}
+      \tableofcontents % Table of contents
+\end{center}
 \newpage
 
 \section{Introduction}
@@ -97,8 +140,13 @@ providing a diversion from the monotonous church life. Now, modern tennis has fo
 \subsection{Our Work}
 Firstly, the choice of model should be grounded in the context of the problem, taking into account the importance of momentum in tennis matches and its impact on player performance. Therefore, the model needs to capture the dynamic changes during a match and reflect the performance of players at different points in time. Factors such as scoring probability, fatigue levels, technical skills, and the mental state during the match are crucial indicators of momentum change, so the chosen model should integrate these factors to predict the scoring probability of players. Given that the dataset provides detailed match scores and other relevant statistics, machine learning algorithms like LGBM and XGBOOST are suitable choices because they can handle a large number of features and are applicable to classification problems. Moreover, considering the sequential nature of scoring in tennis matches, time series analysis or Hidden Markov Models could be used to capture the momentum changes throughout the match.
 Taking all these factors into account, opting for gradient boosting algorithms (such as LGBM or XGBOOST) for modeling is a wise decision. These algorithms perform well in dealing with complex relationships and nonlinear patterns and can manage large datasets efficiently. Additionally, incorporating sequence models to capture temporal momentum changes should also be considered. The final model selection will be based on predictive accuracy (metrics such as accuracy, recall, precision, F1 score, AUC, and ROC curves) and the model's interpretability. Such a model will be able to assess the impact of "momentum" on the probability of scoring for players and provide insights into the presence of non-random fluctuations in matches.
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=0.8\textwidth]{floatChart.png}
+      \caption{Float Chart}
+\end{figure}
 \section{Problem Analysis}
-In the first study, multiple key factors affecting the scoring abilities of tennis players were comprehensively considered. This included not only whether they were serving but also factors like their level of fatigue, technical skills, and psychological state during the match. A comprehensive evaluation system was designed to deeply analyze these variables, such as individual technical levels, degrees of fatigue, and real-time mental states during matches. By employing statistical Logistic regression, the proposed system of indicators was tested for its correlation with players' scoring, and its effectiveness was validated on a dataset of tennis matches. Machine learning techniques, including LGBM, XGBOOST, support vector machines, perceptron networks, and logistic regression, were applied along with five-fold cross-validation and multi-dimensional performance metrics. The gradient boosting algorithm LGAM was ultimately chosen to dynamically assess players' real-time performance, or what is referred to as match "momentum."
+In the first study, multiple key factors affecting the scoring abilities of tennis players were comprehensively considered. This included not only whether they were serving but also factors like their level of fatigue, technical skills, and psychological state during the match. A comprehensive evaluation system was designed to deeply analyze these variables, such as individual technical levels, degrees of fatigue, and real-time mental states during matches. By employing statistical Logistic regression, the proposed system of indicators was tested for its correlation with players' scoring, and its effectiveness was validated on a dataset of tennis matches. Machine learning techniques, including LGBM, XGBOOST, support vector machines, perceptron networks, and logistic regression, were applied along with five-fold cross-validation and multi-dimensional performance metrics. The gradient boosting algorithm LGBM was ultimately chosen to dynamically assess players' real-time performance, or what is referred to as match "momentum."
 
 The second study focused on exploring whether the "momentum" effect during matches has statistical significance, that is, whether the fluctuations in players' scoring during matches are non-random. The optimized machine learning model developed in the first study was applied to a test dataset, with predicted scoring probabilities compared to actual scoring records of athletes, and validated through Pearson correlation analysis. Subsequently, a univariate linear regression model was established, using predicted "momentum" as the independent variable and players' scoring as the dependent variable, to quantify the impact of "momentum" on scoring.
 
@@ -141,7 +189,7 @@ $S16$ & Serve real-time pace \\ \hline
 \caption{Symbol Description}
 \end{table}
 \section{Model Construction and Analysis}
-\subsection{Task1's Model}
+\subsection{Task1: Model Construction}
 \subsubsection{Data Preprocessing}
 In the initial phase of data preprocessing, the dataset is imported from a .csv file, and the Pandas library is employed to structure the data into a DataFrame. Subsequent to this, the dropna function is applied to eliminate records with missing values. Following the initial data preparation, the script undertakes a comprehensive feature engineering process, introducing novel features pertinent to the distinct characteristics of tennis matches.
 
@@ -153,9 +201,9 @@ The analysis of player performance in tennis is a multifaceted task that require
 
 Initially, we employed logistic regression to assess the statistical significance of the relationship between our established indicator system and the corresponding labels. Leveraging a tennis match dataset, we computed these indicators and labels indicating player scoring. This step not only aids in comprehending how various factors impact a player's score but also lays a crucial groundwork for feature selection in the modeling phase.
 
-Subsequent to this, we utilized a range of machine learning algorithms, including LGBM, XGBoost, Support Vector Machines, Perceptron Networks, and Logistic Regression. We compared their effectiveness using metrics like accuracy, recall, precision, F1-score, AUC, and ROC curves. This step not only robustly supports our final choice of the LGAM algorithm for modeling but also ensures the model's capacity for generalization.
+Subsequent to this, we utilized a range of machine learning algorithms, including LGBM, XGBoost, Support Vector Machines, Perceptron Networks, and Logistic Regression. We compared their effectiveness using metrics like accuracy, recall, precision, F1-score, AUC, and ROC curves. This step not only robustly supports our final choice of the LGBM algorithm for modeling but also ensures the model's capacity for generalization.
 
-In the concluding phase, we opted for the LGAM algorithm for modeling. This algorithm not only dynamically evaluates a player's performance but also captures shifts in "momentum" during a match. This dynamic assessment model facilitates more accurate predictions of a player's performance, enhancing the precision of predicting match outcomes. Through this research, we have taken a noteworthy stride in comprehending and appraising player tactics and scoring, establishing a strong basis for more in-depth analysis and prediction.
+In the concluding phase, we opted for the LGBM algorithm for modeling. This algorithm not only dynamically evaluates a player's performance but also captures shifts in "momentum" during a match. This dynamic assessment model facilitates more accurate predictions of a player's performance, enhancing the precision of predicting match outcomes. Through this research, we have taken a noteworthy stride in comprehending and appraising player tactics and scoring, establishing a strong basis for more in-depth analysis and prediction.
 
 Concerning the creation of the indicator system, we analyzed potential factors influencing a tennis player's scoring. The system was formulated based on elements like player fatigue, real-time and historical scoring situations, and the player's psychological state. This thorough analysis contributes to a nuanced understanding of player performance, paving the way for further exploration and prediction.
 
@@ -189,8 +237,8 @@ we analyze the factors that might correlate with the player's score. According t
 \end{table}
 \subsubsection{Statistical Logistic Regression Analysis Based on Indicator System}
 This study employs a comprehensive indicator system to assess the impact of various factors on the real-time scoring of players in sports matches.
-The indicator system allows for the calculation of scores for each point in every set of every match played by a participant, with corresponding assessments 
-of the player's current performance indicators. To validate the significance of the indicators within this system concerning point scoring, a statistical regression analysis is conducted. 
+The indicator system allows for the calculation of scores for each point in every set of every match played by a participant, with corresponding assessments
+of the player's current performance indicators. To validate the significance of the indicators within this system concerning point scoring, a statistical regression analysis is conducted.
 Given the binary nature of point scoring outcomes, a binary logistic regression model is selected, and the analysis is executed using SPSS software.
 \begin{figure}[H]
       \centering
@@ -198,10 +246,10 @@ Given the binary nature of point scoring outcomes, a binary logistic regression 
       \caption{logistic regression performance}
 \end{figure}
 The logistic regression analysis in SPSS yielded an overall accuracy of 65.5\%. The model exhibited a classification accuracy of 34.4\%
-for instances where players genuinely did not score, while achieving a significantly higher accuracy of 85.2\% for instances where players did score. 
+for instances where players genuinely did not score, while achieving a significantly higher accuracy of 85.2\% for instances where players did score.
 This suggests a preference of the model to classify samples into situations where players actually scored (label 1).
 
-However, it is crucial to note that this logistic regression analysis provides a prospective examination. Its purpose is to investigate 
+However, it is crucial to note that this logistic regression analysis provides a prospective examination. Its purpose is to investigate
 whether the constructed indicators significantly influence the actual scoring situation of players. The results of the logistic regression analysis are presented in the following table.
 
 \begin{figure}[H]
@@ -209,13 +257,13 @@ whether the constructed indicators significantly influence the actual scoring si
       \includegraphics[width=0.7\textwidth]{variable_eq1.png}
       \caption{Logistic regression results}
 \end{figure}
-As the figure table shows, the p-values for the majority of the independent variables are less than 0.05, indicating a significant influence of these variables on the dependent variable. Consequently, in this indicator system, 
-variables such as s2, s6, s7, s8, s10, and s14 have been identified as significantly affecting a player's real-time scoring situation. 
+As the figure table shows, the p-values for the majority of the independent variables are less than 0.05, indicating a significant influence of these variables on the dependent variable. Consequently, in this indicator system,
+variables such as s2, s6, s7, s8, s10, and s14 have been identified as significantly affecting a player's real-time scoring situation.
 This suggests that both a player's individual abilities and factors like fatigue or psychological state can exert a significant impact on their real-time scoring performance.
 
 \subsubsection{Evaluation of Machine Learning Models Based on an Indicator System}
-The model construction phase involves the selection of high-performing ensemble tree models, specifically LightGBM (LGBM) and XGBoost, alongside classical machine learning algorithms, 
-namely Support Vector Machine (SVM), Perceptron Neural Network, and Logistic Regression, serving as comparative benchmarks. The models are validated using k-fold cross-validation, 
+The model construction phase involves the selection of high-performing ensemble tree models, specifically LightGBM (LGBM) and XGBoost, alongside classical machine learning algorithms,
+namely Support Vector Machine (SVM), Perceptron Neural Network, and Logistic Regression, serving as comparative benchmarks. The models are validated using k-fold cross-validation,
 and performance metrics such as accuracy, precision, recall, F1 score, and AUC-ROC curve are derived from confusion matrices.
 
 The confusion matrix-based results are presented in the table below, while the training and testing outcomes based on AUC-ROC curves are illustrated in the figures.
@@ -231,13 +279,13 @@ Among the models, LGBM exhibits superior performance with accuracy, precision, r
       \begin{subfigure}{0.48\textwidth} % Adjust the width as needed
           \includegraphics[width=\linewidth]{roc_auc(test(before_sampling)).png} % Replace 'figure1' with the filename of your first figure
           \caption{Test}
-          \label{fig:roc_test}
+          \label{fig:roctest}
       \end{subfigure}
       \hfill % Add horizontal space between the subfigures
       \begin{subfigure}{0.48\textwidth} % Adjust the width as needed
           \includegraphics[width=\linewidth]{roc_auc(train(before_sampling)).png} % Replace 'figure2' with the filename of your second figure
           \caption{Train}
-          \label{fig:roc_train}
+          \label{fig:roctrain}
       \end{subfigure}
       \caption{Task 1 Overall performance of the model}
       \label{fig:overall}
@@ -252,20 +300,20 @@ Building upon these findings, a new training model is established utilizing the 
       \caption{Classic duel}
 \end{figure}
 
-In fact, the predictive accuracy for scoring points has no upper limit, which aligns with our intuition. The complexity of factors influencing whether a player can score is highly intricate. 
-Without considering these complex elements, the noise in a player's performance becomes significantly pronounced. As a result, the model can accurately discern the real scoring situations of only approximately 70\% 
-of the players. We observe that in this classic match, the server and scorer precisely align with the actual scoring situations of the players. When Carlos Alcaraz secures victory, the momentum is high, and it is relatively low when facing defeat. 
+In fact, the predictive accuracy for scoring points has no upper limit, which aligns with our intuition. The complexity of factors influencing whether a player can score is highly intricate.
+Without considering these complex elements, the noise in a player's performance becomes significantly pronounced. As a result, the model can accurately discern the real scoring situations of only approximately 70\%
+of the players. We observe that in this classic match, the server and scorer precisely align with the actual scoring situations of the players. When Carlos Alcaraz secures victory, the momentum is high, and it is relatively low when facing defeat.
 This indicates that the model remains effective, as it reflects the consistency between the classic battle outcomes and the real-time scoring situations of the players.
-\subsection{Task2's Model}
-\subsubsection{Task2's Model Analysis}
-In the second phase of our research, we are dedicated to gaining a deeper understanding of the practical role of "momentum" in sports competitions. The aim is to unveil whether the fluctuations and successes exhibited by players during a match demonstrate a non-random trend. 
-To achieve this objective, I initially applied the optimal machine learning model established in question one to the test set, generating probability outputs for player scoring. Through Pearson correlation tests between these outputs and the actual player scoring situations, 
+\subsection{Task2}
+\subsubsection{Task2: Model Analysis}
+In the second phase of our research, we are dedicated to gaining a deeper understanding of the practical role of "momentum" in sports competitions. The aim is to unveil whether the fluctuations and successes exhibited by players during a match demonstrate a non-random trend.
+To achieve this objective, I initially applied the optimal machine learning model established in Task one to the test set, generating probability outputs for player scoring. Through Pearson correlation tests between these outputs and the actual player scoring situations,
 we attempt to identify the degree of association between the output probabilities and the real scoring outcomes.
 
-Furthermore, we employ a univariate linear regression model, where the predicted "momentum" serves as the independent variable and the player's actual scoring as the dependent variable. Through this modeling process, we not only track the impact of momentum on real-time scoring 
+Furthermore, we employ a univariate linear regression model, where the predicted "momentum" serves as the independent variable and the player's actual scoring as the dependent variable. Through this modeling process, we not only track the impact of momentum on real-time scoring
 but also endeavor to uncover the interpretable components behind the "momentum." This in-depth analytical process aims to reveal the exact mechanisms through which "momentum" influences player scoring, providing a more comprehensive understanding of the dynamic characteristics of player performance.
 
-Within this research framework, we anticipate concluding that "momentum" is not merely a simple random phenomenon but indeed exerts a noticeable and meaningful impact on player scoring. Through these efforts, we aim to offer a more detailed and profound insight into the practical significance 
+Within this research framework, we anticipate concluding that "momentum" is not merely a simple random phenomenon but indeed exerts a noticeable and meaningful impact on player scoring. Through these efforts, we aim to offer a more detailed and profound insight into the practical significance
 of momentum in sports competitions, providing specific recommendations and guidance for player performance during matches.
 \subsubsection{Pearson Correlation Test}
 \textbf{Principles of Pearson Correlation Test}\\
@@ -300,7 +348,7 @@ As the goal is to demonstrate whether the momentum output by the model can influ
 \end{table}
 It is observed that the p-value is less than 0.05, indicating a significant correlation between momentum and player performance. Furthermore, this relationship is characterized as a positive correlation, signifying that a larger momentum corresponds to better player performance and an increased likelihood of scoring.
 
-\subsubsection{Univariate Linear Regression Model}  
+\subsubsection{Univariate Linear Regression Model}
 Similarly, we use linear regression to analyze whether momentum can significantly affect player scores. The result is as shown below:
 \begin{figure}[H]
       \centering
@@ -309,15 +357,15 @@ Similarly, we use linear regression to analyze whether momentum can significantl
 \end{figure}
 It can be seen that the p-value of momentum is also less than 0.05, and its weight is 0.9231. The impact of momentum x1 on the results is significant, and it can explain 0.233 of the results.
 
-\subsection{Task3's Model}
-In the study of question three, we deeply analyzed the limitations of the established model. This model mainly focuses on predicting the score of each player's serve and stroke, and is therefore limited to having high randomness. ,To overcome one of the limitations, we adopted a ,more nuanced approach designed to more accurately reflect ,player performance fluctuations throughout the game.
+\subsection{Task3: Reflecting player performance fluctuations throughout the game}
+In the study of Task three, we deeply analyzed the limitations of the established model. This model mainly focuses on predicting the score of each player's serve and stroke, and is therefore limited to having high randomness. To overcome one of the limitations, we adopted a more nuanced approach designed to more accurately reflect ,player performance fluctuations throughout the game.
 
-First, we upgraded the model in Question 1 to aggregate features and calculate the player's single game win. This new prediction goal provides us with more specific and accurate data, allowing us to better understand Player performance in the game. Subsequently, we again used statistical LOGISTI to build a model to determine the significant impact of the proposed indicator system on predicting game results.
+First, we upgraded the model in Task 1 to aggregate features and calculate the player's single game win. This new prediction goal provides us with more specific and accurate data, allowing us to better understand Player performance in the game. Subsequently, we again used statistical LOGISTI to build a model to determine the significant impact of the proposed indicator system on predicting game results.
 
-Comparing the results of Question 1, we found that the indicator system proposed in the text has a more significant impact on the independent variables in game prediction. In the comparative analysis of multiple machine learning algorithms, especially LGBM, XGBOOST, support vector machine, perceptron network, and logistic regression, the support vector machine performed well and became the best model we selected. In order to further strengthen the model For interpretability, we used the information gain method to calculate the importance score of the indicator system, which helps us understand the specific contribution of each indicator to the players.
+Comparing the results of Task 1, we found that the indicator system proposed in the text has a more significant impact on the independent variables in game prediction. In the comparative analysis of multiple machine learning algorithms, especially LGBM, XGBOOST, support vector machine, perceptron network, and logistic regression, the support vector machine performed well and became the best model we selected. In order to further strengthen the model For interpretability, we used the information gain method to calculate the importance score of the indicator system, which helps us understand the specific contribution of each indicator to the players.
 
 In the end, we not only provided an excellent support vector machine model for modeling player performance fluctuations, but also gained a deeper understanding of the importance of the indicator system through the analysis of information gain. At the end of the study,
-we provide performance recommendations for players when entering new games, aiming to help players achieve better performance in the game. These recommendations are not only based on our model results, but also incorporate the overall status of the players and specific 
+we provide performance recommendations for players when entering new games, aiming to help players achieve better performance in the game. These recommendations are not only based on our model results, but also incorporate the overall status of the players and specific
 situations. Deep insights provide players with more comprehensive support.
 
 \subsection{Logistic test with game as granularity}
@@ -325,18 +373,397 @@ Similarly, we use statistical logistic regression for testing. The results are s
 \begin{figure}[H]
       \centering
       \includegraphics[width=0.7\textwidth]{logisitc_classification2.png}
-      \caption{Logistic regression performance}
+      \caption{Logistic regression performance of game granularity}
 \end{figure}
-It can be seen that compared to point-based logistic regression, the accuracy of game-based logistic regression has a clear value-added, 
-from 65.5 to 71.4. At this time, the results of the model can better reflect the real fluctuation state of the players. Then, the results of the logistic 
+It can be seen that compared to point-based logistic regression, the accuracy of game-based logistic regression has a clear value-added,
+from 65.5 to 71.4. At this time, the results of the model can better reflect the real fluctuation state of the players. Then, the results of the logistic
 regression test are as shown in the figure
 \begin{figure}[H]
       \centering
       \includegraphics[width=0.7\textwidth]{logistic_eq2.png}
-      \caption{Logistic regression results}
+      \caption{Logistic regression results of game granularity}
 \end{figure}
-Compared with the results of Question 1, in the existing results, many variables that were originally insignificant became significant, including x3, x4, x11 and x13
-\bibliographystyle{alpha}
-\bibliography{sample}
+Compared with the results of Task 1, in the existing results, many variables that were originally insignificant became significant, including x3, x4, x11 and x13
 
+\subsubsection{Evaluation of Machine Learning Models Based on an Indicator System}
+In addition, as before, because the performance of binary logistic regression itself is limited, we hope to use a better model for prediction,
+so we use some classic machine learning algorithms for evaluation, such as accuracy, recall, precision, f1 Evaluate with auc, and use the fold-free cross-validation method for verification. T he results are as follows:
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=0.7\textwidth]{crossValidation2.png}
+      \caption{Cross Valadation}
+\end{figure}
+
+This time, the best performer is SVC, whose accuracy, precision, recall, f1 and auc are 0.71, 0.75, 0.7, 0.72 and 0.75 respectively,
+followed by LR, which is 0.7, 0.76, 0.71 and 0.73. The recall index is the best in the entire model, indicating that the model has certain preferences. On the other hand, the model
+with game granularity has better performance in the classic model, but the effect of the tree model is not ideal. The reason may be because there are more floating-point data types with game granularity.
+
+\begin{figure}[H]
+      \centering
+      \begin{subfigure}{0.48\textwidth} % Adjust the width as needed
+          \includegraphics[width=\linewidth]{task3_auc_test.png} % Replace 'figure1' with the filename of your first figure
+          \caption{Test}
+          \label{fig:roctest}
+      \end{subfigure}
+      \hfill % Add horizontal space between the subfigures
+      \begin{subfigure}{0.48\textwidth} % Adjust the width as needed
+          \includegraphics[width=\linewidth]{task3_auc_train.png} % Replace 'figure2' with the filename of your second figure
+          \caption{Train}
+          \label{fig:roctrain}
+      \end{subfigure}
+      \caption{Task 3 Overall performance of the model}
+      \label{fig:overall}
+\end{figure}
+The ROC curve also shows that the vector machine has the best effect, and the training set score of the tree model is much higher than the test set, indicating that the model is overfitting.
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=0.7\textwidth]{duelMatch2.png}
+      \caption{Duel Match Analysis 2}
+\end{figure}
+
+\subsection{Task4 and 5 Model: systematic case study by randomly selecting 4 games for testing}
+In the study of Tasks 4 and 5, we conducted a systematic case study by randomly selecting 4 games for testing and using the remaining data as a training set to ensure the universality and reliability
+of our proposed model. sex. Through visualization with roc-auc, we clearly presented the significant differences of the model between competitions, thus verifying the robustness of the model in different competition scenarios.
+
+Faced with the high ambiguity of the "fluctuation" indicator, we insist on using machine learning indicators for evaluation to ensure accurate measurement of model performance. Across four games, we find that the proposed model exhibits significant
+performance differences, which further validates the reliability of our model.
+
+As for the explanation of performance differences, we propose a direction worthy of further research, that is, the extremely critical role that players' personal abilities may play in this process. This insight provides implications for future research directions,
+which may include further analysis of individual ability indicators and model adjustments to better capture individual differences among players in competition.
+
+In addition, we emphasized the generalization degree of the indicator system proposed in this article. Through its application in other competition scenarios, we proved that this indicator system has good generalization. Not only can it be used in different competitions,
+but it can also maintain effective predictions of the performance of flag team players. This conclusion provides a solid theoretical basis for extending the model to a broader competition context. It also provides a feasible reference for similar research in different fields in the future. Specifically,
+we randomly selected 4 games, used the four games as the test set, and the remaining data as the training set. , Since the "fluctuation" indicator is fuzzy and difficult to quantify, we still use machine learning indicators for evaluation. Specifically, we visualize the auc-roc used in the four games, and then draw the specific fluctuations.
+
+\subsection{Evaluation of player fluctuation prediction effect}
+We have selected four Wimbledon men's singles matches in 2023, namely 2023-wwimbledon-1305, 2023-wwimbledon-1314, 2023-wwimbledon-1602, 2023-wwimbledon-1302. Use the model trained in Task 3 to visualize fluctuations and ROC curves. Fluctuation visualization can see the specific player fluctuations, and the ROC curve can see the prediction performance for the game. The results are as shown in the figure
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=0.55\textwidth]{fluctuation.png}
+      \caption{Fluctuation}
+\end{figure}
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=0.55\textwidth]{reality.png}
+\caption{reality}
+\end{figure}
+
+In response to this, this article believes that the indicator system actually has certain flaws. This comes from the fact that the model has no prior knowledge about the players. Therefore, when the two players first started competing, the model prediction was not accurate enough. As time goes by, because the model has obtained The situation of the game, for example, a player with relatively strong ability has a high probability that his game set and game scores are higher than those of a player with weak ability, so the model gradually becomes more accurate.
+
+Therefore, for future model factors, one of the important points is the player's personal ability, which can generally be obtained through the player's performance in past games.
+
+For example, we have expanded the indicator system to classify players' abilities according to this year's competition results, and use the indicators that each player deserves
+Based on the total number of sets, the ability index of each player is obtained. Specifically, we use the total number of points scored by each player as a new independent variable to construct indicators of the player's personal ability and opponent's ability. Analyze relationships between players.
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=0.6\textwidth]{logisticRegression2.png}
+      \caption{The impact of player ability on winning}
+\end{figure}
+
+The results found that these two variables significantly affect the game winning situation. In particular, the opponent's ability is more important than personal ability.
+
+\subsection{Generalization assessment for other competitions}
+\begin{enumerate}
+      \item \textbf{Physical Condition and Fatigue Level:} The physical state of an athlete is a cornerstone of performance across all sports disciplines. Fatigue, both physical and mental, can drastically reduce an athlete's efficiency and reaction times. It is crucial to monitor an athlete's energy levels, recovery rate, and overall physical readiness. In games such as basketball, soccer, or swimming, the endurance and stamina dictated by an athlete's physical condition can be the deciding factor between victory and defeat.
+      \item \textbf{Technical Skills:} The technical skill set of an athlete, which includes coordination, precision, and specific sport-related techniques, is a universal predictor of success. For instance, the precision in a tennis serve, the footwork in football, or the shooting accuracy in basketball, all reflect the athlete's technical proficiency. Developing these skills through rigorous practice is essential for an athlete to perform consistently under competitive pressure.
+      \item \textbf{Psychological State and Momentum:} Athletes' mental state greatly influences their performance. Confidence, focus, and the ability to maintain composure can propel athletes to outperform their opponents. The concept of momentum, or the 'hot hand,' where success breeds further success, is seen in many sports. This psychological boost can lead to streaks of exceptional performance, as commonly observed in volleyball scoring runs or a boxer's domination in consecutive rounds.
+      \item \textbf{Match Situation and Lead Progress:} The context of the game, including the scoreline and the progression of the lead, often dictates an athlete's strategy. In sports like cricket or baseball, a significant lead can alter the defensive strategy, while in racing sports, the gap to the leader can influence pit-stop strategies. The ability to adapt to the evolving dynamics of the game is a hallmark of great teams and athletes.The context of the game, including the scoreline and the progression of the lead, often dictates an athlete's strategy. In sports like cricket or baseball, a significant lead can alter the defensive strategy, while in racing sports, the gap to the leader can influence pit-stop strategies. The ability to adapt to the evolving dynamics of the game is a hallmark of great teams and athletes.
+      \item \textbf{Individual Ability and Volatility:} An athlete's personal capabilities, such as peak performance potential and consistency, alongside their volatility — the likelihood of performance fluctuations — are significant. For example, a golfer's ability to hit long-range drives consistently or a sprinter's explosive start can be game-changers. However, the susceptibility to performance dips, often due to pressure, injuries, or off-days, also needs to be factored into their overall assessment.
+      Understanding and quantifying these factors can help coaches tailor training programs, strategize for competitions, and make informed decisions during games. It also paves the way for a more scientific approach to talent scouting and team composition in the realm of sports analytics.
+\end{enumerate}
+
+\subsection{recommendations}
+\begin{enumerate}
+      \item \textbf{Real-time Mental Management:} Coaches should emphasize the management of a player's mental state during a match to capitalize on positive momentum. Techniques such as mindfulness, visualization, and breathing exercises can help athletes maintain focus, reduce anxiety, and enhance their in-game decision-making. A positive mental attitude can be the difference-maker in high-pressure situations, aiding players in executing their skills under stress and reversing negative trends during competition.
+      \item \textbf{Technical Skill Development:} Enhancing a player's technical skills is vital for leveraging momentum. Coaches should focus on individualized skill drills that improve precision, accuracy, and execution under pressure. For example, a basketball player could work on free throws under simulated pressure conditions, or a soccer player might practice penalty kicks after intensive physical activity. Mastery of these skills enables athletes to seize moments of momentum during a game.
+      \item \textbf{Tactical Strategy Adjustment:} Understanding momentum allows coaches to adjust strategies dynamically throughout a game. By recognizing when their team has the momentum, coaches can implement more aggressive tactics or when losing it, switch to conservative plays to regain control. Quick strategic shifts in response to momentum changes can outmaneuver opponents and turn the tide of a game.
+      \item \textbf{Physical Conditioning and Recovery:} A well-conditioned athlete can sustain and utilize momentum more effectively. Coaches should prioritize physical fitness to prepare athletes for the demands of competition. Additionally, implementing advanced recovery protocols like cryotherapy, massage, and proper nutrition can help maintain athletes' physical states, allowing them to recover quickly and maintain their performance edge.
+      \item \textbf{Analysis of Match Data:} Data analysis is crucial for understanding and using momentum. Coaches should utilize statistical tools to identify patterns and key moments where momentum shifts occur. This can involve reviewing game footage, player statistics, and opponent tendencies to develop strategies that can harness momentum in future games.
+      \item \textbf{Individual Capability Development: } Developing an athlete's unique abilities can create and sustain momentum. Coaches should recognize and nurture each athlete's strengths, whether it's a tennis player's powerful serve or a football quarterback's accuracy. Personalized training plans that focus on enhancing these abilities can enable players to make impactful plays that shift momentum in their favor.
+      Individual Capability Development: Developing an athlete's unique abilities can create and sustain momentum. Coaches should recognize and nurture each athlete's strengths, whether it's a tennis player's powerful serve or a football quarterback's accuracy. Personalized training plans that focus on enhancing these abilities can enable players to make impactful plays that shift momentum in their favor.
+\end{enumerate}
+\section{Memo}
+\begin{center}
+      \textbf{Memo}
+\end{center}
+
+To: The tennis instructor\\
+From: Team \#2417022\\
+Date: February 5, 2024\\
+Subject: The Predicting and Strategies for Dealing with Players' "Momentum"
+
+Dear Sir/Madam,\\
+
+At first,the tennis sport is born in 13 centuries in France.With the development of tennis sport,at the first modern Olympic Games in Athens in 1896,men's singles and doubles tennis were made official.By now, modern tennis was officially formed and quickly became popular in Europe and the United States, becoming a popular ball game.In the 2023 Wimbledon Gentlemen's final, the successive victories was lost by Novak Djokovic owing to a new Spanish player,Carlos Alcaraz.As tennis continues to evolve, there is a growing emphasis on the fluctuations in opponents' scores during tennis matches to explore the secret behind the tennis match,”momentum”.
+
+To help with the endeavor to analyze the impact of momentum, we propose a model to predict the behaviour of the players following the processing the match, and provide the advice for coaches and players to let them know how to react the the events impacting the play during the matches.
+
+Simply put, the model works in three steps:
+
+1. Build a model to analyze the effect of players' fatigue level, individual technical skills, and psychological state during the game on the scoring of the game by processing the existing game data.
+
+2. Use the data obtained in the first step to predict the change of "momentum" of different players in different time periods, and determine when to change players to favor the situation.
+
+3. By adding future factors to the model, the model can be further analyzed and extended to increase the reliability of the model to predict the “momentum” of the players.
+
+In the process, our team used the data provided to analyze the information reflected by the data and create the model.Moreover,we introduced the future factors to further improve the fit and reliability of the model, our model achieves a high degree of accuracy:71.5\%.Predicting the scoring of players by “momentum” in a match can be a daunting task, but our model can be very helpful to solve it.
+
+\begin{center}
+      \textbf{Results:}
+\end{center}
+
+Based on the modeling and analysis of the data, we got the following results:
+
+1. Create a model to predict changes in a player's "momentum" during a game and the impact on game scoring.
+
+2. Changes in "momentum" have an important and direct impact on game scoring during the game.
+
+3. Other factors such as individual technical ability, running distance and other factors are important factors affecting the scoring of the "momentum" of the game.
+
+4. The "momentum" and score of an unknown game can be inferred from the existing model and the model could update following the the addition of the data.
+
+5. Further enhance model reliability by including future factors to further generalize model utility
+
+\begin{center}
+      \textbf{Strategies:}
+\end{center}
+
+On the basis of the above result, we can come up with recommendations for coaches and players to let them know how to solve the problem of lacking “momentum” in the processing of match:
+
+\begin{center}
+      \textbf{For coaches:}
+\end{center}
+
+1.Use modeling and switching players at the right time to keep your own team's in high "momentum" and let the situation tend to your own team.
+
+2.Strengthen the players' physical strength, technical skills and so on through exercise to offset the decreasing of "momentum".
+
+3.Analyzing game data after every game to know the situation of every player.
+
+\begin{center}
+      \textbf{For players:}
+\end{center}
+
+1.Train the psychological quality to meet the challenge of the loss of "momentum",such as losing the ball in one game.
+
+2.Adjust psychology when loss score to let yourself have a better mindset to go on.
+We hope this model can serve as a valuable tool to predict the scoring of the players in a better method.After all,it is the responsibility of each and every one of us to make the game of tennis grow in a more harmonious and healthy way.If there are any further Tasks or problems about this model,please contact us and we will spare no effort to explain and improve the model.
+Yours Sincerely,
+Team \#2417022
+
+\section{Sensitivity analysis}
+
+\sectioin{Reference}
+
+\section{Appendix}
+
+\textbf{Data Preprocessing and standardization}
+\begin{lstlisting}[caption={Data Preprocessing and standardization}, label=python-example]
+import pandas as pd
+from lightgbm import LGBMClassifier
+import matplotlib.pyplot as plt
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import f1_score
+from sklearn.metrics import recall_score
+from sklearn.metrics import precision_score
+from xgboost import XGBClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import cross_val_score
+from sklearn.svm import SVC
+from sklearn.neural_network import MLPClassifier
+from sklearn.linear_model import LogisticRegression
+df = pd.read_csv('Wimbledon_featured_matches.csv')
+df.loc[(df.p1_score=='AD'),'p1_score'] = 50
+df.loc[(df.p2_score=='AD'),'p2_score'] = 50
+df['p1_score'] = df['p1_score'].astype(int)
+df['p2_score'] = df['p2_score'].astype(int)
+
+df.dropna(subset=['speed_mph'],inplace=True)
+
+s1_ls,s2_ls,s3_ls,s4_ls,s5_ls,s6_ls,s7_ls,s8_ls,s9_ls,s10_ls,s11_ls,\
+s12_ls,s13_ls,s14_ls,s15_ls,s16_ls=[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]
+label_ls = []
+for match_id,set_no,game_no,point_no in zip(df.match_id,df.set_no,df.game_no,df.point_no):
+    match = df[df.match_id==match_id]
+    set_ = match[match.set_no==set_no]
+    game_ = set_[set_.game_no==game_no]
+    point_ = game_[game_.point_no==point_no]
+    s1 = point_['p1_games'].values[0]
+    s2 = point_['p1_score'].values[0] - point_['p2_score'].values[0]
+    s3 = 1 if point_['serve_no'].values[0] == 1 else 0
+    s4 = 0 if s2<0 else 1
+    s5 = point_['p1_sets'].values[0] - point_['p2_sets'].values[0]
+    s6 = 1 if 1 in game_['p1_ace'].values else 0
+    s7 = 1 if 1 in game_['p1_winner'].values else 0
+    s8 = 1 if 1 in game_['p1_double_fault'].values else 0
+    s9 = 1 if 1 in game_['p1_unf_err'].values else 0
+    s10 = game_['p1_net_pt_won'].sum()/game_['p1_net_pt'].sum() if game_['p1_net_pt'].sum()!= 0 else 0
+    s11 = set_['p1_break_pt_won'].sum()/set_['p1_break_pt'].sum() if game_['p1_break_pt'].sum()!= 0 else 0
+
+    index = match.index.tolist().index(point_.index.tolist()[0])
+    s12 = match.iloc[:index+1]['p1_distance_run'].sum()
+    s13 = match.iloc[index-2:index+1]['p1_distance_run'].sum()
+    s14 = point_['p1_distance_run'].values[0]
+    s15 = point_['speed_mph'].values[0]
+    s16 = s15*s3
+
+    label = 1 if point_['point_victor'].values[0] == 1 else 0
+    label_ls.append(label)
+    s1_ls.append(s1)
+    s2_ls.append(s2)
+    s3_ls.append(s3)
+    s4_ls.append(s4)
+    s5_ls.append(s5)
+    s6_ls.append(s6)
+    s7_ls.append(s7)
+    s8_ls.append(s8)
+    s9_ls.append(s9)
+    s10_ls.append(s10)
+    s11_ls.append(s11)
+    s12_ls.append(s12)
+    s13_ls.append(s13)
+    s14_ls.append(s14)
+    s15_ls.append(s15)
+    s16_ls.append(s16)
+
+    dataset = pd.DataFrame({'s1':s1_ls,'s2':s2_ls,'s3':s3_ls,'s4':s4_ls,'s5':s5_ls,'s6':s6_ls,'s7':s7_ls,'s8':s8_ls,'s9':s9_ls,'s10':s10_ls,'s11':s11_ls,'s12':s12_ls,'s13':s13_ls,'s14':s14_ls,'s15':s15_ls,'s16':s16_ls,'label':label_ls})
+dataset
+from sklearn.preprocessing import MinMaxScaler
+scaler = MinMaxScaler()
+columns = dataset.columns[:-1]
+scaler.fit(dataset[columns].values)
+dataset[columns] = scaler.transform(dataset[columns].values)
+dataset.to_excel('Standard_Training_Data.xlsx',index=False)
+\end{lstlisting}
+
+\textbf{Machine Learning Model: ccuracy, recall, precision, f1 and auc}
+\begin{lstlisting}[caption={Machine Learning Model: ccuracy, recall, precision, f1 and auc}, label=python-example]
+      import warnings
+      warnings.filterwarnings("ignore")
+      """
+      This fuction is used to evaluate the performance of the model
+      """
+      def function(model):
+          auc = round(cross_val_score(model,dataset[columns].values,dataset['label'].values, cv=5,scoring='roc_auc').mean(),2)
+          acc = round(cross_val_score(model,dataset[columns].values,dataset['label'].values, cv=5,scoring='accuracy').mean(),2)
+          recall = round(cross_val_score(model,dataset[columns].values,dataset['label'].values, cv=5,scoring='recall').mean(),2)
+          precision = round(cross_val_score(model,dataset[columns].values,dataset['label'].values, cv=5,scoring='precision').mean(),2)
+          f1 = round(cross_val_score(model,dataset[columns].values,dataset['label'].values, cv=5,scoring='f1').mean(),2)
+          return acc,recall,precision,f1,auc
+
+      model = LGBMClassifier(random_state=30,force_col_wise=True)
+      print(f'LGBMClassifier acc,recall,precision,f1,auc :{function(model)}')
+      model = XGBClassifier(random_state=50)
+      print(f'XGBClassifier acc,recall,precision,f1,auc :{function(model)}')
+      model = SVC(random_state=50)
+      print(f'SVC acc,recall,precision,f1,auc :{function(model)}')
+      model = MLPClassifier(random_state=60)
+      print(f'MLPClassifier acc,recall,precision,f1,auc :{function(model)}')
+      model = LogisticRegression(random_state=50)
+      print(f'LogisticRegression acc,recall,precision,f1,auc :{function(model)}')
+
+      import numpy as np
+from sklearn import metrics
+def f(model_list,name_list,types='train'):
+    plt.figure(figsize=(8, 7), dpi=80, facecolor='w')
+    plt.xlim((-0.01, 1.02))
+    plt.ylim((-0.01, 1.02))
+    plt.xticks(np.arange(0, 1.1, 0.1))
+    plt.yticks(np.arange(0, 1.1, 0.1))
+
+    if types == 'test':
+        colors = ['blue', 'orange', 'green', 'red', 'purple']
+        for model, name, color in zip(model_list, name_list, colors):
+            ytest_prob = model.predict_proba(xvalid)[:, 1]
+            fpr, tpr, _ = metrics.roc_curve(yvalid, ytest_prob)
+            auc = metrics.auc(fpr, tpr)
+            plt.plot(fpr, tpr, '-', lw=2, label=f'{name} AUC:%.4f' % auc, color=color)
+    else:
+        colors = ['blue', 'orange', 'green', 'red', 'purple']
+        for model, name, color in zip(model_list, name_list, colors): # Draw the AUC graph for each model
+            ytest_prob = model.predict_proba(xtrain)[:, 1]
+            fpr, tpr, _ = metrics.roc_curve(ytrain, ytest_prob)
+            auc = metrics.auc(fpr, tpr)
+            plt.plot(fpr, tpr, '-', lw=2, label=f'{name} AUC:%.4f' % auc, color=color)
+    plt.legend(loc='upper left',fontsize=15)
+    plt.xlabel('False Positive Rate', fontsize=14)
+    plt.ylabel('True Positive Rate', fontsize=14)
+    plt.tick_params(labelsize=23)
+
+    plt.grid(True, ls=':')
+    plt.savefig(f'task1_image\\roc_auc({types}(before_sampling)).png',dpi=500)
+    plt.show()
+
+
+xtrain, xvalid, ytrain, yvalid = train_test_split(dataset[columns].values,dataset['label'].values,random_state=620,test_size=0.2)
+
+model1 = LGBMClassifier(random_state=30)
+model2 = XGBClassifier(random_state=50)
+model3 = SVC(probability=True,random_state=50)
+model4 = MLPClassifier(random_state=60)
+model5 = LogisticRegression(random_state=50)
+
+model1.fit(xtrain,ytrain)
+model2.fit(xtrain,ytrain)
+model3.fit(xtrain,ytrain)
+model4.fit(xtrain,ytrain)
+model5.fit(xtrain,ytrain)
+
+f([model1,model2,model3,model4,model5],['LGBM','XGB','SVC','MLP','LR'],'test')
+f([model1,model2,model3,model4,model5],['LGBM','XGB','SVC','MLP','LR'],'train')
+\end{lstlisting}
+
+\textbf{Classic duel}
+\begin{lstlisting}[caption={Classic duel}, label=python-example]
+index = df[df.match_id=='2023-wimbledon-1701'].reset_index(drop=True).index
+test = dataset.iloc[index]
+train = dataset.drop(index,axis=0)
+model = LGBMClassifier(random_state=30)
+
+modelfit(train[columns].values,train['label'].values)
+pred = model.predict_proba(test[columns].values)
+pred = pd.DataFrame({'real_time_score':pred[:,1]})
+
+match1 = pred.iloc[:45]
+match2 = pred.iloc[45:126]
+match3 = pred.iloc[126:195]
+match4 = pred.iloc[195:259]
+match5 = pred.iloc[259:]
+
+plt.figure(figsize=(12, 6), dpi=80, facecolor='w')
+plt.plot(match1.index,match1.values)
+plt.plot(match2.index,match2.values)
+plt.plot(match3.index,match3.values)
+plt.plot(match4.index,match4.values)
+plt.plot(match5.index,match5.values)
+
+plt.xlabel("Points")
+plt.ylabel("Performance")
+plt.savefig('task1_image\\classic_duel_trend.png',dpi=500)
+plt.show()
+\end{lstlisting}
+
+\textbf{Pearson coefficient}
+\begin{lstlisting}[caption={Pearson coefficient}, label=python-example]
+import scipy.stats as stats
+# fit the model
+model = LGBMClassifier(random_state=30)
+model.fit(xtrain,ytrain)
+ 
+pred = model.predict_proba(xvalid)[:,1]
+# calculate Pearson's correlation
+corr_coef, p_value = stats.pearsonr(pred, yvalid)
+print("Pearson Correlation coefficient:", round(corr_coef,3))
+print("p value:", p_value)
+from statsmodels.regression.linear_model import OLS
+
+import statsmodels.api as sm
+
+y = yvalid
+x = pred
+X = sm.add_constant(x)
+model = OLS(y,X,fit_intercept=True).fit()
+print(model.summary())
+\end{lstlisting}
 \end{document}
