@@ -1,17 +1,12 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Abstract}{1}{section.1}%
-\contentsline {section}{\numberline {2}Introduction}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Background}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Problem restatement}{3}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Our Work}{3}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Symbol Description}{4}{section.3}%
-\contentsline {subsection}{\numberline {3.1}How to create Sections and Subsections}{4}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}How to include Figures}{4}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}How to add Tables}{4}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}How to add Comments and Track Changes}{5}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}How to add Lists}{5}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}How to write Mathematics}{5}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}How to change the margins and paper size}{5}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}How to change the document language and spell check settings}{5}{subsection.3.8}%
-\contentsline {subsection}{\numberline {3.9}How to add Citations and a References List}{6}{subsection.3.9}%
-\contentsline {subsection}{\numberline {3.10}Good luck!}{6}{subsection.3.10}%
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Background}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Problem restatement}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Our Work}{3}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Problem Analysis}{4}{section.2}%
+\contentsline {section}{\numberline {3}Model Assumption}{4}{section.3}%
+\contentsline {section}{\numberline {4}Symbol Description}{5}{section.4}%
+\contentsline {section}{\numberline {5}Model Construction and Analysis}{5}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Task1's Model}{5}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Data Preprocessing}{5}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Model Analysis}{5}{subsubsection.5.1.2}%
