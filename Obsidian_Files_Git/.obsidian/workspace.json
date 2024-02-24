@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ab30ac2492a6808d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "iwannarun/Terminologies & Charts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iwannarun/CA/BCPNP/BCPNP.md",
+                "file": "iwannarun/Terminologies & Charts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "iwannarun/CA/BCPNP/BCPNP.md",
+                "file": "iwannarun/Terminologies & Charts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iwannarun/CA/BCPNP/BCPNP.md"
+                "file": "iwannarun/Terminologies & Charts.md"
               }
             }
           }
@@ -160,14 +172,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a1a9f155ea4fad73",
+  "active": "233c0e1c402ae8bd",
   "lastOpenFiles": [
+    "Pasted image 20240224231720.png",
+    "Msc/UBC Minimum Requirements.md",
+    "iwannarun/Terminologies & Charts.md",
+    "Pasted image 20240224212250.png",
+    "Msc/images",
+    "Msc",
+    "iwannarun/CA/BCPNP/images/Pasted image 20240224211917.png",
+    "iwannarun/CA/BCPNP/BCPNP.md",
     "iwannarun/CA/BCPNP/images/Pasted image 20240224095818.png",
     "iwannarun/CA/BCPNP",
     "iwannarun/CA/BCPNP/images",
     "iwannarun/CA/BCPNP/images/Pasted image 20240224094158.png",
     "Eng_Comm/sem2/week1/week1.md",
-    "iwannarun/CA/BCPNP/BCPNP.md",
     "iwannarun/CA",
     "iwannarun",
     "Fndmtl_Math/Day 08.md",
@@ -186,7 +205,6 @@
     "Python/basic/Py_Data_Type/Methods",
     "Python/basic/Py_Data_Type/Lists Comprehension.md",
     "Python/basic/Py_Data_Type",
-    "Python/basic",
     "Python/Untitled.md",
     "Fndmtl_Math/Images/Pasted image 20240201000124.png",
     "Fndmtl_Math/Images/Pasted image 20240118003604.png",
@@ -199,9 +217,6 @@
     "Git/Change-Git-Start-in.md",
     "Git/07 Git Push changes to github.md",
     "Git/03 Create Branch.md",
-    "Python/DSA/images/Pasted image 20240131222234.png",
-    "Python/DSA/images/Pasted image 20240131220430.png",
-    "Python/DSA/images/Pasted image 20240131214318.png",
-    "Python/DSA/images"
+    "Python/DSA/images/Pasted image 20240131222234.png"
   ]
 }
