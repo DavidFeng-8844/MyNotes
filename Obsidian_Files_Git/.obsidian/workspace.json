@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f19e7aca4a07ab21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DB/L1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iwannarun/Terminologies & Charts.md",
+                "file": "DB/L1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "iwannarun/Terminologies & Charts.md",
+                "file": "DB/L1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iwannarun/Terminologies & Charts.md"
+                "file": "DB/L1.md"
               }
             }
           }
@@ -174,24 +186,37 @@
   },
   "active": "233c0e1c402ae8bd",
   "lastOpenFiles": [
-    "Pasted image 20240224231720.png",
+    "Windows/Win Taskbar.md",
+    "Git/06 Git pull Branch from Github.md",
+    "Git/05 Git pull.md",
+    "Git/03 Create Branch.md",
+    "Git/02 Git Delete local Branch.md",
+    "Git/01 Git Basic.md",
+    "Git/07 Git Push changes to github.md",
+    "IELTS/Basic Knowledge of IELTS.md",
+    "IELTS",
+    "DB/L2.md",
+    "DB/L1.md",
+    "Msc/images/Pasted image 20240224212250.png",
+    "iwannarun/CA/BCPNP/BCPNP.md",
+    "iwannarun/CA/BCPNP/images/Pasted image 20240224095818.png",
+    "iwannarun/CA/BCPNP/images/Pasted image 20240224094158.png",
+    "Msc/images/Pasted image 20240224231720.png",
     "Msc/UBC Minimum Requirements.md",
+    "DB/images/Pasted image 20240225202446.png",
+    "DB/images",
+    "Eng_Comm/sem2/week1/week1.md",
+    "DB",
     "iwannarun/Terminologies & Charts.md",
-    "Pasted image 20240224212250.png",
     "Msc/images",
     "Msc",
     "iwannarun/CA/BCPNP/images/Pasted image 20240224211917.png",
-    "iwannarun/CA/BCPNP/BCPNP.md",
-    "iwannarun/CA/BCPNP/images/Pasted image 20240224095818.png",
     "iwannarun/CA/BCPNP",
     "iwannarun/CA/BCPNP/images",
-    "iwannarun/CA/BCPNP/images/Pasted image 20240224094158.png",
-    "Eng_Comm/sem2/week1/week1.md",
     "iwannarun/CA",
     "iwannarun",
     "Fndmtl_Math/Day 08.md",
     "Eng_Comm/sem2/week1",
-    "Eng_Comm/sem2",
     "Fndmtl_Math/Day 07.md",
     "Fndmtl_Math/Day 06.md",
     "Fndmtl_Math/Day 03.md",
@@ -202,21 +227,10 @@
     "Python/basic/Python Issue.md",
     "Python/basic/Data type.md",
     "Python/basic/Py_Data_Type/Methods/enumerate().md",
-    "Python/basic/Py_Data_Type/Methods",
     "Python/basic/Py_Data_Type/Lists Comprehension.md",
-    "Python/basic/Py_Data_Type",
-    "Python/Untitled.md",
     "Fndmtl_Math/Images/Pasted image 20240201000124.png",
     "Fndmtl_Math/Images/Pasted image 20240118003604.png",
     "Fndmtl_Math/Images/Pasted image 20240118003553.png",
-    "Python/DSA/Big O.md",
-    "Python/DSA/images/Pasted image 20240201001222.png",
-    "Python/DSA/images/Pasted image 20240201000126.png",
-    "Git/06 Git pull Branch from Github.md",
-    "Git/05 Git pull.md",
-    "Git/Change-Git-Start-in.md",
-    "Git/07 Git Push changes to github.md",
-    "Git/03 Create Branch.md",
-    "Python/DSA/images/Pasted image 20240131222234.png"
+    "Python/DSA/images/Pasted image 20240201001222.png"
   ]
 }
