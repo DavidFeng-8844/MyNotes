@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "60a5a3cb45f7b738",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/07 Git Push changes to github.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/L1.md",
+                "file": "Git/07 Git Push changes to github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/L1.md",
+                "file": "Git/07 Git Push changes to github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/L1.md"
+                "file": "Git/07 Git Push changes to github.md"
               }
             }
           }
@@ -184,19 +196,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "233c0e1c402ae8bd",
+  "active": "60a5a3cb45f7b738",
   "lastOpenFiles": [
-    "Windows/Win Taskbar.md",
     "Git/06 Git pull Branch from Github.md",
     "Git/05 Git pull.md",
+    "Git/01 Git Basic.md",
     "Git/03 Create Branch.md",
     "Git/02 Git Delete local Branch.md",
-    "Git/01 Git Basic.md",
+    "DB/L2.md",
+    "DB/L1.md",
+    "DB/images/Pasted image 20240226105806.png",
+    "DB/images/Pasted image 20240226095013.png",
+    "DB/images/Pasted image 20240226095033.png",
+    "L@.md",
+    "Eng_Comm/sem2/week1/week1.md",
+    "Windows/Win Taskbar.md",
     "Git/07 Git Push changes to github.md",
     "IELTS/Basic Knowledge of IELTS.md",
     "IELTS",
-    "DB/L2.md",
-    "DB/L1.md",
     "Msc/images/Pasted image 20240224212250.png",
     "iwannarun/CA/BCPNP/BCPNP.md",
     "iwannarun/CA/BCPNP/images/Pasted image 20240224095818.png",
@@ -205,7 +222,6 @@
     "Msc/UBC Minimum Requirements.md",
     "DB/images/Pasted image 20240225202446.png",
     "DB/images",
-    "Eng_Comm/sem2/week1/week1.md",
     "DB",
     "iwannarun/Terminologies & Charts.md",
     "Msc/images",
@@ -226,11 +242,6 @@
     "Java/IntelliJ IDEA.md",
     "Python/basic/Python Issue.md",
     "Python/basic/Data type.md",
-    "Python/basic/Py_Data_Type/Methods/enumerate().md",
-    "Python/basic/Py_Data_Type/Lists Comprehension.md",
-    "Fndmtl_Math/Images/Pasted image 20240201000124.png",
-    "Fndmtl_Math/Images/Pasted image 20240118003604.png",
-    "Fndmtl_Math/Images/Pasted image 20240118003553.png",
-    "Python/DSA/images/Pasted image 20240201001222.png"
+    "Fndmtl_Math/Images/Pasted image 20240201000124.png"
   ]
 }
