@@ -49,19 +49,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/L1.md",
+                "file": "DB/L2.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "60a5a3cb45f7b738",
+            "id": "030e75263cd2aab6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/07 Git Push changes to github.md",
+                "file": "com_prc/L1.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/07 Git Push changes to github.md",
+                "file": "com_prc/L1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/07 Git Push changes to github.md",
+                "file": "com_prc/L1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/07 Git Push changes to github.md"
+                "file": "com_prc/L1.md"
               }
             }
           }
@@ -196,43 +196,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "60a5a3cb45f7b738",
+  "active": "233c0e1c402ae8bd",
   "lastOpenFiles": [
+    "com_prc/images/Pasted image 20240226224334.png",
+    "com_prc/images/Pasted image 20240226224324.png",
+    "com_prc/images/Pasted image 20240226224312.png",
+    "com_prc/images/Pasted image 20240226224041.png",
+    "com_prc/images/Pasted image 20240226224032.png",
+    "com_prc/images",
+    "com_prc/images/Pasted image 20240226223213.png",
+    "DB/L2.md",
+    "com_prc/L1.md",
+    "com_prc",
+    "DB/L1.md",
+    "Git/07 Git Push changes to github.md",
     "Git/06 Git pull Branch from Github.md",
     "Git/05 Git pull.md",
     "Git/01 Git Basic.md",
     "Git/03 Create Branch.md",
     "Git/02 Git Delete local Branch.md",
-    "DB/L2.md",
-    "DB/L1.md",
     "DB/images/Pasted image 20240226105806.png",
     "DB/images/Pasted image 20240226095013.png",
     "DB/images/Pasted image 20240226095033.png",
     "L@.md",
     "Eng_Comm/sem2/week1/week1.md",
     "Windows/Win Taskbar.md",
-    "Git/07 Git Push changes to github.md",
     "IELTS/Basic Knowledge of IELTS.md",
     "IELTS",
     "Msc/images/Pasted image 20240224212250.png",
     "iwannarun/CA/BCPNP/BCPNP.md",
     "iwannarun/CA/BCPNP/images/Pasted image 20240224095818.png",
-    "iwannarun/CA/BCPNP/images/Pasted image 20240224094158.png",
-    "Msc/images/Pasted image 20240224231720.png",
     "Msc/UBC Minimum Requirements.md",
-    "DB/images/Pasted image 20240225202446.png",
     "DB/images",
     "DB",
     "iwannarun/Terminologies & Charts.md",
     "Msc/images",
     "Msc",
-    "iwannarun/CA/BCPNP/images/Pasted image 20240224211917.png",
     "iwannarun/CA/BCPNP",
     "iwannarun/CA/BCPNP/images",
     "iwannarun/CA",
-    "iwannarun",
     "Fndmtl_Math/Day 08.md",
-    "Eng_Comm/sem2/week1",
     "Fndmtl_Math/Day 07.md",
     "Fndmtl_Math/Day 06.md",
     "Fndmtl_Math/Day 03.md",
@@ -240,8 +243,6 @@
     "Fndmtl_Math/Day 01.md",
     "Fndmtl_Math/Day 04.md",
     "Java/IntelliJ IDEA.md",
-    "Python/basic/Python Issue.md",
-    "Python/basic/Data type.md",
-    "Fndmtl_Math/Images/Pasted image 20240201000124.png"
+    "Python/basic/Python Issue.md"
   ]
 }
