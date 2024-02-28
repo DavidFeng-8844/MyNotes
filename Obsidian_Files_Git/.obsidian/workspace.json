@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "com_prc/L3.md",
+                "file": "com_prc/prc_L3.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,14 +97,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "com_prc/L4 Common Logic Gates.md",
+                "file": "DB/L2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "com_prc/L4 Common Logic Gates.md",
+                "file": "com_prc/prc_L3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "com_prc/L4 Common Logic Gates.md",
+                "file": "com_prc/prc_L3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "com_prc/L4 Common Logic Gates.md"
+                "file": "com_prc/prc_L3.md"
               }
             }
           },
@@ -241,10 +241,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14f87b4defa91561",
+  "active": "29c255958e8f9ef6",
   "lastOpenFiles": [
-    "com_prc/L3.md",
+    "com_prc/worksheet 1.md",
+    "com_prc/images/Pasted image 20240228214102.png",
+    "Pasted image 20240228214045.png",
+    "com_prc/prc_L3.md",
+    "DB/L2.md",
     "com_prc/L4 Common Logic Gates.md",
+    "com_prc/L3.md",
+    "com_prc/images/Pasted image 20240228211450.png",
+    "com_prc/images/Pasted image 20240228150124.png",
+    "DB/L1.md",
     "com_prc/L2.md",
     "IELTS/Practice Suggestions.md",
     "IELTS/Basic Knowledge of IELTS.md",
@@ -254,17 +262,10 @@
     "com_prc/images/Pasted image 20240227114547.png",
     "IELTS/images/Pasted image 20240227173643.png",
     "com_prc/images/Summary-of-the-common-Boolean-logic-gates-with-symbols-and-truth-tables.png",
-    "com_prc/worksheet 1.md",
-    "com_prc/images/Pasted image 20240227110501.png",
-    "com_prc/images/Pasted image 20240227104450.png",
-    "com_prc/images/Pasted image 20240227102228.png",
     "IELTS/images",
-    "IELTS/images/Pasted image 20240227092732.png",
     "Eng_Comm/sem2/week1/week1.md",
     "com_prc/images",
-    "DB/L2.md",
     "com_prc",
-    "DB/L1.md",
     "Git/07 Git Push changes to github.md",
     "Git/06 Git pull Branch from Github.md",
     "Git/05 Git pull.md",
@@ -286,7 +287,6 @@
     "Fndmtl_Math/Day 08.md",
     "Fndmtl_Math/Day 07.md",
     "Fndmtl_Math/Day 06.md",
-    "Fndmtl_Math/Day 03.md",
-    "Fndmtl_Math/Day 02.md"
+    "Fndmtl_Math/Day 03.md"
   ]
 }
