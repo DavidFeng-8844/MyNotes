@@ -64,3 +64,7 @@ Just like the listening section
 1. Speak English Every Day 
 2. Listen and repeat Good Speakers
 3. Transcription Programs 
+4. Staggered studying 
+5. Chunking (Cut big parts into small ones )
+
+

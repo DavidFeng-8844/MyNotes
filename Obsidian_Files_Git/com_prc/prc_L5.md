@@ -19,9 +19,9 @@ Def: optimising some criterias
 
 >Karnaugh Map
 >
-It is transformed from truth table to a two-dimensional grid, which is ordered in gray code, and each cell position represents one combination of inpout condition, And each cell represent the corresponding output value of the boolean function.(is an ordering of the [binary numeral system](https://en.wikipedia.org/wiki/Binary_numeral_system "Binary numeral system") such that two successive values differ in only one [bit](https://en.wikipedia.org/wiki/Bit "Bit") (binary digit).)
+It is transformed from truth table to a two-dimensional grid, which is ordered in gray code, and each cell position represents one combination of inpout condition, And each cell represent the corresponding output value of the boolean function.(is an ordering of the [binary numeral system](https://en.wikipedia.org/wiki/Binary_numeral_system "Binary numeral system") such that two successive values differ in only one [bit](https://en.wikipedia.org/wiki/Bit "Bit") (binary digit).) And the maximum cell that can group together is $2^(n-1)$  
 
-We should find minterm(minimal terms) rectangle (an area that is a power of two (i.e., 1, 2, 4, 8...)) as large as possible without any containing 0s, and the grouping might overlap each other
+We should find minterm(minimal terms) rectangle (==an area that is a power of two (i.e., 1, 2, 4, 8...)==) as large as possible without any containing 0s, and the grouping might overlap each other
 ![[Pasted image 20240228211450.png]]
 
 Once the Karnaugh has been constructed. 
