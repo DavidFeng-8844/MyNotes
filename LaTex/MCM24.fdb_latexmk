@@ -1,14 +1,14 @@
 # Fdb version 4
-["pdflatex"] 1707171088 "d:/Notes/LaTex/MCM24.tex" "MCM24.pdf" "MCM24" 1707171100 0
-  "MCM24.aux" 1707171100 9203 d381da55b6b10b8428ebf9d2fc121b22 "pdflatex"
-  "MCM24.out" 1707171100 6168 3dd83b630259deaf63a2dc43ae9892f7 "pdflatex"
-  "MCM24.tex" 1707171075 60186 d66bd3f073e4ed6ca582c972f2137d01 ""
-  "MCM24.toc" 1707171100 2866 7e646df067ed8b511fb7b072e076109a "pdflatex"
+["pdflatex"] 1709645247 "d:/Notes/LaTex/MCM24.tex" "MCM24.pdf" "MCM24" 1709645259 0
+  "MCM24.aux" 1709645259 9203 d381da55b6b10b8428ebf9d2fc121b22 "pdflatex"
+  "MCM24.out" 1709645259 6168 3dd83b630259deaf63a2dc43ae9892f7 "pdflatex"
+  "MCM24.tex" 1709645246 60186 d66bd3f073e4ed6ca582c972f2137d01 ""
+  "MCM24.toc" 1709645259 2866 7e646df067ed8b511fb7b072e076109a "pdflatex"
   "Univariate_linear_regression.png" 1707142089 39439 86c95ceca8f32697aec540ebab813c8f ""
   "classic_duel_trend.png" 1707103800 998394 f088bad46bc54a08ff048710b21e1783 ""
   "crossValidation.png" 1707158562 34903 9c0f73edfbcd2de65edd70f04feeb605 ""
   "crossValidation2.png" 1707158961 20350 ccbfdd06f4a6acae845f1d47cc9f5019 ""
-  "d:/Notes/LaTex/MCM24.tex" 1707171075 60186 d66bd3f073e4ed6ca582c972f2137d01 ""
+  "d:/Notes/LaTex/MCM24.tex" 1709645246 60186 d66bd3f073e4ed6ca582c972f2137d01 ""
   "d:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1703934856 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "d:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1703935275 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "d:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1703935096 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""

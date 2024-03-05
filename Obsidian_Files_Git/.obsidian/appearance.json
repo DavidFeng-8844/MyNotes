@@ -2,7 +2,7 @@
   "accentColor": "#6be7ef",
   "cssTheme": "GitHub Theme",
   "baseFontSize": 20,
-  "theme": "moonstone",
+  "theme": "system",
   "enabledCssSnippets": [
     "Justified"
   ]

@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "com_prc/prc_L5.md",
+                "file": "Java/java course Intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c37d20c0a6d5cc2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/07 Git Push changes to github.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "com_prc/prc_L5.md",
+                "file": "Java/java course Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "com_prc/prc_L5.md",
+                "file": "Java/java course Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "com_prc/prc_L5.md"
+                "file": "Java/java course Intro.md"
               }
             }
           },
@@ -158,6 +170,13 @@
   },
   "active": "bec78f8122943284",
   "lastOpenFiles": [
+    "Java/images/Pasted image 20240305211115.png",
+    "Java/images",
+    "Java/images/Pasted image 20240305204033.png",
+    "com_prc/prc_L5.md",
+    "Git/07 Git Push changes to github.md",
+    "Java/java course Intro.md",
+    "OOP_java",
     "com_prc/Prc_L6 Sequential Logic and Memory.md",
     "Eng_Comm/sem2/week1/week1.md",
     "iwannarun/CA/BCPNP/BCPNP.md",
@@ -167,7 +186,6 @@
     "com_prc/L2.md",
     "IELTS/Practice Suggestions.md",
     "IELTS/IELTS Grammar Advice.md",
-    "com_prc/prc_L5.md",
     "com_prc/L4 Common Logic Gates.md",
     "com_prc/worksheet 1.md",
     "com_prc/images/Pasted image 20240228214102.png",
@@ -181,11 +199,9 @@
     "IELTS/images/Pasted image 20240227173258.png",
     "com_prc/images/Pasted image 20240227114547.png",
     "IELTS/images/Pasted image 20240227173643.png",
-    "com_prc/images/Summary-of-the-common-Boolean-logic-gates-with-symbols-and-truth-tables.png",
     "IELTS/images",
     "com_prc/images",
     "com_prc",
-    "Git/07 Git Push changes to github.md",
     "Git/06 Git pull Branch from Github.md",
     "Git/05 Git pull.md",
     "Git/01 Git Basic.md",
@@ -199,10 +215,6 @@
     "DB",
     "Msc/images",
     "Msc",
-    "iwannarun/CA/BCPNP",
-    "iwannarun/CA/BCPNP/images",
-    "Fndmtl_Math/Day 08.md",
-    "Fndmtl_Math/Day 07.md",
-    "Fndmtl_Math/Day 06.md"
+    "Fndmtl_Math/Day 08.md"
   ]
 }
