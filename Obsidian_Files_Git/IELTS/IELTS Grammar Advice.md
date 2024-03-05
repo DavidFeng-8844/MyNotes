@@ -20,7 +20,11 @@ http://www.uefap.com/vocab/select/awl.htm
 
 http://www.englishvocabularyexercises.com/academic-word-list/
 
+## Weak point of my grammar 
 
+1. Pronoun
+2. Verbs&Verbal
+3. 
 ## My Answer to the Grammar diagnositc test 
 
 1. A. Beauty 
@@ -42,8 +46,8 @@ http://www.englishvocabularyexercises.com/academic-word-list/
 17. B. eaten
 18. ==NO idea== (had them close)
 19. B a good pair
-20. D to
-21. B assured
+20. D to(A carefully)
+21. B assured(better)
 22. B an
 23. C like 
 24. A much
@@ -82,9 +86,10 @@ http://www.englishvocabularyexercises.com/academic-word-list/
 57. B
 58. A
 59. C
-60. A
+60. A B
 61. C
 62. B
 63. B
 64. A
 65. B
+

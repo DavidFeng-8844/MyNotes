@@ -87,4 +87,22 @@ N.B.
 - Math.sqrt()
 - Math.abs() 
 - Math.random()
-- 
+
+
+## For-each loop 
+Iterate through the array 
+
+```java
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+for (String i : cars) {
+  System.out.println(i);
+}
+```
+
+
+## Java Arrays
+```java
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+```
+
+.length() method 
