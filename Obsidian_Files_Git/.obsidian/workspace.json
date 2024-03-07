@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "93797aca0d90f19e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "543b78c0cc15f868",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Com_Pro Cwk1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c37d20c0a6d5cc2d",
             "type": "leaf",
             "state": {
@@ -44,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -94,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1f75007d77c80f14",
@@ -110,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IELTS Listening Answer types.md",
+                "file": "Com_Pro Cwk1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IELTS Listening Answer types.md",
+                "file": "Com_Pro Cwk1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IELTS Listening Answer types.md"
+                "file": "Com_Pro Cwk1.md"
               }
             }
           },
@@ -181,10 +206,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3c513a8e67e234b2",
+  "active": "543b78c0cc15f868",
   "lastOpenFiles": [
-    "IELTS/IELTS Grammar Advice.md",
+    "Questions.md",
+    "Com_Pro Cwk1.md",
     "IELTS Listening Answer types.md",
+    "IELTS/IELTS Grammar Advice.md",
     "IELTS/Basic Knowledge of IELTS.md",
     "IELTS/Practice Suggestions.md",
     "Java/java course Intro.md",
@@ -223,11 +250,9 @@
     "L@.md",
     "Windows/Win Taskbar.md",
     "IELTS",
-    "Msc/UBC Minimum Requirements.md",
     "DB/images",
     "DB",
     "Msc/images",
-    "Msc",
-    "Fndmtl_Math/Day 08.md"
+    "Msc"
   ]
 }
