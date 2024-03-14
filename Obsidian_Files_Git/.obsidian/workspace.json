@@ -61,7 +61,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lee MSc Notes.md",
+                "file": "DB/L2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42bf7924fc3101f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DB/L5.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -147,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lee MSc Notes.md",
+                "file": "DB/L5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lee MSc Notes.md",
+                "file": "DB/L5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lee MSc Notes.md"
+                "file": "DB/L5.md"
               }
             }
           },
@@ -218,10 +230,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59f0decf3bad5c7d",
+  "active": "42bf7924fc3101f2",
   "lastOpenFiles": [
-    "Com_Pro Cwk1.md",
+    "DB/images/Pasted image 20240313103627.png",
+    "DB/L2.md",
+    "DB/L5.md",
     "Lee MSc Notes.md",
+    "Com_Pro Cwk1.md",
     "Questions.md",
     "IELTS Listening Answer types.md",
     "IELTS/IELTS Grammar Advice.md",
@@ -238,7 +253,6 @@
     "Eng_Comm/sem2/week1/week1.md",
     "iwannarun/CA/BCPNP/BCPNP.md",
     "iwannarun/Terminologies & Charts.md",
-    "DB/L2.md",
     "com_prc/L2.md",
     "com_prc/L4 Common Logic Gates.md",
     "com_prc/worksheet 1.md",
@@ -259,8 +273,6 @@
     "Git/05 Git pull.md",
     "Git/01 Git Basic.md",
     "Git/03 Create Branch.md",
-    "Git/02 Git Delete local Branch.md",
-    "L@.md",
     "IELTS",
     "DB/images",
     "DB",
