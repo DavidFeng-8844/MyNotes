@@ -64,9 +64,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4da4f00cb394252c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/OOP_java/Classes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0075b908b140fd6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IELTS/Writing/Writing Task 1 advice.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -116,8 +140,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1f75007d77c80f14",
@@ -133,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/OOP_java/Classes.md",
+                "file": "IELTS/Writing/Writing Task 1 advice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/OOP_java/Classes.md",
+                "file": "IELTS/Writing/Writing Task 1 advice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/OOP_java/Classes.md"
+                "file": "IELTS/Writing/Writing Task 1 advice.md"
               }
             }
           },
@@ -206,8 +229,14 @@
   },
   "active": "233c0e1c402ae8bd",
   "lastOpenFiles": [
-    "DB/L5.md",
     "Java/OOP_java/Classes.md",
+    "IELTS/Writing/Writing Task 1 advice.md",
+    "IELTS/Writing",
+    "Java/images/Pasted image 20240404121124.png",
+    "Java/images/Pasted image 20240404121120.png",
+    "Discrete Probability Theory.md",
+    "Discrete_Math",
+    "DB/L5.md",
     "Programming_Project",
     "Programming_Project/Version Control.md",
     "DB/DB Week4 Questions.md",
@@ -238,19 +267,13 @@
     "com_prc/worksheet 1.md",
     "com_prc/images/Pasted image 20240228214102.png",
     "Pasted image 20240228214045.png",
-    "com_prc/L3.md",
     "com_prc/images/Pasted image 20240228211450.png",
     "com_prc/images/Pasted image 20240228150124.png",
-    "DB/L1.md",
     "com_prc/images/Pasted image 20240227114944.png",
-    "IELTS/images/Pasted image 20240227092851.png",
-    "IELTS/images/Pasted image 20240227173258.png",
     "IELTS/images",
     "com_prc/images",
     "com_prc",
     "IELTS",
-    "DB/images",
-    "DB",
-    "Msc/images"
+    "DB/images"
   ]
 }

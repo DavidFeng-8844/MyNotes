@@ -74,3 +74,13 @@ int height = new Rectangle().height;
 ```
 
 
+![[Pasted image 20240404121120.png]]
+![[Pasted image 20240404121124.png]]
+
+# More on Class
+
+## Understanding Class Member
+
+### Class Variable 
+
+Fields that have the **static** modifier in their declaration are called static fields or class variables. They are associated with the class rather than with any object.
