@@ -27,5 +27,18 @@
 13. 
 
 
-# 
- 
+# Standard Task 1 Strategy 
+
+1. Introduction 
+2. General Overview, 4 to 5 sentences No Specific numbers 
+3. Writing Specific details
+4. Don't write the conclusion
+
+# Question Types 
+
+1. Bar Chart
+2. Pie Chart 
+3. Line Chart 
+4. Table 
+5. Diff Charts
+6. Diagram: Process and Maps 
